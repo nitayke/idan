@@ -1,0 +1,1357 @@
+LRU/SRU P/N Product Line Desc,FAILURE OPEN DATE,Failed Item Description,Failed Item,Fail Code Desc,Fail Cat Desc,Rep Act Code Des
+P ,01/01/2023,"PWA, COBE",078898B-00,SRU Issue,electrical,Replaced/add Component
+C ,02/01/2023,DTD UNIT,MB0946C-07,Tester Issue,low temp,Retest
+P ,02/01/2023,WCNDM TOP ASSY,MB1402A-00,OPERATOR MISTAKE ELBIT,Workmanship,Reprograming
+C ,03/01/2023,AMC,MB0807D-22,Tester Issue,Tester,Changed Test Equipment
+C ,03/01/2023,AMC,MB0807D-22,Tester Issue,Tester,Changed Test Equipment
+P ,05/01/2023,WCNDM TOP ASSY,MB1402A-00,Visual Inspection,Optical,Cleaning
+P ,05/01/2023,"NIGHT HUD, TOP ASSY",MB240A-03,Inspection,Mechanical,Replaced/add Component
+P ,06/01/2023,COLOR DAY HUD,MB1268A-03,OPERATOR MISTAKE KABAM,Workmanship,No repair action was taken
+C ,08/01/2023,AMC,MB0807D-22,Assembly Issue,,Reassembly
+M ,08/01/2023,LG SIM ASSY,950-31-00400-04,Electrical Issue,electrical,Replaced/add Component
+C ,08/01/2023,DTD UNIT,MB0946C-07,Defect LRU,RT,Reprograming
+C ,08/01/2023,AMC,MB0807D-22,Tester Issue,Tester,Rework
+C ,08/01/2023,DTD UNIT,MB0946C-07,SRU Issue,electrical,Replaced SRU
+C ,08/01/2023,DTD UNIT,MB0946C-07,SRU Issue,electrical,Replaced SRU
+C ,08/01/2023,AMC,MB0807D-22,SRU Issue,Hardware,Replaced SRU
+P ,08/01/2023,COLOR NIGHT DISPLAY MODULE,039430H-00,Tester Issue,Tester,Fixed Test Equipment
+C ,09/01/2023,AMC,MB0807D-22,Assembly Issue,Assembly,Reassembly
+P ,09/01/2023,WCNDM TOP ASSY,MB1402A-00,Tester Issue,Tester,Retest
+C ,09/01/2023,AMC,MB0807D-22,SRU Issue,Hardware,Replaced SRU
+C ,10/01/2023,AMC,MB0807D-22,SRU Issue,Hardware,Replaced SRU
+C ,10/01/2023,AMC,MB0807D-22,SRU Issue,Hardware,Replaced SRU
+C ,10/01/2023,AMC,MB0807D-22,Operator Mistake,Software,Rework
+M ,10/01/2023,POWER SUPPLY,901-31-00500-03,Electrical Issue,electrical,Replaced/add Component
+C ,11/01/2023,COMPUTER UNIT- GEN-1,GB1277N-00,Defect LRU,RT,Repair
+P ,11/01/2023,WCDDM TOP ASSY,MB1403A-00,ECO,electrical,Preform ECO
+P ,12/01/2023,COMMON DEP TOP ASSY,MB1658B-00,Tester Issue,Tester,Fixed Test Equipment
+C ,12/01/2023,AMC,MB0807D-22,SRU Issue,Hardware,Replaced SRU
+P ,12/01/2023,WCDDM TOP ASSY,MB1403A-00,ECO,electrical,Preform ECO
+P ,13/01/2023,WCNDM TOP ASSY,MB1402A-00,OPERATOR MISTAKE KABAM,Workmanship,Retest
+P ,13/01/2023,WCNDM TOP ASSY,MB1402A-00,OPERATOR MISTAKE KABAM,Workmanship,Retest
+C ,15/01/2023,DTD UNIT,MB0946C-07,Defect LRU,RT,Repair
+C ,15/01/2023,DTD UNIT,MB0946C-07,Defect LRU,RT,Rework
+C ,15/01/2023,DTD UNIT,MB0946C-07,Defect LRU,RT,Rework
+C ,15/01/2023,AMC,MB0807D-22,SRU Issue,Hardware,Replaced SRU
+P ,16/01/2023,WCDDM TOP ASSY,MB1403A-00,OPERATOR MISTAKE KABAM,Workmanship,Retest
+C ,16/01/2023,"PWA, IOC BASE",006465J-00,SRU Issue,electrical,Replaced/add Component
+M ,16/01/2023,POWER SUPPLY,901-31-00500-03,Tester Issue,Tester,Retest
+M ,16/01/2023,RMSC,93-30-00200-05,SRU Issue,electrical,Replaced/add Component
+M ,16/01/2023,RMSC,93-30-00200-05,SRU Issue,electrical,Replaced/add Component
+P ,16/01/2023,WCDDM TOP ASSY,MB1403A-00,ECO,electrical,Preform ECO
+P ,16/01/2023,OLED OPTICS ASSY,082712H-00,SRU Issue,Inspection Optics,Replaced SRU
+C ,17/01/2023,COMPUTER UNIT-TOP ASSY,MB1277J-01,SRU Issue,electrical,Replaced SRU
+C ,17/01/2023,COMPUTER UNIT-TOP ASSY,MB1277J-01,SRU Issue,electrical,Replaced SRU
+C ,17/01/2023,COMPUTER UNIT-TOP ASSY,MB1277J-01,SRU Issue,electrical,Replaced SRU
+P ,18/01/2023,WCNDM TOP ASSY,MB1402A-00,OPERATOR MISTAKE ELBIT,Workmanship,Reprograming
+M ,18/01/2023,OPTOCOUPLER SIM ASSY,97-05-31006-01,Component Issue,electrical,Replaced/add Component
+M ,18/01/2023,OPTOCOUPLER SIM ASSY,97-05-31006-01,Component Issue,electrical,Replaced/add Component
+C ,18/01/2023,DTD UNIT,MB0946C-07,SRU Issue,Mechanical,Replaced SRU
+M ,18/01/2023,RMSC,93-30-00200-05,SRU Issue,electrical,Replaced/add Component
+M ,18/01/2023,RMSC,93-30-00200-05,SRU Issue,electrical,Replaced/add Component
+P ,19/01/2023,WCNDM TOP ASSY,MB1402N-01,OPERATOR MISTAKE ELBIT,Workmanship,Reprograming
+P ,19/01/2023,WCNDM TOP ASSY,MB1402N-01,OPERATOR MISTAKE ELBIT,Workmanship,Reprograming
+M ,19/01/2023,PDCR,602-31-00140-02,Electrical Issue,electrical,Rework
+P ,19/01/2023,OLED OPTICS ASSY,082712H-00,SRU Issue,electrical,Replaced SRU
+P ,20/01/2023,WCDDM TOP ASSY,MB1403A-00,Tester Issue,Tester,No repair action was taken
+P ,20/01/2023,WCDDM TOP ASSY,MB1403A-00,Tester Issue,Tester,Retest
+P ,21/01/2023,WCDDM TOP ASSY,MB1403A-00,ECO,electrical,Preform ECO
+P ,22/01/2023,WCDDM TOP ASSY,MB1403A-00,OPERATOR MISTAKE KABAM,Workmanship,Retest
+C ,23/01/2023,AMC,MB0807D-22,SRU Issue,Hardware,Replaced SRU
+M ,23/01/2023,VCM PAYLOAD,904-80-00200-01,Tester Issue,low temp,Retest
+C ,24/01/2023,AMC,MB0807D-22,Tester Issue,Tester,Retest
+M ,24/01/2023,POWER SUPPLY BD.UP.ASSY,79-31-00600-01,Electrical Issue,Hardware,Replaced/add Component
+M ,24/01/2023,LG SIM ASSY,950-31-00400-04,Electrical Issue,electrical,Reprograming
+M ,24/01/2023,LG SIM ASSY,950-31-00400-04,Electrical Issue,electrical,Reprograming
+M ,24/01/2023,LG SIM ASSY,950-31-00400-04,Electrical Issue,electrical,Replaced/add Component
+C ,24/01/2023,AMC,MB0807D-22,Tester Issue,Tester,Retest
+M ,24/01/2023,VCM PANO,904-80-00250-01,Cleaning Issue,HT,Cleaning
+M ,25/01/2023,PDCR,602-31-00140-02,Tester Issue,Tester,TESTER SOFTWER STUCK
+P ,25/01/2023,WCDDM TOP ASSY,MB1403A-00,Tester Issue,Tester,Retest
+P ,26/01/2023,WCNDM TOP ASSY,MB1402A-00,Foreign Object Damage,Mechanical,Reassembly
+C ,29/01/2023,DTD UNIT,MB0946C-07,Can Not Duplicate,RT,No repair action was taken
+M ,30/01/2023,RMSC,93-30-00200-05,Cleaning Issue,HT,Cleaning
+M ,30/01/2023,RMSC,93-30-00200-05,Cleaning Issue,HT,Cleaning
+C ,30/01/2023,COMPUTER UNIT- GEN-1,GB1277N-00,Defect LRU,RT,Repair
+C ,30/01/2023,AMC,MB0807D-22,Tester Issue,Tester,Retest
+C ,30/01/2023,DTD UNIT,MB0946C-07,SRU Issue,electrical,Replaced SRU
+P ,30/01/2023,COLOR DAY HUD,MB1268A-03,Visual Inspection,Assembly,Replaced/add Component
+C ,31/01/2023,AMC,MB0807D-22,SRU Issue,low temp,Replaced SRU
+C ,31/01/2023,AMC,MB0807D-22,Tester Issue,Tester,Retest
+C ,01/02/2023,AMC,MB0807D-22,Can Not Duplicate,Can Not Duplicate,No repair action was taken
+P ,01/02/2023,WCNDM TOP ASSY,MB1402A-00,Damage,Mechanical,Replaced/add Component
+C ,01/02/2023,AMC,MB0807D-22,SRU Issue,Hardware,Replaced SRU
+P ,01/02/2023,"PWA, COBE",078898B-00,SRU Issue,electrical,Replaced/add Component
+P ,01/02/2023,"PWA, COBE",078898B-01,SRU Issue,electrical,Replaced SRU
+M ,01/02/2023,SMART SIM ASSY,950-31-00350-02,For testing,low temp,Retest
+P ,03/02/2023,LCD ASSY,112836A-00,SRU Issue,electrical,Replaced SRU
+P ,03/02/2023,LCD ASSY,112836A-00,SRU Issue,electrical,Replaced SRU
+P ,03/02/2023,WCDDM TOP ASSY,MB1403B-01,Tester Issue,Tester,Retest
+P ,03/02/2023,WCDDM TOP ASSY,MB1403B-01,Tester Issue,Tester,Retest
+P ,03/02/2023,WCNDM TOP ASSY,MB1402A-00,OPERATOR MISTAKE KABAM,Workmanship,Retest
+P ,03/02/2023,WCNDM TOP ASSY,MB1402A-00,OPERATOR MISTAKE KABAM,Workmanship,Retest
+P ,03/02/2023,WCNDM TOP ASSY,MB1402A-00,OPERATOR MISTAKE KABAM,Workmanship,Retest
+P ,05/02/2023,"NIGHT HUD, TOP ASSY",MB240A-03,Visual Inspection,Customer requirement,Replaced/add Component
+P ,06/02/2023,OLED OPTICS ASSY,082712J-00,Optical Issue,Optical,Replaced SRU
+P ,06/02/2023,FLAT DAY HUD TOP ASSY,MB386A-31,Component Issue,Damage,Replaced/add Component
+P ,06/02/2023,"NIGHT HUD, TOP ASSY",MB240A-03,Mechanical Issue,Mechanical,Reassembly
+M ,06/02/2023,SMART SIM ASSY,950-31-00350-02,Electrical Issue,low temp,Reprograming
+M ,06/02/2023,SMART SIM ASSY,950-31-00350-02,Electrical Issue,electrical,Component Issue
+C ,07/02/2023,AMC,MB0807D-22,SRU Issue,electrical,Replaced SRU
+P ,07/02/2023,WCNDM TOP ASSY,MB1402A-00,OPERATOR MISTAKE ELBIT,Workmanship,Retest
+M ,08/02/2023,DISCRETE IO 12V SIM ASSY,97-05-31005-01,Component Issue,electrical,Replaced/add Component
+C ,08/02/2023,DTD UNIT,MB0946C-07,SRU Issue,electrical,Replaced SRU
+C ,08/02/2023,AMC,MB0807D-22,Tester Issue,Tester,Retest
+C ,08/02/2023,AMC,MB0807D-22,SRU Issue,Hardware,Replaced SRU
+C ,09/02/2023,COMPUTER UNIT- GEN-1,GB1277N-00,For testing,Software,Retest
+P ,09/02/2023,LCD ASSY,112836A-00,SRU Issue,electrical,Replaced SRU
+P ,09/02/2023,WCNDM TOP ASSY,MB1402A-00,OPERATOR MISTAKE KABAM,Workmanship,Retest
+P ,09/02/2023,WCNDM TOP ASSY,MB1402A-00,OPERATOR MISTAKE KABAM,Workmanship,Retest
+P ,09/02/2023,WCNDM TOP ASSY,MB1402A-00,OPERATOR MISTAKE KABAM,Workmanship,Retest
+P ,12/02/2023,WCDDM TOP ASSY,MB1403A-00,ECO,electrical,Preform ECO
+M ,12/02/2023,RMSC BP BOARD ASSY,93-30-00012-01,Component Issue,electrical,Replaced/add Component
+M ,12/02/2023,RMSC BP BOARD ASSY,93-30-00012-01,Component Issue,electrical,Broken component
+M ,12/02/2023,PDCR,602-31-00140-02,Electrical Issue,electrical,Component Issue
+M ,12/02/2023,RMSC BP BOARD ASSY,93-30-00012-01,Component Issue,electrical,Replaced/add Component
+C ,13/02/2023,AMC,MB0807D-22,Component Issue,Hardware,Replaced/add Component
+M ,13/02/2023,CPU BOARD ASSY (LF),97-30-00302-01,Component Issue,electrical,Broken component
+C ,13/02/2023,AMC,MB0807D-22,Infrastructure,Infrastructure,Repair Infrastructure
+M ,13/02/2023,CPU BOARD ASSY (LF),97-30-00302-01,Component Issue,electrical,Broken component
+P ,13/02/2023,WCDDM TOP ASSY,MB1403A-00,Tester Issue,Tester,Retest
+P ,14/02/2023,COLOR DAY HUD,MB1268A-03,Tester Issue,Tester,Cable Issue
+P ,14/02/2023,WCNDM TOP ASSY,MB1402A-00,Mechanical Issue,Mechanical,Reassembly
+C ,14/02/2023,AMC,MB0807D-22,Infrastructure,Infrastructure,Repair Infrastructure
+C ,14/02/2023,AMC,MB0807D-22,Tester Issue,Tester,Fixed Test Equipment
+M ,14/02/2023,PDCR,602-31-00140-02,Operator Mistake,low temp,Retest
+C ,15/02/2023,AMC,MB0807D-22,Tester Issue,Tester,Rework
+C ,15/02/2023,AMC,MB0807D-22,Tester Issue,Tester,Fixed Test Equipment
+C ,15/02/2023,DTD UNIT,MB0946C-07,SRU Issue,electrical,Replaced SRU
+P ,15/02/2023,"CABLE ASSY, CHMD NIGHT",080112D-00,SRU Issue,electrical,Replaced SRU
+P ,15/02/2023,"CABLE ASSY, CHMD NIGHT",080112D-00,SRU Issue,electrical,Replaced SRU
+C ,15/02/2023,AMC,MB0807D-22,Infrastructure,Infrastructure,Repair Infrastructure
+C ,15/02/2023,AMC,MB0807D-22,Tester Issue,Tester,Changed Test Equipment
+C ,15/02/2023,AMC,MB0807D-22,Can Not Duplicate,Can Not Duplicate,No repair action was taken
+C ,15/02/2023,AMC,MB0807D-22,SRU Issue,,Replaced SRU
+C ,15/02/2023,AMC,MB0807D-22,Tester Issue,Tester,Retest
+C ,15/02/2023,AMC,MB0807D-22,Tester Issue,Tester,Changed Test Equipment
+M ,15/02/2023,PWA MCB,81022C-00,Component Issue,electrical,Replaced/add Component
+C ,15/02/2023,COMPUTER UNIT-TOP ASSY,MB1277J-01,SRU Issue,electrical,Replaced SRU
+C ,15/02/2023,COMPUTER UNIT-TOP ASSY,MB1277J-01,SRU Issue,electrical,Replaced SRU
+C ,15/02/2023,COMPUTER UNIT-TOP ASSY,MB1277J-01,SRU Issue,electrical,Replaced SRU
+C ,15/02/2023,COMPUTER UNIT-TOP ASSY,MB1277J-01,SRU Issue,electrical,Replaced SRU
+C ,15/02/2023,COMPUTER UNIT-TOP ASSY,MB1277J-01,SRU Issue,electrical,Replaced SRU
+M ,15/02/2023,PDCR,602-31-00140-02,Electrical Issue,electrical,Rework
+M ,15/02/2023,PDCR,602-31-00140-02,Electrical Issue,electrical,Rework
+M ,15/02/2023,SMART SIM ASSY,950-31-00350-02,For testing,low temp,Retest
+M ,15/02/2023,PDCR,602-31-00140-02,Electrical Issue,electrical,Rework
+P ,16/02/2023,WCDDM TOP ASSY,MB1403B-01,Electrical Issue,electrical,Reprograming
+C ,16/02/2023,AMC,MB0807D-22,Tester Issue,Tester,Changed Test Equipment
+C ,16/02/2023,AMC,MB0807D-22,Tester Issue,Tester,Retest
+C ,16/02/2023,AMC,MB0807D-22,Tester Issue,Tester,Cable Issue
+M ,16/02/2023,IC EPLD 1024MAC 3.3V 7.5NS FPB,00066681N,Component Issue,Hardware,Replaced/add Component
+P ,17/02/2023,WCDDM TOP ASSY,MB1403A-00,ECO,electrical,Preform ECO
+C ,17/02/2023,AMC,MB0807D-22,SRU Issue,electrical,Replaced SRU
+P ,18/02/2023,WCDDM TOP ASSY,MB1403A-00,ECO,electrical,Preform ECO
+C ,19/02/2023,AMC,MB0807D-22,Tester Issue,Tester,Changed Test Equipment
+P ,19/02/2023,WCDDM TOP ASSY,MB1403A-00,ECO,electrical,Preform ECO
+C ,19/02/2023,AMC,MB0807D-22,SRU Issue,electrical,Replaced SRU
+P ,19/02/2023,"CABLE ASSY, CHMD NIGHT",080112D-00,SRU Issue,electrical,Replaced SRU
+P ,19/02/2023,WCDDM TOP ASSY,MB1403A-00,ECO,electrical,Preform ECO
+P ,19/02/2023,"PWA, INTERFACE, MHU (LF)",067443A-02,SRU Issue,electrical,Replaced SRU
+M ,20/02/2023,POWER SUPPLY,901-31-00500-03,Electrical Issue,Hardware,Replaced/add Component
+P ,20/02/2023,WCDDM TOP ASSY,MB1403A-00,ECO,electrical,Preform ECO
+C ,20/02/2023,DTD UNIT,MB0946C-07,Defect LRU,RT,Repair
+P ,21/02/2023,WCDDM TOP ASSY,MB1403A-00,ECO,electrical,Preform ECO
+M ,21/02/2023,TCU,85-31-00050-01,SRU Issue,electrical,Replaced/add Component
+C ,22/02/2023,AMC,MB0807D-22,SRU Issue,Hardware,Replaced SRU
+C ,22/02/2023,AMC,MB0807D-22,Tester Issue,Tester,Rework
+C ,22/02/2023,AMC,MB0807D-22,Tester Issue,Tester,No repair action was taken
+C ,22/02/2023,AMC,MB0807D-22,SRU Issue,Hardware,Replaced SRU
+P ,22/02/2023,PROJECTION ASSY,112835A-00,Documentation Issue,Document,Re Calibration
+P ,23/02/2023,PROJECTION ASSY,112835A-00,Documentation Issue,Document,Documentation correction
+P ,23/02/2023,OLED OPTICS ASSY,082712J-00,Documentation Issue,Document,Re Calibration
+C ,23/02/2023,AMC,MB0807D-22,Tester Issue,Tester,Retest
+M ,23/02/2023,RMSC,93-30-00200-05,SRU Issue,electrical,Replaced/add Component
+M ,23/02/2023,RMSC,93-30-00200-05,SRU Issue,electrical,Replaced/add Component
+P ,25/02/2023,WCDDM TOP ASSY,MB1403B-01,OPERATOR MISTAKE KABAM,Workmanship,Retest
+P ,25/02/2023,WCDDM TOP ASSY,MB1403B-01,OPERATOR MISTAKE KABAM,Workmanship,Retest
+P ,25/02/2023,"PWA, INTERFACE, MHU (LF)",067443A-02,SRU Issue,electrical,Replaced SRU
+P ,26/02/2023,WCNDM TOP ASSY,MB1402A-00,Documentation Issue,Document,Rework
+P ,26/02/2023,"PWA, DRIVER",105584B-00,Damage,Mechanical,Replaced/add Component
+C ,26/02/2023,AMC,MB0807D-22,Tester Issue,Tester,Changed Test Equipment
+C ,26/02/2023,AMC,MB0807D-22,Tester Issue,Tester,Rework
+M ,26/02/2023,PDCR,602-31-00140-02,Tester Issue,low temp,Retest
+P ,27/02/2023,WCDDM TOP ASSY,MB1403A-00,ECO,electrical,Preform ECO
+P ,27/02/2023,PROJECTION ASSY,112835A-00,SRU Issue,electrical,Re Calibration
+C ,27/02/2023,COMPUTER UNIT-TOP ASSY,MB1277J-02,Defect LRU,electrical,Repair
+C ,27/02/2023,COMPUTER UNIT-TOP ASSY,MB1277J-02,Defect LRU,electrical,Repair
+M ,27/02/2023,PDCR,602-31-00140-02,Electrical Issue,electrical,Replaced/add Component
+M ,27/02/2023,PDCR,602-31-00140-02,Electrical Issue,electrical,Replaced/add Component
+P ,27/02/2023,WCDDM TOP ASSY,MB1403A-00,Visual Inspection,Optical,Replaced/add Component
+P ,28/02/2023,WCDDM TOP ASSY,MB1403A-00,ECO,electrical,Preform ECO
+C ,01/03/2023,AMC,MB0807D-22,SRU Issue,RT,Replaced SRU
+C ,01/03/2023,AMC,MB0807D-22,Infrastructure,Tester,Retest
+M ,01/03/2023,PDCR,602-31-00140-02,Electrical Issue,electrical,Replaced/add Component
+M ,01/03/2023,PDCR,602-31-00140-02,Electrical Issue,electrical,Rework
+C ,01/03/2023,AMC,MB0807D-22,Tester Issue,Tester,Changed Test Equipment
+C ,01/03/2023,AMC,MB0807D-22,Tester Issue,Tester,Retest
+M ,01/03/2023,ANTENNA SWITCH,45-35-00050-01,SRU Issue,electrical,No repair action was taken
+P ,02/03/2023,OLED OPTICS ASSY,082712H-00,Visual Inspection,Optical,Replaced SRU
+P ,02/03/2023,"PWA, COBE",078898B-01,SRU Issue,electrical,Replaced SRU
+P ,05/03/2023,OLED OPTICS ASSY,082712J-00,OPERATOR MISTAKE ELBIT,Workmanship,Retest
+P ,05/03/2023,OLED OPTICS ASSY,082712J-00,Operator Mistake,Tester,Rework
+P ,05/03/2023,"PWA, FLEX ADAPT, COLOR",069187B-00,SRU Issue,electrical,Replaced SRU
+M ,06/03/2023,PWA CPU,14920B-03,Electrical Issue,electrical,Re Calibration
+P ,07/03/2023,"PWA, INTERFACE, MHU (LF)",067443A-02,SRU Issue,electrical,Replaced SRU
+M ,07/03/2023,LG SIM BOARD ASSY,950-31-00414-04,Electrical Issue,Software,Replaced/add Component
+M ,07/03/2023,FLIGHT CONTROL UNIT (FCU) ASSY,MA812D-01,Electrical Issue,electrical,Re Calibration
+M ,07/03/2023,ANTENNA SWITCH,45-35-00050-01,SRU Issue,electrical,Replaced/add Component
+M ,08/03/2023,LG SIM ASSY,950-31-00400-04,Electrical Issue,Software,Replaced/add Component
+C ,08/03/2023,COMPUTER UNIT-TOP ASSY,MB1277J-01,SRU Issue,electrical,Replaced SRU
+C ,08/03/2023,COMPUTER UNIT-TOP ASSY,MB1277J-01,SRU Issue,electrical,Replaced SRU
+M ,08/03/2023,PWA EIFC,74831B-05,Tester Issue,electrical,Retest
+P ,10/03/2023,LCD ASSY,073720A-02,Optical Issue,Optical,Replaced SRU
+M ,12/03/2023,PDCR,602-31-00140-02,Operator Mistake,low temp,Retest
+C ,13/03/2023,AMC,MB0807D-22,Infrastructure,Infrastructure,Retest
+P ,14/03/2023,WCDDM TOP ASSY,MB1403A-00,SRU Issue,electrical,No repair action was taken
+P ,14/03/2023,"PWA, INTERFACE, MHU (LF)",067443A-02,SRU Issue,electrical,Replaced SRU
+C ,14/03/2023,AMC,MB0807D-22,Experiment,Engineering,D/A
+C ,14/03/2023,AMC,MB0807D-22,Experiment,Engineering,D/A
+P ,14/03/2023,WCDDM TOP ASSY,MB1403A-00,SRU Issue,electrical,Replaced SRU
+C ,15/03/2023,COMPUTER UNIT-TOP ASSY,MB1277J-01,SRU Issue,electrical,Replaced SRU
+C ,15/03/2023,COMPUTER UNIT-TOP ASSY,MB1277J-01,SRU Issue,electrical,Replaced SRU
+C ,15/03/2023,COMPUTER UNIT-TOP ASSY,MB1277J-01,SRU Issue,electrical,Replaced SRU
+P ,15/03/2023,WCNDM TOP ASSY,MB1402A-00,SRU Issue,Engineering,No repair action was taken
+M ,16/03/2023,LG SIM ASSY,950-31-00400-04,Electrical Issue,HT,Replaced/add Component
+M ,16/03/2023,LG SIM ASSY,950-31-00400-04,Electrical Issue,HT,Replaced/add Component
+M ,16/03/2023,MICRO I/O GILAT,504-30-00125-00,Documentation Issue,Document,Rework
+P ,16/03/2023,"CABLE CONNECTOR, ASSY",071309A-01,Inspection,Mechanical,Replaced SRU
+M ,16/03/2023,EFI INTERFACE UNIT,80-63-00050-04,Tester Issue,HT,Retest
+P ,16/03/2023,WCDDM TOP ASSY,MB1403A-00,SRU Issue,electrical,Replaced SRU
+C ,17/03/2023,AMC,MB0807D-22,SRU Issue,,Replaced SRU
+P ,18/03/2023,PROJECTION ASSY,112835A-00,SRU Issue,electrical,Replaced SRU
+C ,19/03/2023,AMC,MB0807D-22,Assembly Issue,Assembly,Reassembly
+M ,19/03/2023,SMART SIM ASSY,950-31-00350-02,Electrical Issue,Hardware,Replaced/add Component
+C ,20/03/2023,AMC,MB0807D-22,Tester Issue,Tester,Fixed Test Equipment
+C ,20/03/2023,AMC,MB0807D-22,Tester Issue,Tester,Fixed Test Equipment
+C ,20/03/2023,AMC,MB0807D-22,Tester Issue,Tester,Fixed Test Equipment
+C ,20/03/2023,AMC,MB0807DA-22,SRU Issue,Hardware,Replaced SRU
+P ,20/03/2023,WCDDM TOP ASSY,MB1403A-00,ECO,electrical,Preform ECO
+P ,21/03/2023,WCDDM TOP ASSY,MB1403A-00,Customer requirement,Document,Preform customer requirment
+M ,21/03/2023,SMART SIM ASSY,950-31-00350-02,Visual Inspection,Workmanship,Replaced/add Component
+C ,22/03/2023,AMC,MB0807D-22,Infrastructure,Infrastructure,Retest
+M ,22/03/2023,VCM PANO,904-80-00250-01,SRU Issue,electrical,Replaced/add Component
+P ,22/03/2023,OLED OPTICS ASSY,082712J-00,OPERATOR MISTAKE ELBIT,Workmanship,Re Calibration
+P ,23/03/2023,WCDDM TOP ASSY,MB1403A-00,Electrical Issue,PERFORM ECO/FCO,Reprograming
+P ,23/03/2023,WCDDM TOP ASSY,MB1403A-00,ECO,electrical,Preform ECO
+P ,24/03/2023,"PWA, COBE",078898B-01,SRU Issue,electrical,Replaced SRU
+P ,26/03/2023,WCNDM TOP ASSY,MB1402A-00,OPERATOR MISTAKE KABAM,Workmanship,Retest
+P ,26/03/2023,WCNDM TOP ASSY,MB1402A-00,OPERATOR MISTAKE KABAM,Workmanship,Retest
+P ,26/03/2023,WCNDM TOP ASSY,MB1402A-00,OPERATOR MISTAKE KABAM,Workmanship,Retest
+C ,26/03/2023,AMC,MB0807D-22,SRU Issue,Hardware,Replaced SRU
+M ,26/03/2023,PLANETS DRPB BOARD ASSY,95-30-00080-04,ECO,Workmanship,Preform ECO
+C ,26/03/2023,AMC,MB0807D-22,SRU Issue,Hardware,Replaced SRU
+C ,26/03/2023,AMC,MB0807D-22,SRU Issue,Hardware,Replaced SRU
+M ,27/03/2023,PDCR,602-31-00140-02,Documentation Issue,Workmanship,Documentation correction
+M ,27/03/2023,PDCR,602-31-00140-02,Documentation Issue,Workmanship,Documentation correction
+M ,27/03/2023,PLANETS DRPB BOARD ASSY,95-30-00080-04,ECO,Workmanship,Preform ECO
+M ,27/03/2023,PLANETS DRPB BOARD ASSY,95-30-00080-04,ECO,Workmanship,Preform ECO
+M ,27/03/2023,PLANETS DRPB BOARD ASSY,95-30-00080-04,ECO,Workmanship,Preform ECO
+M ,27/03/2023,PLANETS DRPB BOARD ASSY,95-30-00080-04,ECO,Workmanship,Preform ECO
+P ,27/03/2023,OLED OPTICS ASSY,082712J-00,SRU Issue,electrical,Replaced SRU
+M ,27/03/2023,RMSC,93-30-00200-05,SRU Issue,electrical,Replaced/add Component
+M ,27/03/2023,PLANETS DRPB BOARD ASSY,95-30-00080-04,ECO,Workmanship,Preform ECO
+M ,27/03/2023,PLANETS DRPB BOARD ASSY,95-30-00080-04,ECO,Workmanship,Preform ECO
+M ,27/03/2023,PLANETS DRPB BOARD ASSY,95-30-00080-04,ECO,Workmanship,Preform ECO
+M ,27/03/2023,PLANETS DRPB BOARD ASSY,95-30-00080-04,ECO,Workmanship,Preform ECO
+M ,27/03/2023,PLANETS DRPB BOARD ASSY,95-30-00080-04,ECO,Workmanship,Preform ECO
+M ,27/03/2023,ENCRYPTION UNIT,90-30-00101-01,Electrical Issue,electrical,Replaced SRU
+P ,28/03/2023,CDDM TOP ASSY,MB1268D-03,Documentation Issue,Document,Rework
+P ,28/03/2023,COMMON DEP TOP ASSY,MB1658B-00,Visual Inspection,Optical,Cleaning
+C ,28/03/2023,DTD UNIT,MB0946C-07,SRU Issue,electrical,Replaced SRU
+C ,28/03/2023,COMPUTER UNIT-TOP ASSY,MB1277J-01,Tester Issue,low temp,Retest
+C ,28/03/2023,COMPUTER UNIT-TOP ASSY,MB1277J-01,Tester Issue,low temp,Retest
+C ,28/03/2023,AMC,MB0807D-22,Assembly Issue,Hardware,Reassembly
+M ,28/03/2023,POWER QUICC II CORE PROC. ASSY,97-05-31016-01,Electrical Issue,electrical,Reprograming
+M ,28/03/2023,POWER QUICC II CORE PROC. ASSY,97-05-31016-01,Electrical Issue,electrical,Reprograming
+M ,28/03/2023,POWER QUICC II CORE PROC. ASSY,97-05-31016-01,Electrical Issue,electrical,Reprograming
+M ,28/03/2023,POWER QUICC II CORE PROC. ASSY,97-05-31016-01,Electrical Issue,electrical,Reprograming
+M ,28/03/2023,POWER QUICC II CORE PROC. ASSY,97-05-31016-01,Electrical Issue,electrical,Reprograming
+M ,28/03/2023,POWER QUICC II CORE PROC. ASSY,97-05-31016-01,Electrical Issue,electrical,Reprograming
+M ,28/03/2023,POWER QUICC II CORE PROC. ASSY,97-05-31016-01,Electrical Issue,electrical,Reprograming
+C ,29/03/2023,"PWA, HDP BASE",106513A-01,Component Issue,electrical,Replaced/add Component
+C ,29/03/2023,AMC,MB0807D-22,SRU Issue,Hardware,Replaced SRU
+C ,29/03/2023,AMC,MB0807D-22,Tester Issue,Tester,Retest
+C ,29/03/2023,COMPUTER UNIT- GEN-1,GB1277N-00,Tester Issue,HT,Retest
+M ,29/03/2023,RMSC,93-30-00200-05,SRU Issue,electrical,Replaced/add Component
+C ,29/03/2023,PWA SQUID,109090A-01,Component Issue,electrical,Replaced/add Component
+C ,29/03/2023,COMPUTER UNIT-TOP ASSY,MB1277J-01,SRU Issue,low temp,Replaced SRU
+C ,29/03/2023,COMPUTER UNIT-TOP ASSY,MB1277J-01,SRU Issue,low temp,Replaced SRU
+M ,30/03/2023,DUAL MICRO I/O,90-30-00110-03,Mechanical Issue,Mechanical,Rework
+C ,30/03/2023,AMC,MB0807D-22,Tester Issue,Tester,Retest
+C ,30/03/2023,AMC,MB0807D-22,Tester Issue,low temp,Retest
+C ,30/03/2023,AMC,MB0807D-22,Tester Issue,Tester,Fixed Test Equipment
+C ,30/03/2023,AMC,MB0807D-22,Tester Issue,Tester,Fixed Test Equipment
+P ,31/03/2023,COMMON DEP TOP ASSY,MB1658B-00,Visual Inspection,Optical,Cleaning
+C ,31/03/2023,COMPUTER UNIT-TOP ASSY,MB1277J-01,Defect LRU,RT,Repair
+C ,31/03/2023,COMPUTER UNIT-TOP ASSY,MB1277J-01,Defect LRU,RT,Repair
+C ,02/04/2023,AMC,MB0807DA-22,SRU Issue,Hardware,Replaced SRU
+C ,02/04/2023,DTD UNIT,MB0946C-07,SRU Issue,low temp,Replaced SRU
+C ,02/04/2023,AMC,MB0807D-22,Tester Issue,Tester,Fixed Test Equipment
+C ,02/04/2023,AMC,MB0807D-22,SRU Issue,Hardware,Replaced SRU
+P ,02/04/2023,CDDM TOP ASSY,MB1268D-03,OPERATOR MISTAKE KABAM,Workmanship,Retest
+P ,03/04/2023,PROJECTION ASSY,112835A-00,SRU Issue,electrical,Re Calibration
+P ,04/04/2023,PWA PS-ANA-DIG,115961A-01,SRU Issue,electrical,Replaced SRU
+M ,04/04/2023,PDCR,602-31-00140-02,Operator Mistake,low temp,Retest
+C ,13/04/2023,AMC,MB0807D-22,SRU Issue,Hardware,Replaced SRU
+C ,13/04/2023,AMC,MB0807D-22,SRU Issue,Hardware,Replaced SRU
+C ,13/04/2023,AMC,MB0807D-22,SRU Issue,,Replaced SRU
+C ,14/04/2023,AMC,MB0807D-22,SRU Issue,RT,Replaced SRU
+M ,16/04/2023,EPDU PDU - II BOARD ASSY,96-31-00010-01,Component Issue,electrical,Replaced/add Component
+C ,16/04/2023,AMC,MB0807D-22,Tester Issue,Tester,Retest
+C ,17/04/2023,AMC,MB0807D-22,SRU Issue,electrical,Replaced SRU
+P ,18/04/2023,WCDDM TOP ASSY,MB1403A-00,ECO,electrical,Preform ECO
+P ,18/04/2023,"CABLE ASSY, CHMD NIGHT",080112D-00,SRU Issue,electrical,Replaced SRU
+P ,18/04/2023,"CABLE ASSY, CHMD NIGHT",080112D-00,SRU Issue,electrical,Replaced SRU
+P ,18/04/2023,"CABLE ASSY, CHMD NIGHT",080112D-00,SRU Issue,electrical,Replaced SRU
+C ,19/04/2023,DTD UNIT,MB0946CB-07,Defect LRU,Mechanical,Repair
+C ,19/04/2023,DTD UNIT,MB0946CB-07,Defect LRU,Mechanical,Repair
+C ,19/04/2023,AMC,MB0807D-22,SRU Issue,Hardware,Replaced SRU
+C ,19/04/2023,AMC,MB0807D-22,Assembly Issue,Workmanship,Replaced SRU
+C ,19/04/2023,DTD UNIT,MB0946C-07,Defect LRU,low temp,Repair
+P ,19/04/2023,WCDDM TOP ASSY,MB1403B-01,ECO,electrical,Preform ECO
+C ,19/04/2023,AMC,MB0807D-22,SRU Issue,Hardware,Replaced SRU
+C ,19/04/2023,AMC,MB0807D-22,SRU Issue,electrical,Replaced SRU
+C ,19/04/2023,DTD UNIT,MB0946C-07,Can Not Duplicate,Can Not Duplicate,No repair action was taken
+C ,19/04/2023,DTD UNIT,MB0946CB-07,Defect LRU,RT,Repair
+C ,20/04/2023,DTD UNIT,MB0946CB-07,SRU Issue,electrical,Replaced SRU
+P ,20/04/2023,WCDDM TOP ASSY,MB1403A-00,ECO,electrical,Preform ECO
+C ,20/04/2023,DTD UNIT,MB0946CB-07,SRU Issue,electrical,Replaced SRU
+C ,20/04/2023,DTD UNIT,MB0946CB-07,SRU Issue,electrical,Replaced SRU
+M ,20/04/2023,IO DAUGHTER BOARD ASSY,97-40-31005-01,Component Issue,Engineering,Replaced/add Component
+P ,20/04/2023,WCDDM TOP ASSY,MB1403A-00,Tester Issue,Tester,Retest
+P ,20/04/2023,WCDDM TOP ASSY,MB1403A-00,ECO,electrical,Preform ECO
+P ,20/04/2023,WCDDM TOP ASSY,MB1403A-00,ECO,electrical,Preform ECO
+C ,21/04/2023,AMC,MB0807DA-22,SRU Issue,Hardware,Replaced SRU
+C ,21/04/2023,AMC,MB0807D-22,SRU Issue,Hardware,Replaced SRU
+C ,21/04/2023,AMC,MB0807D-22,Component Issue,Hardware,Replaced/add Component
+C ,21/04/2023,AMC,MB0807D-22,SRU Issue,Hardware,Rework
+P ,21/04/2023,WCDDM TOP ASSY,MB1403A-00,ECO,electrical,Preform ECO
+C ,24/04/2023,AMC,MB0807D-22,SRU Issue,Hardware,Replaced SRU
+C ,24/04/2023,AMC,MB0807D-22,SRU Issue,Hardware,Repair
+C ,24/04/2023,AMC,MB0807D-22,Tester Issue,Tester,Retest
+M ,24/04/2023,FUEL FLOW BOARD ASSY,80-70-00010-01,Component Issue,electrical,Replaced/add Component
+C ,25/04/2023,AMC,MB0807D-22,SRU Issue,Hardware,Replaced SRU
+M ,27/04/2023,RMSC,93-30-00200-05,SRU Issue,electrical,Replaced SRU
+M ,27/04/2023,RMSC,93-30-00200-05,SRU Issue,electrical,Replaced SRU
+M ,27/04/2023,RMSC,93-30-00200-05,SRU Issue,electrical,No repair action was taken
+M ,27/04/2023,MAC,951-30-00100-04,SRU Issue,electrical,Replaced/add Component
+M ,27/04/2023,MAC,951-30-00100-04,SRU Issue,electrical,Replaced/add Component
+C ,28/04/2023,AMC,MB0807D-22,SRU Issue,Hardware,Replaced SRU
+C ,28/04/2023,AMC,MB0807D-22,SRU Issue,Hardware,Replaced SRU
+C ,30/04/2023,AMC,MB0807D-22,Tester Issue,Tester,Retest
+C ,30/04/2023,AMC,MB0807D-22,Can Not Duplicate,Can Not Duplicate,No repair action was taken
+P ,30/04/2023,WCDDM TOP ASSY,MB1403A-00,Optical Issue,Optical,Re Calibration
+C ,30/04/2023,AMC,MB0807D-22,Can Not Duplicate,Can Not Duplicate,No repair action was taken
+C ,30/04/2023,AMC,MB0807D-22,Tester Issue,Tester,Retest
+M ,30/04/2023,SMART SIM ASSY,950-31-00350-02,Assembly Issue,low temp,Rework
+P ,01/05/2023,PROJECTION ASSY,112835A-00,SRU Issue,electrical,Replaced SRU
+M ,01/05/2023,GVIU MODULE TOP ASSY,MB669B-03,SRU Issue,electrical,Replaced/add Component
+C ,02/05/2023,COMPUTER UNIT-TOP ASSY,MB1277J-01,SRU Issue,Software,Replaced SRU
+C ,02/05/2023,COMPUTER UNIT-TOP ASSY,MB1277J-01,SRU Issue,Software,Replaced SRU
+P ,02/05/2023,WCDDM TOP ASSY,MB1403A-00,Cleaning Issue,Tester,Cleaning
+P ,02/05/2023,"CABLE CONNECTOR, ASSY",085515A-00,Electrical Issue,electrical,Replaced SRU
+C ,02/05/2023,AMC,MB0807D-22,Tester Issue,Tester,Changed Test Equipment
+C ,02/05/2023,AMC,MB0807D-22,SRU Issue,HT,Replaced SRU
+M ,02/05/2023,ANTENNA SWITCH,45-35-00050-01,SRU Issue,electrical,Replaced/add Component
+M ,02/05/2023,RMSC,93-30-00200-05,SRU Issue,electrical,No repair action was taken
+C ,03/05/2023,AMC,MB0807D-22,SRU Issue,low temp,Replaced SRU
+C ,03/05/2023,AMC,MB0807D-22,OPERATOR MISTAKE ELBIT,Workmanship,Retest
+C ,03/05/2023,PWA SQUID,109090A-01,Component Issue,electrical,Replaced/add Component
+P ,04/05/2023,LCD ASSY,073720A-02,SRU Issue,electrical,Replaced SRU
+C ,04/05/2023,AMC,MB0807DA-22,SRU Issue,low temp,Replaced SRU
+C ,04/05/2023,AMC,MB0807D-22,SRU Issue,,Replaced SRU
+P ,04/05/2023,WCDDM TOP ASSY,MB1403A-00,OPERATOR MISTAKE ELBIT,Workmanship,Reassembly
+P ,04/05/2023,WCDDM TOP ASSY,MB1403A-00,Visual Inspection,Optical,Replaced/add Component
+C ,07/05/2023,DTD UNIT,MB0946CB-07,Defect LRU,RT,Repair
+C ,07/05/2023,DTD UNIT,MB0946C-07,Defect LRU,RT,Repair
+C ,07/05/2023,AMC,MB0807DA-22,SRU Issue,Hardware,Replaced SRU
+C ,07/05/2023,IC ETHERNET CONT PCI FAST BGA,99609937M,Component Issue,Hardware,Replaced/add Component
+C ,07/05/2023,AMC,MB0807DA-22,Assembly Issue,low temp,Reassembly
+C ,07/05/2023,AMC,MB0807D-22,Tester Issue,Tester,Retest
+C ,07/05/2023,AMC,MB0807D-22,Tester Issue,Tester,Retest
+C ,07/05/2023,AMC,MB0807D-22,Tester Issue,Tester,Retest
+C ,07/05/2023,AMC,MB0807D-22,Tester Issue,Tester,Retest
+C ,07/05/2023,AMC,MB0807D-22,Tester Issue,Tester,Retest
+P ,07/05/2023,PROJECTION ASSY,112835A-00,OPERATOR MISTAKE ELBIT,Workmanship,Re Calibration
+C ,07/05/2023,AMC,MB0807D-22,Tester Issue,,Changed Test Equipment
+C ,07/05/2023,AMC,MB0807D-22,SRU Issue,low temp,Replaced SRU
+C ,07/05/2023,AMC,MB0807D-22,SRU Issue,,Replaced SRU
+C ,07/05/2023,AMC,MB0807D-22,Tester Issue,,Retest
+C ,07/05/2023,AMC,MB0807D-22,Tester Issue,Tester,Changed Test Equipment
+C ,07/05/2023,AMC,MB0807D-22,SRU Issue,low temp,Replaced SRU
+C ,07/05/2023,AMC,MB0807D-22,Tester Issue,Tester,Retest
+C ,07/05/2023,AMC,MB0807D-22,Can Not Duplicate,Can Not Duplicate,No repair action was taken
+C ,07/05/2023,AMC,MB0807D-22,Tester Issue,,No repair action was taken
+C ,08/05/2023,DTD UNIT,MB0946C-10,Defect LRU,RT,Cleaning
+P ,08/05/2023,WCDDM TOP ASSY,MB1403B-01,ECO,electrical,Preform ECO
+M ,08/05/2023,RMSC,93-30-00200-05,SRU Issue,low temp,Replaced SRU
+P ,08/05/2023,WCDDM TOP ASSY,MB1403A-00,SRU Issue,electrical,Reprograming
+M ,08/05/2023,CON. BOARD ASSY,79-83-00200-03,Component Issue,electrical,Replace wrong component
+P ,08/05/2023,WCDDM TOP ASSY,MB1403A-00,SRU Issue,electrical,Re Calibration
+C ,09/05/2023,AMC,MB0807D-22,Damage Issue,Hardware,Replaced SRU
+P ,09/05/2023,"PWA, INTERFACE, MHU (LF)",067443A-02,SRU Issue,electrical,Replaced SRU
+P ,09/05/2023,WCDDM TOP ASSY,MB1403A-00,SRU Issue,electrical,Re Calibration
+M ,09/05/2023,CON. BOARD ASSY,79-83-00200-03,Component Issue,electrical,Replace wrong component
+M ,09/05/2023,CON. BOARD ASSY,79-83-00200-03,Component Issue,electrical,Replace wrong component
+M ,09/05/2023,CON. BOARD ASSY,79-83-00200-03,Component Issue,electrical,Replace wrong component
+M ,09/05/2023,CON. BOARD ASSY,79-83-00200-03,Component Issue,electrical,Replace wrong component
+M ,09/05/2023,CON. BOARD ASSY,79-83-00200-03,Component Issue,electrical,Replace wrong component
+P ,09/05/2023,WCDDM TOP ASSY,MB1403B-01,ECO,electrical,Preform ECO
+P ,09/05/2023,WCDDM TOP ASSY,MB1403B-01,ECO,electrical,Preform ECO
+M ,09/05/2023,CON. BOARD ASSY,79-83-00200-03,Component Issue,electrical,Replace wrong component
+M ,09/05/2023,CON. BOARD ASSY,79-83-00200-03,Component Issue,electrical,Replace wrong component
+M ,09/05/2023,CON. BOARD ASSY,79-83-00200-03,Component Issue,electrical,Replace wrong component
+M ,09/05/2023,CON. BOARD ASSY,79-83-00200-03,Component Issue,electrical,Replace wrong component
+M ,09/05/2023,CON. BOARD ASSY,79-83-00200-03,Component Issue,electrical,Replace wrong component
+M ,10/05/2023,CON. BOARD ASSY,79-83-00200-03,Component Issue,electrical,Replace wrong component
+M ,10/05/2023,CON. BOARD ASSY,79-83-00200-03,Component Issue,electrical,Replace wrong component
+M ,10/05/2023,CON. BOARD ASSY,79-83-00200-03,Component Issue,electrical,Replace wrong component
+M ,10/05/2023,CON. BOARD ASSY,79-83-00200-03,Component Issue,electrical,Replace wrong component
+M ,10/05/2023,CON. BOARD ASSY,79-83-00200-03,Component Issue,electrical,Replace wrong component
+M ,10/05/2023,CON. BOARD ASSY,79-83-00200-03,Component Issue,electrical,Replace wrong component
+P ,10/05/2023,WCDDM TOP ASSY,MB1403A-00,OPERATOR MISTAKE ELBIT,Workmanship,Reassembly
+P ,10/05/2023,WCDDM TOP ASSY,MB1403A-00,SRU Issue,electrical,Re Calibration
+M ,10/05/2023,CON. BOARD ASSY,79-83-00200-03,Component Issue,electrical,Replace wrong component
+M ,10/05/2023,CON. BOARD ASSY,79-83-00200-03,Component Issue,electrical,Replace wrong component
+M ,10/05/2023,CON. BOARD ASSY,79-83-00200-03,Component Issue,electrical,Replace wrong component
+M ,10/05/2023,CON. BOARD ASSY,79-83-00200-03,Component Issue,electrical,Replace wrong component
+P ,10/05/2023,"CABLE CONNECTOR, ASSY",085515A-00,SRU Issue,electrical,Replaced SRU
+M ,10/05/2023,CON. BOARD ASSY,79-83-00200-03,Component Issue,electrical,Replace wrong component
+M ,10/05/2023,CON. BOARD ASSY,79-83-00200-03,Component Issue,electrical,Replace wrong component
+M ,10/05/2023,CON. BOARD ASSY,79-83-00200-03,Component Issue,electrical,Replace wrong component
+M ,10/05/2023,CON. BOARD ASSY,79-83-00200-03,Component Issue,electrical,Replace wrong component
+M ,10/05/2023,FUEL FLOW,85-70-00530-00,Operator Mistake,electrical,Rework
+M ,10/05/2023,FUEL FLOW,85-70-00530-00,Operator Mistake,electrical,Rework
+M ,10/05/2023,POWER SUPPLY BD DN ASSY,501-31-00620-00,Component Issue,electrical,Replace wrong component
+M ,10/05/2023,POWER SUPPLY BD DN ASSY,501-31-00620-00,Component Issue,electrical,Replace wrong component
+M ,10/05/2023,CON. BOARD ASSY,79-83-00200-03,Component Issue,electrical,Replace wrong component
+M ,10/05/2023,CON. BOARD ASSY,79-83-00200-03,Component Issue,electrical,Replaced/add Component
+M ,10/05/2023,CON. BOARD ASSY,79-83-00200-03,Component Issue,electrical,Replace wrong component
+M ,10/05/2023,CON. BOARD ASSY,79-83-00200-03,Component Issue,electrical,Replace wrong component
+M ,10/05/2023,CON. BOARD ASSY,79-83-00200-03,Component Issue,electrical,Replace wrong component
+M ,10/05/2023,CON. BOARD ASSY,79-83-00200-03,Component Issue,electrical,Replace wrong component
+M ,10/05/2023,CON. BOARD ASSY,79-83-00200-03,Component Issue,electrical,Replace wrong component
+M ,10/05/2023,CON. BOARD ASSY,79-83-00200-03,Component Issue,electrical,Replace wrong component
+M ,10/05/2023,CON. BOARD ASSY,79-83-00200-03,Component Issue,electrical,Replace wrong component
+M ,10/05/2023,CON. BOARD ASSY,79-83-00200-03,Component Issue,electrical,Replaced/add Component
+M ,10/05/2023,CON. BOARD ASSY,79-83-00200-03,Component Issue,electrical,Replace wrong component
+M ,10/05/2023,CON. BOARD ASSY,79-83-00200-03,Component Issue,electrical,Replace wrong component
+M ,10/05/2023,POWER SUPPLY BD DN ASSY,501-31-00620-00,Component Issue,electrical,Replace wrong component
+M ,10/05/2023,POWER SUPPLY BD DN ASSY,501-31-00620-00,Component Issue,electrical,Replace wrong component
+M ,11/05/2023,POWER SUPPLY BD DN ASSY,501-31-00620-00,Component Issue,electrical,Replace wrong component
+M ,11/05/2023,POWER SUPPLY BD DN ASSY,501-31-00620-00,Component Issue,electrical,Replace wrong component
+M ,11/05/2023,POWER SUPPLY BD DN ASSY,501-31-00620-00,Component Issue,electrical,Replace wrong component
+M ,11/05/2023,POWER SUPPLY BD DN ASSY,501-31-00620-00,Component Issue,electrical,Replace wrong component
+M ,11/05/2023,POWER SUPPLY BD DN ASSY,501-31-00620-00,Component Issue,electrical,Replace wrong component
+M ,11/05/2023,POWER SUPPLY BD DN ASSY,501-31-00620-00,Component Issue,electrical,Replace wrong component
+M ,11/05/2023,POWER SUPPLY BD DN ASSY,501-31-00620-00,Component Issue,electrical,Replace wrong component
+M ,11/05/2023,POWER SUPPLY BD DN ASSY,501-31-00620-00,Component Issue,electrical,Replace wrong component
+M ,11/05/2023,FUEL FLOW,85-70-00530-00,Operator Mistake,electrical,Rework
+C ,11/05/2023,AMC,MB0807D-22,Tester Issue,Tester,Retest
+C ,11/05/2023,AMC,MB0807D-22,SRU Issue,,Replaced SRU
+P ,11/05/2023,WCDDM TOP ASSY,MB1403A-00,SRU Issue,electrical,Replaced SRU
+M ,14/05/2023,POWER SUPPLY BD DN ASSY,501-31-00620-00,Component Issue,electrical,Replace wrong component
+M ,14/05/2023,POWER SUPPLY BD DN ASSY,501-31-00620-00,Component Issue,electrical,Replace wrong component
+M ,14/05/2023,POWER SUPPLY BD DN ASSY,501-31-00620-00,Component Issue,electrical,Replace wrong component
+M ,14/05/2023,POWER SUPPLY BD DN ASSY,501-31-00620-00,Component Issue,electrical,Replace wrong component
+P ,14/05/2023,"PWA, INTERFACE, MHU (LF)",067443A-02,SRU Issue,electrical,Replaced SRU
+P ,14/05/2023,LCD ASSY,073720A-02,SRU Issue,electrical,Replaced SRU
+P ,14/05/2023,PROJECTION ASSY,112835A-00,SRU Issue,Optical,Replaced SRU
+P ,14/05/2023,LCD ASSY,112836A-00,SRU Issue,Optical,Replaced SRU
+M ,14/05/2023,LG SIM ASSY,950-31-00400-04,For testing,low temp,Retest
+M ,14/05/2023,LG SIM ASSY,950-31-00400-04,Electrical Issue,electrical,Replaced/add Component
+C ,15/05/2023,COMPUTER UNIT- GEN-1,GB1277N-00,Can Not Duplicate,low temp,No repair action was taken
+C ,15/05/2023,AMC,MB0807D-22,SRU Issue,Hardware,Replaced SRU
+M ,15/05/2023,MADU,901-36-00100-04,Tester Issue,low temp,Retest
+M ,15/05/2023,RMSC,951-30-00200-00,SRU Issue,electrical,Replaced SRU
+M ,15/05/2023,MADU,901-36-00100-04,For testing,low temp,Retest
+M ,15/05/2023,MADU,901-36-00100-04,For testing,low temp,Retest
+P ,16/05/2023,"PWA, COBE",078898B-01,SRU Issue,electrical,Replaced/add Component
+M ,16/05/2023,LG SIM ASSY,950-31-00400-04,For testing,low temp,Retest
+C ,17/05/2023,AMC,MB0807D-22,Tester Issue,Tester,Changed Test Equipment
+C ,17/05/2023,AMC,MB0807D-22,Tester Issue,,Rework
+M ,17/05/2023,"DOWN BOARD ASSY, POWER SUPPLY",501-31-00621-00,Component Issue,electrical,Replaced/add Component
+C ,17/05/2023,AMC,MB0807D-22,Component Issue,Hardware,Replaced/add Component
+C ,17/05/2023,COMPUTER UNIT- GEN-1,GB1277N-00,Defect LRU,low temp,Repair
+C ,17/05/2023,AMC,MB0807D-22,Assembly Issue,Hardware,Reassembly
+P ,18/05/2023,WCDDM TOP ASSY,MB1403A-00,Electrical Issue,electrical,Replaced SRU
+M ,18/05/2023,LG SIM ASSY,950-31-00400-04,Electrical Issue,HT,Replaced/add Component
+C ,19/05/2023,AMC,MB0807D-22,SRU Issue,Hardware,Replaced SRU
+C ,19/05/2023,AMC,MB0807D-22,SRU Issue,Hardware,Replaced SRU
+M ,21/05/2023,CON. BOARD ASSY,79-83-00200-03,Component Issue,electrical,Replaced/add Component
+C ,21/05/2023,"PWA, HDP BASE",106513A-01,Component Issue,electrical,Replaced/add Component
+M ,21/05/2023,PLANETS DRPB BOARD ASSY,95-30-00080-04,Component Issue,electrical,Replaced/add Component
+P ,22/05/2023,WCDDM TOP ASSY,MB1403B-01,Assembly Issue,Workmanship,Reassembly
+P ,22/05/2023,WCDDM TOP ASSY,MB1403B-01,Assembly Issue,Workmanship,Reassembly
+P ,22/05/2023,WCDDM TOP ASSY,MB1403B-01,Assembly Issue,Workmanship,Reassembly
+M ,22/05/2023,MADU,901-36-00100-04,Inspection,Workmanship,Rework
+M ,22/05/2023,SMART SIM ASSY,950-31-00350-02,For testing,HT,Retest
+C ,22/05/2023,COMPUTER UNIT-TOP ASSY,MB1277J-01,SRU Issue,electrical,Replaced SRU
+C ,22/05/2023,COMPUTER UNIT-TOP ASSY,MB1277J-01,SRU Issue,electrical,Replaced SRU
+M ,23/05/2023,RMSC,93-30-00200-05,SRU Issue,electrical,Replaced SRU
+M ,23/05/2023,VCM PAYLOAD,904-80-00200-01,No Problem,No Problem,Retest
+C ,23/05/2023,"PWA, SNOWRUNNER GRAPHICS II",018752MA-00,Component Issue,Workmanship,Replaced/add Component
+P ,23/05/2023,"PWA, DIGITAL PROCESSING",087321B-02,Component Issue,Workmanship,Replaced/add Component
+C ,24/05/2023,AMC,MB0807D-22,SRU Issue,Hardware,Replaced SRU
+C ,24/05/2023,AMC,MB0807D-22,Tester Issue,Tester,Retest
+C ,24/05/2023,"PWA, DISPLY GENERATOR-CECILE",4.83E+03,SRU Issue,Assembly,Replaced SRU
+C ,24/05/2023,AMC,MB0807D-22,Tester Issue,Tester,Changed Test Equipment
+C ,24/05/2023,AMC,MB0807D-22,SRU Issue,,Replaced SRU
+C ,28/05/2023,AMC,MB0807D-22,Tester Issue,,Retest
+C ,28/05/2023,AMC,MB0807D-22,SRU Issue,Hardware,Replaced SRU
+C ,28/05/2023,COMPUTER UNIT-TOP ASSY,MB1277J-01,Defect LRU,RT,Repair
+C ,28/05/2023,COMPUTER UNIT-TOP ASSY,MB1277J-01,Defect LRU,RT,Repair
+M ,28/05/2023,FDR,95-84-00100-01,SRU Issue,electrical,Replaced/add Component
+M ,29/05/2023,FDR,95-84-00100-01,SRU Issue,electrical,Replaced/add Component
+M ,29/05/2023,FDR,95-84-00100-01,SRU Issue,electrical,Replaced/add Component
+C ,29/05/2023,AMC,MB0807D-22,Tester Issue,Tester,Retest
+M ,29/05/2023,FDR,95-84-00100-01,SRU Issue,electrical,Replaced/add Component
+C ,29/05/2023,AMC,MB0807D-22,Electrical Issue,electrical,Reassembly
+M ,29/05/2023,FDR,95-84-00100-01,SRU Issue,electrical,Replaced/add Component
+C ,29/05/2023,AMC,MB0807D-22,SRU Issue,Hardware,Replaced SRU
+P ,29/05/2023,WCNDM TOP ASSY,MB1402N-01,Documentation Issue,Document,Rework
+P ,29/05/2023,WCNDM TOP ASSY,MB1402N-01,Documentation Issue,Document,Rework
+M ,31/05/2023,FDR,95-84-00100-01,SRU Issue,electrical,Replaced/add Component
+C ,31/05/2023,"PWA, SNOWRUNNER GRAPHICS II",018752MA-00,Component Issue,Workmanship,Replaced/add Component
+M ,31/05/2023,FDR,95-84-00100-01,SRU Issue,electrical,Replaced/add Component
+M ,31/05/2023,FDR,95-84-00100-01,SRU Issue,electrical,Replaced/add Component
+P ,31/05/2023,WCDDM TOP ASSY,MB1403B-01,Tester Issue,Tester,Retest
+P ,31/05/2023,WCDDM TOP ASSY,MB1403B-01,Tester Issue,Tester,Retest
+M ,31/05/2023,FDR,95-84-00100-01,SRU Issue,electrical,Replaced/add Component
+C ,31/05/2023,COMPUTER UNIT- GEN-1,GB1277N-00,SRU Issue,electrical,Replaced SRU
+C ,31/05/2023,AMC,MB0807D-22,Tester Issue,Tester,Retest
+P ,01/06/2023,PROJECTION ASSY,112835A-00,OPERATOR MISTAKE ELBIT,Workmanship,Retest
+C ,01/06/2023,COMPUTER UNIT- GEN-1,GB1277N-00,SRU Issue,HT,Replaced SRU
+P ,02/06/2023,WCNDM TOP ASSY,MB1402A-00,OPERATOR MISTAKE ELBIT,Workmanship,Retest
+P ,04/06/2023,PROJECTION ASSY,112835A-00,SRU Issue,electrical,Re Calibration
+P ,05/06/2023,WCDDM TOP ASSY,MB1403A-00,Documentation Issue,Document,Rework
+M ,05/06/2023,MADU,901-36-00100-04,For testing,low temp,Retest
+C ,05/06/2023,AMC,MB0807D-22,Component Issue,Hardware,Replaced/add Component
+M ,05/06/2023,EFI BOARD ASSY,80-63-00010-04,Component Issue,electrical,Replaced/add Component
+P ,05/06/2023,"CABLE CONNECTOR, ASSY",071309A-01,SRU Issue,electrical,Replaced SRU
+P ,05/06/2023,PROJECTION ASSY,112835A-00,SRU Issue,electrical,Replaced SRU
+P ,05/06/2023,PROJECTION ASSY,112835A-00,SRU Issue,electrical,Replaced SRU
+P ,05/06/2023,WCDDM TOP ASSY,MB1403B-01,SRU Issue,electrical,Reprograming
+P ,05/06/2023,WCDDM TOP ASSY,MB1403B-01,SRU Issue,electrical,Reprograming
+P ,05/06/2023,PROJECTION ASSY,112835A-00,SRU Issue,electrical,Replaced SRU
+P ,06/06/2023,OLED OPTICS ASSY,082712J-00,Optical Issue,Optical,Replaced SRU
+M ,06/06/2023,MADU,901-36-00100-04,Calibration Issue,Calibration,Replaced/add Component
+M ,06/06/2023,MADU,901-36-00100-04,Calibration Issue,Calibration,Replaced/add Component
+M ,06/06/2023,MADU,901-36-00100-04,Calibration Issue,Calibration,Re Calibration
+M ,06/06/2023,MADU,901-36-00100-04,Calibration Issue,Calibration,Replaced SRU
+C ,06/06/2023,AMC,MB0807D-22,SRU Issue,Hardware,Replaced SRU
+P ,06/06/2023,OLED OPTICS ASSY,082712J-00,SRU Issue,Optical,Replaced SRU
+C ,07/06/2023,AMC,MB0807D-22,Tester Issue,Tester,Retest
+C ,07/06/2023,AMC,MB0807D-22,Tester Issue,Tester,Retest
+C ,07/06/2023,AMC,MB0807D-22,Tester Issue,Tester,Retest
+C ,07/06/2023,AMC,MB0807D-22,SRU Issue,Damage,Replaced SRU
+M ,08/06/2023,CONTROLLER BOX ASSY,79-83-00300-02,Tester Issue,HT,Fixed Test Equipment
+C ,08/06/2023,AMC,MB0807D-22,Tester Issue,Tester,Retest
+M ,08/06/2023,MICRO I/O IRIDIUM,98-30-00137-01,Electrical Issue,electrical,Replaced/add Component
+M ,08/06/2023,CONTROLLER BOX ASSY,79-83-00300-02,SRU Issue,electrical,Replaced/add Component
+P ,09/06/2023,PROJECTION ASSY,112835A-00,Optical Issue,Optical,Replaced SRU
+C ,11/06/2023,AMC,MB0807D-22,SRU Issue,Hardware,Rework
+C ,11/06/2023,AMC,MB0807D-22,Tester Issue,Tester,Replaced SRU
+C ,11/06/2023,AMC,MB0807D-22,Tester Issue,Tester,Retest
+C ,11/06/2023,AMC,MB0807D-22,Can Not Duplicate,Can Not Duplicate,No repair action was taken
+C ,11/06/2023,AMC,MB0807D-22,Can Not Duplicate,Can Not Duplicate,No repair action was taken
+C ,11/06/2023,AMC,MB0807D-22,SRU Issue,RT,Replaced SRU
+M ,11/06/2023,CON. BOARD ASSY,79-83-00200-03,SRU Issue,electrical,Replaced/add Component
+M ,11/06/2023,CONTROLLER BOX ASSY,79-83-00300-02,Tester Issue,Hardware,Retest
+M ,12/06/2023,MADU,901-36-00100-04,For testing,low temp,Retest
+M ,12/06/2023,EGT UNIT,85-51-00050-02,Design Issue,Engineering,D/A
+M ,12/06/2023,EGT UNIT,85-51-00050-02,Design Issue,low temp,D/A
+M ,12/06/2023,EGT UNIT,85-51-00050-02,Design Issue,low temp,D/A
+M ,12/06/2023,EGT UNIT,85-51-00050-02,Design Issue,low temp,D/A
+M ,12/06/2023,EGT UNIT,85-51-00050-02,Design Issue,low temp,D/A
+M ,12/06/2023,SMART SIM ASSY,950-31-00350-02,For testing,HT,Retest
+M ,12/06/2023,SMART SIM ASSY,950-31-00350-02,For testing,low temp,Retest
+C ,12/06/2023,AMC,MB0807D-22,Assembly Issue,HT,Reassembly
+C ,12/06/2023,AMC,MB0807D-22,SRU Issue,Hardware,Replaced SRU
+C ,12/06/2023,AMC,MB0807D-22,SRU Issue,,Replaced SRU
+C ,13/06/2023,AMC,MB0807D-22,SRU Issue,Hardware,Replaced SRU
+P ,13/06/2023,PWA PS-ANA-DIG,115961A-01,Component Issue,Workmanship,Replaced/add Component
+M ,13/06/2023,GVIU MODULE TOP ASSY,MB669B-03,Tester Issue,electrical,Retest
+M ,13/06/2023,GVIU MODULE TOP ASSY,MB669B-03,Tester Issue,electrical,Retest
+P ,13/06/2023,LCD ASSY,112836A-00,Visual Inspection,Optical,Replaced SRU
+M ,13/06/2023,FLIGHT CONTROL UNIT (FCU) ASSY,MA812D-01,Component Issue,Calibration,Replaced/add Component
+P ,13/06/2023,"CABLE CONNECTOR, ASSY",085515A-00,SRU Issue,electrical,Replaced SRU
+C ,13/06/2023,AMC,MB0807D-22,Tester Issue,Tester,Changed Test Equipment
+C ,13/06/2023,AMC,MB0807D-22,Tester Issue,Tester,Changed Test Equipment
+C ,14/06/2023,COMPUTER UNIT- GEN-1,GB1277N-00,Tester Issue,HT,Retest
+M ,15/06/2023,TCU,85-31-00050-01,Electrical Issue,electrical,Replaced/add Component
+M ,15/06/2023,"DOWN BOARD ASSY, POWER SUPPLY",501-31-00621-00,Component Issue,electrical,Replaced/add Component
+M ,15/06/2023,"DOWN BOARD ASSY, POWER SUPPLY",501-31-00621-00,Component Issue,electrical,Missing componet
+M ,15/06/2023,TCU,85-31-00050-01,Electrical Issue,electrical,Replaced/add Component
+M ,15/06/2023,TCU,85-31-00050-01,Electrical Issue,electrical,Rework
+M ,15/06/2023,TCU,85-31-00050-01,Electrical Issue,electrical,Replaced/add Component
+M ,15/06/2023,TCU,85-31-00050-01,Electrical Issue,electrical,Replaced/add Component
+M ,15/06/2023,TCU,85-31-00050-01,Electrical Issue,electrical,Replaced/add Component
+M ,15/06/2023,TCU,85-31-00050-01,Electrical Issue,electrical,Replaced/add Component
+M ,15/06/2023,ENCRYPTION UNIT,90-30-00101-01,Component Issue,HT,Replaced/add Component
+C ,15/06/2023,AMC,MB0807D-22,SRU Issue,electrical,Replaced/add Component
+P ,15/06/2023,PROJECTION ASSY,112835A-00,SRU Issue,electrical,Replaced SRU
+C ,15/06/2023,AMC,MB0807D-22,SRU Issue,Hardware,Replaced SRU
+P ,16/06/2023,PROJECTION ASSY,112835A-00,Operator Mistake,Workmanship,Retest
+M ,16/06/2023,MADU,901-36-00100-04,Tester Issue,Tester,Retest
+P ,17/06/2023,WCDDM TOP ASSY,MB1403A-00,Assembly Issue,Workmanship,Reassembly
+C ,19/06/2023,COMPUTER UNIT- GEN-1,GB1277N-00,Can Not Duplicate,Can Not Duplicate,No repair action was taken
+P ,19/06/2023,OLED OPTICS ASSY,082712J-00,Tester Issue,Tester,Re Calibration
+C ,19/06/2023,COMPUTER UNIT- GEN-1,GB1277N-00,Tester Issue,RT,Retest
+C ,19/06/2023,AMC,MB0807D-22,Tester Issue,Tester,Retest
+C ,19/06/2023,AMC,MB0807D-22,Tester Issue,Tester,Retest
+C ,19/06/2023,AMC,MB0807D-22,Tester Issue,Tester,Retest
+C ,19/06/2023,AMC,MB0807D-22,Can Not Duplicate,Can Not Duplicate,No repair action was taken
+P ,19/06/2023,"NIGHT HUD, TOP ASSY",MB240A-03,OPERATOR MISTAKE KABAM,Workmanship,Retest
+M ,19/06/2023,MADU,951-36-00100-01,For testing,low temp,Retest
+C ,19/06/2023,COMPUTER UNIT- GEN-1,GB1277N-00,SRU Issue,electrical,Replaced SRU
+M ,19/06/2023,IO DAUGHTER BOARD ASSY,97-40-31005-01,Component Issue,electrical,Replaced/add Component
+M ,19/06/2023,MADU,951-36-00100-01,For testing,low temp,Retest
+C ,19/06/2023,COMPUTER UNIT- GEN-1,GB1277N-00,Defect LRU,RT,Repair
+M ,20/06/2023,EGT UNIT,85-51-00050-02,Design Issue,Engineering,D/A
+M ,20/06/2023,EGT UNIT,85-51-00050-02,Design Issue,Engineering,D/A
+M ,20/06/2023,EGT UNIT,85-51-00050-02,Design Issue,Engineering,D/A
+M ,20/06/2023,EGT UNIT,85-51-00050-02,Design Issue,Engineering,D/A
+M ,20/06/2023,EGT UNIT,85-51-00050-02,Design Issue,Engineering,D/A
+M ,20/06/2023,EGT UNIT,85-51-00050-02,Design Issue,Engineering,D/A
+M ,20/06/2023,EGT UNIT,85-51-00050-02,Design Issue,Engineering,D/A
+M ,20/06/2023,EGT UNIT,85-51-00050-02,Design Issue,Engineering,D/A
+M ,20/06/2023,EGT UNIT,85-51-00050-02,Design Issue,Engineering,D/A
+M ,20/06/2023,EGT UNIT,85-51-00050-02,Design Issue,Engineering,D/A
+M ,20/06/2023,EGT UNIT,85-51-00050-02,Design Issue,Engineering,D/A
+C ,20/06/2023,DTD UNIT,MB0946C-07,SRU Issue,Damage,Replaced SRU
+M ,21/06/2023,TCU,85-31-00050-01,Component Issue,electrical,Replaced/add Component
+P ,21/06/2023,OPTICAL UNIT ASSY,42612A-03,Damage Issue,Optical,Replaced SRU
+M ,21/06/2023,TCU,85-31-00050-01,Component Issue,electrical,Replaced/add Component
+M ,21/06/2023,I.C BOARD ASSY,85-31-00230-03,Component Issue,electrical,Replaced/add Component
+C ,22/06/2023,AMC,MB0807D-22,Tester Issue,Tester,Retest
+C ,22/06/2023,AMC,MB0807D-22,SRU Issue,electrical,Replaced SRU
+C ,22/06/2023,AMC,MB0807D-22,No Problem,electrical,Retest
+P ,22/06/2023,WCDDM TOP ASSY,MB1403A-00,SRU Issue,electrical,Re Calibration
+C ,22/06/2023,AMC,MB0807D-22,SRU Issue,low temp,Replaced SRU
+M ,23/06/2023,EGT UNIT,85-51-00050-02,Inspection,Workmanship,No repair action was taken
+C ,25/06/2023,AMC,MB0807D-22,Tester Issue,low temp,Retest
+C ,25/06/2023,AMC,MB0807D-22,Can Not Duplicate,Can Not Duplicate,No repair action was taken
+C ,26/06/2023,AMC,MB0807D-22,Can Not Duplicate,Engineering,No repair action was taken
+C ,26/06/2023,AMC,MB0807D-22,Tester Issue,Tester,Retest
+C ,26/06/2023,AMC,MB0807D-22,SRU Issue,,No repair action was taken
+C ,26/06/2023,AMC,MB0807D-22,SRU Issue,low temp,Rework
+C ,26/06/2023,AMC,MB0807D-22,SRU Issue,low temp,No repair action was taken
+M ,26/06/2023,ANTENNA INTERFACE,951-35-00110-01,Defect LRU,Intgreation,Replaced/add Component
+C ,26/06/2023,COMPUTER UNIT- GEN-1,GB1277N-00,Tester Issue,RT,Retest
+M ,27/06/2023,"DOWN BOARD ASSY, POWER SUPPLY",501-31-00621-00,Component Issue,electrical,Replaced/add Component
+M ,27/06/2023,EGT UNIT,85-51-00050-02,Design Issue,Engineering,D/A
+M ,27/06/2023,EGT UNIT,85-51-00050-02,Design Issue,Engineering,D/A
+M ,27/06/2023,EGT UNIT,85-51-00050-02,Design Issue,Engineering,D/A
+M ,27/06/2023,EGT UNIT,85-51-00050-02,Design Issue,Engineering,D/A
+M ,27/06/2023,EGT UNIT,85-51-00050-02,Design Issue,Engineering,D/A
+P ,27/06/2023,WCNDM TOP ASSY,MB1402A-00,Damage,Mechanical,Replaced/add Component
+M ,27/06/2023,AVU,MB668B-02,Operator Mistake,HT,Retest
+P ,27/06/2023,WCDDM TOP ASSY,MB1403A-00,Electrical Issue,electrical,Reprograming
+M ,28/06/2023,CONTROLLER BOX ASSY,79-83-00300-02,Tester Issue,Tester,Retest
+C ,28/06/2023,AMC,MB0807D-22,SRU Issue,Hardware,Replaced SRU
+C ,28/06/2023,AMC,MB0807D-22,SRU Issue,Hardware,Replaced SRU
+P ,28/06/2023,WCDDM TOP ASSY,MB1403A-00,SRU Issue,electrical,Re Calibration
+C ,28/06/2023,AMC,MB0807D-22,SRU Issue,Hardware,Replaced SRU
+C ,28/06/2023,AMC,MB0807D-22,SRU Issue,Hardware,Replaced SRU
+P ,29/06/2023,WCNDM TOP ASSY,MB1402N-01,Documentation Issue,Document,Rework
+P ,29/06/2023,WCNDM TOP ASSY,MB1402N-01,Documentation Issue,Document,Rework
+C ,29/06/2023,AMC,MB0807D-22,SRU Issue,Hardware,Replaced SRU
+C ,29/06/2023,COMPUTER UNIT- GEN-1,GB1277N-00,Tester Issue,HT,Retest
+P ,29/06/2023,WCDDM TOP ASSY,MB1403A-00,OPERATOR MISTAKE KABAM,Workmanship,Retest
+M ,29/06/2023,I.C BOARD ASSY,85-31-00230-03,Component Issue,electrical,Replaced/add Component
+C ,02/07/2023,AMC,MB0807D-22,SRU Issue,low temp,Replaced SRU
+M ,02/07/2023,ANTENNA INTERFACE,951-35-00110-01,Defect LRU,electrical,Rework
+M ,02/07/2023,ANTENNA INTERFACE,951-35-00110-01,Defect LRU,electrical,Rework
+C ,02/07/2023,AMC,MB0807D-22,SRU Issue,electrical,Replaced SRU
+C ,02/07/2023,AMC,MB0807D-22,SRU Issue,electrical,Replaced SRU
+M ,03/07/2023,FUEL FLOW,85-70-00530-00,Electrical Issue,electrical,Rework
+M ,03/07/2023,CONTROLLER BOX ASSY,79-83-00300-02,SRU Issue,electrical,Replaced/add Component
+M ,03/07/2023,FLIGHT CONTROL UNIT (FCU) ASSY,MA812D-01,Tester Issue,HT,Retest
+C ,03/07/2023,AMC,MB0807D-22,Tester Issue,Tester,Fixed Test Equipment
+M ,03/07/2023,VMSC,915-30-00100-00,Tester Issue,Software,Fixed Test Equipment
+M ,04/07/2023,"STICK, RIGHT HAND",915-05-00170-00,OPERATOR MISTAKE ELBIT,Workmanship,Retest
+C ,04/07/2023,AMC,MB0807D-22,Tester Issue,Tester,Fixed Test Equipment
+M ,04/07/2023,FLIGHT CONTROL UNIT (FCU) ASSY,MA812D-01,Component Issue,low temp,Replaced/add Component
+P ,04/07/2023,PROJECTION ASSY,112835A-00,SRU Issue,electrical,Replaced SRU
+M ,05/07/2023,FUSE BOARD ASSY,85-31-00270-00,Component Issue,electrical,Broken component
+P ,05/07/2023,WCDDM TOP ASSY,MB1403A-00,Inspection,Inspection Optics,Reassembly
+C ,05/07/2023,AMC,MB0807D-22,Can Not Duplicate,Can Not Duplicate,No repair action was taken
+C ,06/07/2023,DTD UNIT,MB0946C-07,SRU Issue,Hardware,Replaced SRU
+C ,09/07/2023,"PWA, SNOWRUNNER GRAPHICS III",018752U-00,Component Issue,Workmanship,Replaced/add Component
+C ,09/07/2023,AMC,MB0807D-22,SRU Issue,Hardware,Replaced SRU
+C ,09/07/2023,AMC,MB0807D-22,SRU Issue,Hardware,Rework
+C ,09/07/2023,AMC,MB0807D-22,Tester Issue,Tester,Retest
+P ,09/07/2023,COMMON DEP TOP ASSY,MB1658B-00,Tester Issue,Tester,Retest
+P ,10/07/2023,WCNDM TOP ASSY,MB1402A-00,Documentation Issue,Document,Rework
+C ,10/07/2023,AMC,MB0807D-22,SRU Issue,electrical,Replaced SRU
+M ,10/07/2023,VMSC,915-30-00100-00,Cleaning Issue,electrical,Cleaning
+M ,10/07/2023,MAC,951-30-00100-04,SRU Issue,electrical,Replaced/add Component
+M ,10/07/2023,MAC,951-30-00100-04,SRU Issue,electrical,Replaced SRU
+M ,10/07/2023,MAC,951-30-00100-04,SRU Issue,electrical,Replaced SRU
+M ,11/07/2023,VMSC,915-30-00100-00,SRU Issue,electrical,Replaced SRU
+M ,11/07/2023,SPDU,950-31-00100-01,SRU Issue,electrical,Replaced/add Component
+C ,11/07/2023,AMC,MB0807D-22,SRU Issue,Hardware,Replaced SRU
+C ,12/07/2023,AMC,MB0807D-22,SRU Issue,electrical,Replaced SRU
+C ,12/07/2023,"PWA, HDP BASE",106513A-01,Component Issue,Workmanship,Replaced/add Component
+C ,12/07/2023,AMC,MB0807D-22,Tester Issue,Tester,Fixed Test Equipment
+C ,13/07/2023,AMC,MB0807D-22,SRU Issue,Hardware,Replaced SRU
+C ,13/07/2023,AMC,MB0807D-22,SRU Issue,Hardware,Rework
+C ,13/07/2023,AMC,MB0807D-22,SRU Issue,electrical,Replaced/add Component
+M ,16/07/2023,RMSC,93-30-00200-05,SRU Issue,electrical,No repair action was taken
+P ,16/07/2023,"CABLE ASSY, CHMD NIGHT",080112D-00,SRU Issue,electrical,Replaced SRU
+C ,16/07/2023,COMPUTER UNIT- GEN-1,GB1277N-00,SRU Issue,electrical,Replaced SRU
+C ,16/07/2023,COMPUTER UNIT- GEN-1,GB1277N-00,SRU Issue,electrical,Replaced SRU
+C ,17/07/2023,COMPUTER UNIT- GEN-1,GB1277N-00,SRU Issue,electrical,Replaced SRU
+M ,17/07/2023,VCM PANO,904-80-00250-01,Electrical Issue,electrical,Replaced SRU
+M ,18/07/2023,I.C BOARD ASSY,85-31-00230-03,Component Issue,Hardware,Replaced/add Component
+C ,18/07/2023,COMPUTER UNIT-TOP ASSY,MB1277J-01,Tester Issue,,Rework
+M ,18/07/2023,PDU-2 BOARD ASSY,602-31-00147-03,SRU Issue,Engineering,Replaced SRU
+M ,18/07/2023,PDU-2 BOARD ASSY,602-31-00147-03,SRU Issue,Engineering,Replaced SRU
+M ,18/07/2023,POWER QUICC II CORE PROC. ASSY,97-05-31016-01,SRU Issue,electrical,Replaced SRU
+M ,18/07/2023,POWER QUICC II CORE PROC. ASSY,97-05-31016-01,SRU Issue,electrical,Replaced SRU
+P ,18/07/2023,WCDDM TOP ASSY,MB1403A-00,Tester Issue,Tester,Retest
+P ,19/07/2023,WCDDM TOP ASSY,MB1403A-00,Documentation Issue,Document,Rework
+P ,19/07/2023,WCDDM TOP ASSY,MB1403B-01,OPERATOR MISTAKE KABAM,Workmanship,No repair action was taken
+M ,19/07/2023,VCM PAYLOAD,904-80-00200-01,Tester Issue,HT,No repair action was taken
+P ,19/07/2023,WCDDM TOP ASSY,MB1403B-01,OPERATOR MISTAKE KABAM,Workmanship,No repair action was taken
+M ,19/07/2023,"DOWN BOARD ASSY, POWER SUPPLY",501-31-00621-00,Component Issue,electrical,Replaced/add Component
+C ,19/07/2023,"PWA, SVIO BASE",101460A-00,Component Issue,electrical,Replaced/add Component
+P ,19/07/2023,WCDDM TOP ASSY,MB1403A-00,Tester Issue,Tester,Retest
+M ,19/07/2023,VCM PANO,904-80-00250-01,Tester Issue,HT,No repair action was taken
+P ,20/07/2023,WCDDM TOP ASSY,MB1403B-01,OPERATOR MISTAKE KABAM,Workmanship,No repair action was taken
+C ,20/07/2023,AMC,MB0807D-22,Assembly Issue,Hardware,Reassembly
+P ,20/07/2023,WCDDM TOP ASSY,MB1403A-00,Component Issue,electrical,Replaced/add Component
+C ,20/07/2023,AMC,MB0807D-22,SRU Issue,Hardware,Replaced SRU
+P ,21/07/2023,CDDM TOP ASSY,MB1268D-03,UPGRADE,Tester,Preform UPGRAGE
+C ,23/07/2023,AMC,MB0807D-22,Tester Issue,Tester,Retest
+C ,23/07/2023,"PWA, SNOWRUNNER GRAPHICS III",018752U-00,Component Issue,Workmanship,Replaced/add Component
+P ,23/07/2023,OLED OPTICS ASSY,082712J-00,SRU Issue,electrical,Replaced SRU
+P ,24/07/2023,"OLED OPTICS ASSY, LEFT",112005A-00,Component Issue,Mechanical,Re Calibration
+C ,24/07/2023,"PWA, HDP BASE",052784D-04,Component Issue,electrical,Replaced/add Component
+P ,25/07/2023,CABLE AND DRIVER NIGHT ASSY,018875A-01,SRU Issue,electrical,Replaced SRU
+M ,25/07/2023,EGT UNIT,85-51-00050-02,Design Issue,Engineering,D/A
+M ,25/07/2023,EGT UNIT,85-51-00050-02,Design Issue,Engineering,D/A
+M ,25/07/2023,EGT UNIT,85-51-00050-02,Design Issue,Engineering,D/A
+C ,25/07/2023,COMPUTER UNIT- GEN-1,GB1277N-00,Tester Issue,low temp,Fixed Test Equipment
+M ,25/07/2023,EGT UNIT,85-51-00050-02,Design Issue,Engineering,D/A
+M ,25/07/2023,EGT UNIT,85-51-00050-02,Design Issue,Engineering,D/A
+M ,25/07/2023,EGT UNIT,85-51-00050-02,Design Issue,Engineering,D/A
+M ,25/07/2023,EGT UNIT,85-51-00050-02,Design Issue,Engineering,D/A
+M ,25/07/2023,EGT UNIT,85-51-00050-02,Design Issue,Engineering,D/A
+M ,25/07/2023,RMSC,93-30-00200-05,SRU Issue,electrical,No repair action was taken
+M ,26/07/2023,BATTERY SWITCH BOARD ASSY,501-31-00110-00,Component Issue,electrical,Reprograming
+M ,26/07/2023,BATTERY SWITCH BOARD ASSY,501-31-00110-00,Component Issue,electrical,Reprograming
+C ,26/07/2023,AMC,MB0807D-22,Tester Issue,Tester,Changed Test Equipment
+C ,26/07/2023,COMPUTER UNIT-TOP ASSY,MB1277J-01,Tester Issue,Tester,Retest
+C ,26/07/2023,COMPUTER UNIT-TOP ASSY,MB1277J-01,Tester Issue,Tester,Retest
+C ,26/07/2023,AMC,MB0807DA-22,Tester Issue,Tester,Retest
+M ,26/07/2023,PDCR,602-31-00140-02,Tester Issue,Tester,Retest
+M ,28/07/2023,VMSC,915-30-00100-00,SRU Issue,low temp,Replaced/add Component
+C ,28/07/2023,AMC,MB0807D-22,Component Issue,Hardware,Replaced/add Component
+C ,30/07/2023,AMC,MB0807D-22,SRU Issue,Hardware,Replaced SRU
+C ,31/07/2023,AMC,MB0807D-22,SRU Issue,Hardware,Replaced SRU
+P ,31/07/2023,OLED OPTICS ASSY,082712J-00,Tester Issue,Tester,Re Calibration
+P ,31/07/2023,WCDDM TOP ASSY,MB1403A-00,Tester Issue,Tester,Fixed Test Equipment
+C ,31/07/2023,COMPUTER UNIT- GEN-1,GB1277N-00,SRU Issue,low temp,Replaced SRU
+M ,31/07/2023,CON. BOARD ASSY,79-83-00200-03,Component Issue,electrical,Replaced/add Component
+C ,31/07/2023,AMC,MB0807D-22,SRU Issue,Hardware,Replaced SRU
+C ,31/07/2023,AMC,MB0807D-22,SRU Issue,Hardware,Replaced SRU
+M ,01/08/2023,FUEL FLOW BOARD ASSY,80-70-00010-01,Component Issue,electrical,Replaced/add Component
+M ,01/08/2023,FUEL FLOW BOARD ASSY,80-70-00010-01,Component Issue,electrical,Replaced/add Component
+M ,01/08/2023,FUEL FLOW BOARD ASSY,80-70-00010-01,Component Issue,electrical,Replaced/add Component
+M ,01/08/2023,FUEL FLOW BOARD ASSY,80-70-00010-01,Component Issue,electrical,Replaced/add Component
+M ,01/08/2023,FUEL FLOW BOARD ASSY,80-70-00010-01,Component Issue,electrical,Replaced/add Component
+C ,01/08/2023,COMPUTER UNIT- GEN-1,GB1277N-00,SRU Issue,electrical,Replaced SRU
+P ,01/08/2023,WCNDM TOP ASSY,MB1402A-00,Cleaning Issue,Optical,Rework
+P ,01/08/2023,WCDDM TOP ASSY,MB1403A-00,Tester Issue,Tester,Retest
+M ,02/08/2023,CON. BOARD ASSY,79-83-00200-03,Component Issue,electrical,Replaced/add Component
+M ,02/08/2023,CON. BOARD ASSY,79-83-00200-03,Component Issue,electrical,Replaced/add Component
+C ,02/08/2023,COMPUTER UNIT-TOP ASSY,MB1277J-01,SRU Issue,electrical,Replaced SRU
+C ,02/08/2023,AMC,MB0807D-22,Assembly Issue,Hardware,Reassembly
+P ,04/08/2023,WCNDM TOP ASSY,MB1402A-00,OPERATOR MISTAKE KABAM,Workmanship,Retest
+P ,04/08/2023,WCNDM TOP ASSY,MB1402A-00,OPERATOR MISTAKE KABAM,Workmanship,Retest
+P ,05/08/2023,COMMON DEP TOP ASSY,MB1658B-00,Tester Issue,,Fixed Test Equipment
+P ,06/08/2023,WCNDM TOP ASSY,MB1402A-00,Tester Issue,Tester,No repair action was taken
+P ,06/08/2023,WCDDM TOP ASSY,MB1403A-00,Tester Issue,Tester,Changed Test Equipment
+P ,06/08/2023,WCDDM TOP ASSY,MB1403A-00,Tester Issue,Tester,Changed Test Equipment
+M ,06/08/2023,PDCR,602-31-00140-02,Tester Issue,Tester,Retest
+M ,06/08/2023,PDCR,602-31-00140-02,Tester Issue,Tester,Retest
+C ,06/08/2023,AMC,MB0807D-22,Tester Issue,Tester,Retest
+C ,06/08/2023,AMC,MB0807D-22,Can Not Duplicate,Can Not Duplicate,No repair action was taken
+C ,06/08/2023,AMC,MB0807D-22,SRU Issue,low temp,Replaced SRU
+P ,07/08/2023,WCDDM TOP ASSY,MB1403B-01,Tester Issue,Tester,Retest
+P ,07/08/2023,OLED OPTICS ASSY,082712J-00,SRU Issue,Optical,Replaced SRU
+P ,07/08/2023,WCDDM TOP ASSY,MB1403A-00,Component Issue,electrical,Replaced/add Component
+P ,07/08/2023,"CABLE ASSY, CHMD NIGHT",080112D-00,SRU Issue,electrical,Replaced SRU
+P ,07/08/2023,WCDDM TOP ASSY,MB1403A-00,Tester Issue,Tester,Retest
+P ,08/08/2023,WCDDM TOP ASSY,MB1403A-00,Documentation Issue,Document,Rework
+C ,08/08/2023,"PWA, SNOWRUNNER, 2CF VM",046198C-01,Component Issue,Workmanship,Replaced/add Component
+P ,08/08/2023,WCDDM TOP ASSY,MB1403A-00,Documentation Issue,Document,Rework
+M ,08/08/2023,PDCR,602-31-00140-02,Electrical Issue,electrical,Replaced/add Component
+M ,08/08/2023,PDCR,602-31-00140-02,Electrical Issue,electrical,Replaced/add Component
+C ,09/08/2023,AMC,MB0807D-22,Assembly Issue,Hardware,Reassembly
+M ,09/08/2023,PDCR,602-31-00140-02,Electrical Issue,electrical,Replaced/add Component
+M ,09/08/2023,PDCR,602-31-00140-02,Electrical Issue,electrical,Replaced/add Component
+M ,09/08/2023,PDCR,602-31-00140-02,Electrical Issue,electrical,Replaced/add Component
+M ,09/08/2023,PDCR,602-31-00140-02,Electrical Issue,electrical,Replaced/add Component
+M ,09/08/2023,PDCR,602-31-00140-02,Electrical Issue,electrical,Replaced/add Component
+P ,09/08/2023,WCDDM TOP ASSY,MB1403A-00,Visual Inspection,Mechanical,No repair action was taken
+C ,09/08/2023,AMC,MB0807D-22,Infrastructure,Infrastructure,Retest
+C ,09/08/2023,AMC,MB0807D-22,SRU Issue,Hardware,Replaced SRU
+M ,09/08/2023,PDCR,602-31-00140-02,Tester Issue,Tester,Retest
+C ,09/08/2023,DTD UNIT,MB0946C-07,Defect LRU,RT,Repair
+P ,10/08/2023,"PWA, INTERFACE, MHU (LF)",067443A-02,SRU Issue,Optical,Replaced SRU
+P ,10/08/2023,OLED OPTICS ASSY,082712J-00,Visual Inspection,Optical,Replaced SRU
+C ,10/08/2023,AMC,MB0807D-22,SRU Issue,Hardware,Replaced SRU
+M ,10/08/2023,VMSC DRBP ASSY,97-40-31002-02,Component Issue,electrical,Replaced/add Component
+P ,10/08/2023,WCNDM TOP ASSY,MB1402A-00,Visual Inspection,Mechanical,Replaced/add Component
+M ,10/08/2023,TCU,85-31-00050-01,Tester Issue,Tester,Retest
+M ,10/08/2023,TCU,85-31-00050-01,Tester Issue,Tester,Retest
+M ,10/08/2023,TCU,85-31-00050-01,Tester Issue,Tester,Retest
+M ,10/08/2023,EGT UNIT,85-51-00050-02,Design Issue,Engineering,D/A
+M ,10/08/2023,EGT UNIT,85-51-00050-02,Design Issue,Engineering,D/A
+C ,13/08/2023,AMC,MB0807D-22,Tester Issue,Tester,Retest
+C ,13/08/2023,AMC,MB0807D-22,Tester Issue,Tester,Fixed Test Equipment
+C ,13/08/2023,AMC,MB0807D-22,Tester Issue,Tester,Fixed Test Equipment
+C ,13/08/2023,AMC,MB0807D-22,Tester Issue,Tester,Fixed Test Equipment
+C ,13/08/2023,AMC,MB0807D-22,Can Not Duplicate,electrical,Retest
+C ,13/08/2023,AMC,MB0807D-22,SRU Issue,HT,No repair action was taken
+C ,13/08/2023,AMC,MB0807D-22,SRU Issue,,Retest
+M ,13/08/2023,EGT BOARD ASSY,85-51-00060-00,Component Issue,electrical,Broken component
+C ,13/08/2023,AMC,MB0807D-22,Can Not Duplicate,Can Not Duplicate,Retest
+C ,13/08/2023,AMC,MB0807D-22,Can Not Duplicate,,No repair action was taken
+P ,13/08/2023,WCDDM TOP ASSY,MB1403A-00,Tester Issue,Tester,Fixed Test Equipment
+P ,13/08/2023,WCDDM TOP ASSY,MB1403A-00,Tester Issue,Tester,Retest
+C ,13/08/2023,"PWA, IOC BASE",006465J-00,Component Issue,Damage,Broken component
+C ,13/08/2023,"PWA, IOC BASE",006465J-00,Component Issue,Damage,Broken component
+P ,13/08/2023,CDDM TOP ASSY,MB1268D-03,Component Issue,electrical,Replaced/add Component
+C ,14/08/2023,AMC,MB0807D-22,Operator Mistake,Workmanship,Retest
+M ,14/08/2023,FDR,95-84-00100-01,SRU Issue,electrical,Replaced/add Component
+C ,14/08/2023,AMC,MB0807D-22,Assembly Issue,Hardware,Reassembly
+C ,14/08/2023,"PWA, SNOWRUNNER, 2CF VM",046198C-01,Component Issue,electrical,Broken component
+C ,15/08/2023,COMPUTER UNIT-TOP ASSY,MB1277J-01,SRU Issue,electrical,Replaced SRU
+C ,16/08/2023,COMPUTER UNIT-TOP ASSY,MB1277J-01,Defect LRU,RT,Repair
+C ,16/08/2023,COMPUTER UNIT- GEN-1,GB1277N-00,SRU Issue,electrical,Replaced SRU
+C ,17/08/2023,AMC,MB0807D-22,SRU Issue,Hardware,Replaced SRU
+C ,17/08/2023,AMC,MB0807D-22,Infrastructure,Infrastructure,Repair Infrastructure
+M ,17/08/2023,IFF UNIT,87-42-00100-00,SRU Issue,electrical,Replaced SRU
+C ,18/08/2023,AMC,MB0807D-22,Can Not Duplicate,Infrastructure,Fixed Test Equipment
+P ,18/08/2023,"NIGHT HUD, TOP ASSY",MB240A-03,Tester Issue,Tester,Retest
+C ,18/08/2023,AMC,MB0807D-22,Component Issue,Hardware,Replaced/add Component
+P ,20/08/2023,"NIGHT HUD, TOP ASSY",MB240A-03,Tester Issue,Tester,Retest
+C ,20/08/2023,AMC,MB0807D-22,SRU Issue,Hardware,Replaced SRU
+C ,20/08/2023,AMC,MB0807D-22,Coating Issue,Hardware,Replaced SRU
+C ,20/08/2023,AMC,MB0807D-22,SRU Issue,Hardware,Replaced SRU
+C ,20/08/2023,AMC,MB0807D-22,Operator Mistake,Workmanship,Retest
+C ,21/08/2023,AMC,MB0807D-22,Assembly Issue,Hardware,Reassembly
+C ,21/08/2023,DTD UNIT,MB0946C-07,SRU Issue,electrical,Replaced SRU
+M ,21/08/2023,CONTROLLER BOX ASSY,79-83-00300-02,Electrical Issue,electrical,Rework
+C ,22/08/2023,AMC,MB0807D-22,Can Not Duplicate,low temp,No repair action was taken
+C ,22/08/2023,AMC,MB0807D-22,Can Not Duplicate,,Retest
+M ,22/08/2023,CONTROLLER BOX ASSY,79-83-00300-02,Electrical Issue,electrical,Rework
+M ,22/08/2023,CONTROLLER BOX ASSY,79-83-00300-02,Electrical Issue,electrical,Rework
+M ,22/08/2023,CONTROLLER BOX ASSY,79-83-00300-02,Electrical Issue,electrical,Replaced/add Component
+C ,22/08/2023,AMC,MB0807D-22,Component Issue,Hardware,Replaced/add Component
+M ,22/08/2023,FLIGHT CONTROL UNIT (FCU) ASSY,MA812D-01,Component Issue,Mechanical,Rework
+P ,22/08/2023,WCDDM TOP ASSY,MB1403A-00,SRU Issue,Assembly,Re Calibration
+C ,23/08/2023,AMC,MB0807D-22,SRU Issue,Hardware,Replaced SRU
+P ,23/08/2023,WCNDM TOP ASSY,MB1402A-00,Tester Issue,electrical,Retest
+M ,23/08/2023,EFI BOARD ASSY,80-63-00010-04,Component Issue,electrical,Missing componet
+C ,23/08/2023,AMC,MB0807D-22,Tester Issue,Tester,Cable Issue
+C ,23/08/2023,COMPUTER UNIT-TOP ASSY,MB1277J-02,Defect LRU,RT,Repair
+C ,23/08/2023,COMPUTER UNIT-TOP ASSY,MB1277J-02,NFYC-Non failure yield calcula,Infrastructure,Repair Infrastructure
+P ,24/08/2023,OLED OPTICS ASSY,082712J-00,SRU Issue,Optical,Replaced SRU
+C ,24/08/2023,AMC,MB0807D-22,Can Not Duplicate,Can Not Duplicate,Rework
+P ,24/08/2023,"PWA, COBE",078898B-01,SRU Issue,electrical,Replaced SRU
+C ,27/08/2023,AMC,MB0807D-22,Component Issue,Hardware,Replaced/add Component
+C ,27/08/2023,AMC,MB0807D-22,SRU Issue,Hardware,Replaced SRU
+M ,27/08/2023,FLIGHT CONTROL UNIT (FCU) ASSY,MA812D-01,SRU Issue,electrical,Replaced SRU
+M ,27/08/2023,FLIGHT CONTROL UNIT (FCU) ASSY,MA812D-01,Component Issue,Mechanical,Replaced/add Component
+C ,27/08/2023,AMC,MB0807D-22,Damage Issue,Hardware,Replaced SRU
+C ,27/08/2023,AMC,MB0807D-22,SRU Issue,Hardware,Replaced SRU
+C ,27/08/2023,COMPUTER UNIT-TOP ASSY,MB1277J-01,SRU Issue,electrical,Replaced SRU
+C ,27/08/2023,COMPUTER UNIT-TOP ASSY,MB1277J-01,Defect LRU,low temp,Repair
+C ,27/08/2023,DTD UNIT,MB0946C-07,SRU Issue,electrical,Replaced SRU
+P ,27/08/2023,WCDDM TOP ASSY,MB1403A-00,Tester Issue,Tester,Replaced SRU
+P ,27/08/2023,WCNDM TOP ASSY,MB1402R-00,Operator Mistake,Document,Repair
+C ,27/08/2023,COMPUTER UNIT-TOP ASSY,MB1277J-01,SRU Issue,electrical,Replaced SRU
+C ,27/08/2023,AMC,MB0807D-22,Tester Issue,Tester,Cable Issue
+P ,28/08/2023,CDDM TOP ASSY,MB1268D-03,Component Issue,electrical,Replaced/add Component
+P ,28/08/2023,WCDDM TOP ASSY,MB1403A-00,SRU Issue,electrical,Re Calibration
+M ,28/08/2023,VMSC,915-30-00100-00,SRU Issue,electrical,Replaced/add Component
+C ,29/08/2023,AMC,MB0807D-22,SRU Issue,Hardware,Replaced SRU
+P ,29/08/2023,WCDDM TOP ASSY,MB1403B-01,OPERATOR MISTAKE KABAM,Workmanship,Retest
+P ,29/08/2023,WCDDM TOP ASSY,MB1403A-00,Component Issue,Mechanical,Replaced/add Component
+C ,29/08/2023,AMC,MB0807D-22,SRU Issue,Hardware,Replaced SRU
+C ,29/08/2023,"TRAY, COMPUTER UNIT",055108A-01,Defect LRU,RT,Repair
+M ,29/08/2023,POWER SUPPLY,501-31-00500-01,Component Issue,electrical,Replaced/add Component
+C ,30/08/2023,AMC,MB0807D-22,SRU Issue,Hardware,Replaced SRU
+M ,30/08/2023,EFI BOARD ASSY,80-63-00010-04,Component Issue,electrical,Replaced/add Component
+C ,30/08/2023,AMC,MB0807D-22,Infrastructure,Infrastructure,Retest
+P ,31/08/2023,WCNDM TOP ASSY,MB1402A-00,SRU Issue,electrical,Re Calibration
+M ,31/08/2023,VMSC,915-30-00100-00,SRU Issue,low temp,Replaced/add Component
+C ,31/08/2023,AMC,MB0807D-22,Tester Issue,Tester,Retest
+P ,31/08/2023,PROJECTION ASSY,112835A-00,SRU Issue,electrical,Replaced SRU
+P ,31/08/2023,WCDDM TOP ASSY,MB1403A-00,SRU Issue,electrical,Replaced SRU
+C ,31/08/2023,COMPUTER UNIT- GEN-1,GB1277N-00,NFYC-Non failure yield calcula,Infrastructure,Repair Infrastructure
+C ,03/09/2023,AMC,MB0807D-22,SRU Issue,Hardware,Replaced SRU
+M ,03/09/2023,CONTROLLER BOX ASSY,79-83-00300-02,Tester Issue,Tester,Retest
+C ,04/09/2023,COMPUTER UNIT- GEN-1,GB1277N-00,Defect LRU,HT,Repair
+C ,04/09/2023,AMC,MB0807D-22,Tester Issue,Tester,Changed Test Equipment
+C ,04/09/2023,AMC,MB0807D-22,Tester Issue,Tester,Retest
+C ,04/09/2023,AMC,MB0807D-22,Tester Issue,Tester,Fixed Test Equipment
+C ,04/09/2023,AMC,MB0807D-22,Tester Issue,Tester,Retest
+C ,04/09/2023,AMC,MB0807D-22,Assembly Issue,Hardware,Reassembly
+C ,04/09/2023,AMC,MB0807D-22,SRU Issue,Hardware,Replaced SRU
+C ,04/09/2023,AMC,MB0807D-22,SRU Issue,Hardware,Replaced SRU
+M ,04/09/2023,GVIU MODULE TOP ASSY,MB669B-03,SRU Issue,electrical,Replaced SRU
+C ,04/09/2023,AMC,MB0807D-22,Can Not Duplicate,Can Not Duplicate,No repair action was taken
+C ,04/09/2023,DTD UNIT,MB0946C-41,SRU Issue,Hardware,Replaced SRU
+P ,05/09/2023,"PWA, INTERFACE, MHU (LF)",067443A-02,SRU Issue,electrical,Replaced SRU
+P ,05/09/2023,OLED OPTICS ASSY,082712J-00,SRU Issue,Optical,Replaced SRU
+P ,05/09/2023,WCNDM TOP ASSY,MB1402A-00,Visual Inspection,Damage,Replaced/add Component
+P ,06/09/2023,WCDDM TOP ASSY,MB1403A-00,Tester Issue,Tester,Retest
+C ,06/09/2023,AMC,MB0807D-22,SRU Issue,Hardware,Replaced SRU
+C ,06/09/2023,COMPUTER UNIT-TOP ASSY,MB1277J-01,SRU Issue,electrical,Replaced SRU
+C ,06/09/2023,COMPUTER UNIT-TOP ASSY,MB1277U-00,Damage Issue,Mechanical,Replaced/add Component
+P ,07/09/2023,WCDDM TOP ASSY,MB1403A-00,Tester Issue,Tester,Changed Test Equipment
+C ,07/09/2023,AMC,MB0807D-22,Tester Issue,Tester,Changed Test Equipment
+C ,08/09/2023,DTD UNIT,MB0946C-41,SRU Issue,electrical,Replaced SRU
+P ,10/09/2023,WCDDM TOP ASSY,MB1403A-00,OPERATOR MISTAKE KABAM,Workmanship,No repair action was taken
+C ,10/09/2023,AMC,MB0807D-22,Can Not Duplicate,Can Not Duplicate,Retest
+C ,11/09/2023,COMPUTER UNIT-TOP ASSY,MB1277J-01,Defect LRU,RT,Reprograming
+C ,11/09/2023,DTD UNIT,MB0946C-07,SRU Issue,electrical,Replaced SRU
+C ,11/09/2023,DTD UNIT,MB0946C-07,SRU Issue,electrical,Replaced SRU
+C ,11/09/2023,AMC,MB0807D-22,Tester Issue,Tester,Changed Test Equipment
+P ,11/09/2023,WCNDM TOP ASSY,MB1402A-00,Component Issue,electrical,Replaced/add Component
+C ,12/09/2023,AMC,MB0807D-22,SRU Issue,Hardware,Rework
+C ,12/09/2023,AMC,MB0807D-22,Tester Issue,Tester,Retest
+C ,12/09/2023,AMC,MB0807D-22,SRU Issue,Hardware,Replaced SRU
+M ,13/09/2023,PDCR,602-31-00140-02,Tester Issue,Tester,Retest
+M ,13/09/2023,PDCR,602-31-00140-02,Tester Issue,Tester,Retest
+M ,13/09/2023,I.C BOARD ASSY,85-31-00230-04,Component Issue,electrical,Replaced/add Component
+P ,13/09/2023,WCDDM TOP ASSY,MB1403A-00,Tester Issue,Tester,Retest
+M ,13/09/2023,PDCR,602-31-00140-02,Tester Issue,Tester,Retest
+C ,14/09/2023,DTD UNIT,MB0946C-41,Defect LRU,RT,Repair
+M ,14/09/2023,LG SIM ASSY,950-31-00400-04,OPERATOR MISTAKE KABAM,Workmanship,Retest
+C ,18/09/2023,AMC,MB0807D-22,SRU Issue,Hardware,Replaced SRU
+P ,18/09/2023,WCDDM TOP ASSY,MB1403A-00,Tester Issue,Tester,Retest
+M ,18/09/2023,VMSC,97-30-31000-05,Documentation Issue,Workmanship,No repair action was taken
+P ,18/09/2023,BWCNDM TOP ASSY,MB2402A-00,Tester Issue,Engineering,Fixed Test Equipment
+P ,19/09/2023,WCDDM TOP ASSY,MB1403A-00,SRU Issue,electrical,Replaced SRU
+C ,19/09/2023,,,SRU Issue,Hardware,Replaced SRU
+P ,19/09/2023,WCNDM TOP ASSY,MB1402A-00,Documentation Issue,Document,Rework
+M ,19/09/2023,EFI INTERFACE UNIT,80-63-00050-04,Electrical Issue,,Rework
+C ,19/09/2023,COMPUTER UNIT- GEN-1,GB1277N-00,Tester Issue,low temp,Retest
+C ,19/09/2023,AMC,MB0807D-22,SRU Issue,Hardware,Replaced SRU
+P ,20/09/2023,WCNDM TOP ASSY,MB1402A-00,SRU Issue,electrical,Re Calibration
+C ,20/09/2023,COMPUTER UNIT- GEN-1,GB1277N-00,SRU Issue,Software,Replaced SRU
+M ,21/09/2023,ANTENNA INTERFACE,951-35-00110-01,Tester Issue,Tester,Retest
+M ,21/09/2023,ANTENNA INTERFACE,75-35-00200-00,OPERATOR MISTAKE KABAM,Workmanship,Retest
+C ,26/09/2023,AMC,MB0807D-22,SRU Issue,Hardware,Replaced SRU
+C ,26/09/2023,AMC,MB0807D-22,Can Not Duplicate,Engineering,No repair action was taken
+C ,26/09/2023,AMC,MB0807D-22,Tester Issue,Tester,Retest
+P ,26/09/2023,OLED OPTICS ASSY,082712J-00,Operator Mistake,Workmanship,Rework
+C ,26/09/2023,AMC,MB0807D-22,Tester Issue,Tester,Fixed Test Equipment
+C ,26/09/2023,AMC,MB0807D-22,SRU Issue,low temp,Replaced SRU
+C ,26/09/2023,AMC,MB0807D-22,Tester Issue,Tester,Retest
+C ,26/09/2023,AMC,MB0807D-22,Tester Issue,Tester,Fixed Test Equipment
+M ,26/09/2023,CON. BOARD ASSY,79-83-00200-03,Component Issue,electrical,Replaced/add Component
+M ,27/09/2023,VMSC,915-30-00100-00,SRU Issue,electrical,Replaced/add Component
+C ,27/09/2023,AMC,MB0807D-22,Tester Issue,Tester,Retest
+C ,28/09/2023,COMPUTER UNIT- GEN-1,GB1277N-00,SRU Issue,electrical,Replaced SRU
+M ,28/09/2023,SMART SIM ASSY,950-31-00350-02,Electrical Issue,electrical,Replaced SRU
+P ,28/09/2023,"NIGHT HUD, TOP ASSY",MB240A-03,Tester Issue,low temp,Fixed Test Equipment
+C ,28/09/2023,AMC,MB0807D-22,SRU Issue,Hardware,Replaced SRU
+M ,28/09/2023,EFI INTERFACE UNIT,80-63-00050-04,For testing,HT,Retest
+M ,28/09/2023,EFI INTERFACE UNIT,80-63-00050-04,For testing,low temp,Retest
+C ,05/10/2023,AMC,MB0807D-22,Component Issue,Hardware,Replaced/add Component
+P ,08/10/2023,"PWA, COMMON DRIVER",074637A-00,Component Issue,Workmanship,Replaced/add Component
+M ,08/10/2023,POWER QUICC II CORE PROC. ASSY,97-05-31016-01,Component Issue,Workmanship,Replaced/add Component
+C ,08/10/2023,COMPUTER UNIT-TOP ASSY,MB1277J-30,Tester Issue,RT,Retest
+M ,09/10/2023,DRPB BOARD ASSY,915-30-00080-00,Component Issue,electrical,Replaced/add Component
+C ,09/10/2023,COMPUTER UNIT- GEN-1,GB1277N-00,SRU Issue,electrical,No repair action was taken
+M ,09/10/2023,DRPB BOARD ASSY,915-30-00080-00,Component Issue,electrical,Replaced/add Component
+M ,11/10/2023,EPDU PDU - II BOARD ASSY,96-31-00010-01,Component Issue,electrical,Replaced/add Component
+C ,11/10/2023,AMC,MB0807D-22,Infrastructure,Infrastructure,Retest
+C ,11/10/2023,AMC,MB0807D-22,Infrastructure,Infrastructure,Retest
+C ,11/10/2023,AMC,MB0807D-22,Assembly Issue,Hardware,Reassembly
+M ,11/10/2023,MPU BOARD ASSY,97-30-30013-02,Component Issue,electrical,Replaced/add Component
+M ,11/10/2023,SMART SIM ASSY,950-31-00350-02,Electrical Issue,electrical,Replaced/add Component
+P ,11/10/2023,WCNDM TOP ASSY,MB1402A-00,OPERATOR MISTAKE KABAM,Workmanship,Retest
+C ,11/10/2023,AMC,MB0807D-22,Tester Issue,Tester,Retest
+C ,11/10/2023,COMPUTER UNIT-TOP ASSY,MB1277J-01,SRU Issue,electrical,Replaced SRU
+C ,12/10/2023,AMC,MB0807D-22,SRU Issue,Hardware,Replaced SRU
+C ,12/10/2023,AMC,MB0807D-22,SRU Issue,Hardware,Replaced SRU
+P ,14/10/2023,"BI EYE PIECE, ASSY",112211A-02,Tester Issue,Engineering,Fixed Test Equipment
+P ,15/10/2023,"NIGHT HUD, TOP ASSY",MB240A-03,Damage Issue,Damage,Rework
+C ,15/10/2023,AMC,MB0807D-22,Can Not Duplicate,Engineering,No repair action was taken
+C ,15/10/2023,AMC,MB0807D-22,Can Not Duplicate,Engineering,No repair action was taken
+C ,15/10/2023,AMC,MB0807D-22,SRU Issue,Hardware,Replaced SRU
+P ,15/10/2023,"NIGHT HUD, TOP ASSY",MB240A-03,Damage Issue,Damage,Replaced/add Component
+C ,16/10/2023,AMC,MB0807D-22,Tester Issue,Tester,Retest
+M ,16/10/2023,PDCR,602-31-00140-02,Tester Issue,Tester,Retest
+C ,16/10/2023,AMC,MB0807D-22,Design Issue,Engineering,No repair action was taken
+C ,16/10/2023,AMC,MB0807D-22,Tester Issue,Tester,No repair action was taken
+C ,16/10/2023,AMC,MB0807D-22,SRU Issue,Hardware,Rework
+C ,17/10/2023,AMC,MB0807D-22,SRU Issue,Hardware,Replaced SRU
+P ,17/10/2023,WCDDM TOP ASSY,MB1403A-00,Visual Inspection,HT,No repair action was taken
+C ,17/10/2023,COMPUTER UNIT-TOP ASSY,MB1277J-01,SRU Issue,electrical,Replaced SRU
+C ,17/10/2023,AMC,MB0807D-22,SRU Issue,Hardware,Replaced SRU
+M ,19/10/2023,I.C BOARD ASSY,85-31-00230-04,Component Issue,electrical,Replaced/add Component
+C ,19/10/2023,AMC,MB0807D-22,SRU Issue,Damage,Replaced/add Component
+C ,19/10/2023,AMC,MB0807D-22,SRU Issue,Hardware,Rework
+C ,19/10/2023,AMC,MB0807D-22,Tester Issue,Tester,Changed Test Equipment
+C ,20/10/2023,AMC,MB0807D-22,SRU Issue,Hardware,Replaced SRU
+C ,20/10/2023,AMC,MB0807D-22,Tester Issue,Tester,Fixed Test Equipment
+C ,20/10/2023,AMC,MB0807D-22,Infrastructure,Infrastructure,Retest
+C ,20/10/2023,AMC,MB0807D-22,Cleaning Issue,Assembly,Rework
+C ,20/10/2023,AMC,MB0807D-22,SRU Issue,Hardware,Replaced SRU
+M ,22/10/2023,RMSC,93-30-00200-05,Cleaning Issue,electrical,Cleaning
+P ,22/10/2023,"NIGHT HUD, TOP ASSY",MB240A-03,Tester Issue,Tester,Retest
+M ,22/10/2023,TADU BOARD ASSY,602-36-00110-02,Electrical Issue,electrical,Replaced/add Component
+C ,22/10/2023,AMC,MB0807D-22,Electrical Issue,electrical,Rework
+P ,22/10/2023,"NIGHT HUD, TOP ASSY",MB240A-03,Tester Issue,Tester,Retest
+P ,22/10/2023,"NIGHT HUD, TOP ASSY",MB240A-03,Tester Issue,Tester,Retest
+P ,22/10/2023,WCNDM TOP ASSY,MB1402A-00,Tester Issue,Hardware,Rework
+P ,23/10/2023,WCNDM TOP ASSY,MB1402R-00,OPERATOR MISTAKE KABAM,Workmanship,Reassembly
+C ,23/10/2023,"PWA, SNOWRUNNER GRAPHICS II",018752K-01,Soldering Issue,Workmanship,Replaced/add Component
+C ,23/10/2023,"PWA, SNOWRUNNER HD",078008A-01,Soldering Issue,Workmanship,Replaced/add Component
+C ,23/10/2023,COMPUTER UNIT-TOP ASSY,MB1277J-01,SRU Issue,electrical,Replaced SRU
+M ,23/10/2023,PDCR,602-31-00140-02,Tester Issue,Tester,Retest
+C ,24/10/2023,AMC,MB0807D-22,SRU Issue,Hardware,Replaced SRU
+C ,24/10/2023,AMC,MB0807D-22,SRU Issue,Hardware,Replaced SRU
+C ,25/10/2023,AMC,MB0807D-22,SRU Issue,Hardware,Replaced SRU
+P ,25/10/2023,CABLE AND DRIVER NIGHT ASSY,018875A-01,SRU Issue,electrical,Replaced SRU
+P ,25/10/2023,WCDDM TOP ASSY,MB1403A-00,Component Issue,electrical,Replaced/add Component
+P ,25/10/2023,WCDDM TOP ASSY,MB1403A-00,SRU Issue,electrical,Re Calibration
+P ,25/10/2023,PROJECTION ASSY,112835A-00,SRU Issue,Optical,Replaced SRU
+M ,26/10/2023,OPTOCOUPLER SIM BOARD ASSY,951-30-00006-00,Component Issue,electrical,Broken component
+C ,26/10/2023,AMC,MB0807D-22,Tester Issue,Tester,Retest
+P ,29/10/2023,WCDDM TOP ASSY,MB1403A-00,Assembly Issue,Mechanical,Reassembly
+P ,29/10/2023,"PWA, INTERFACE, MHU (LF)",067443A-02,SRU Issue,electrical,Replaced SRU
+P ,29/10/2023,WCNDM TOP ASSY,MB1402R-00,OPERATOR MISTAKE KABAM,Workmanship,Retest
+M ,29/10/2023,VMSC,95-30-00100-04,Cleaning Issue,low temp,Cleaning
+C ,29/10/2023,AMC,MB0807D-22,Component Issue,Hardware,Replaced/add Component
+M ,29/10/2023,VMSC,95-30-00100-04,Cleaning Issue,low temp,Cleaning
+C ,29/10/2023,COMPUTER UNIT- GEN-1,GB1277N-00,Tester Issue,low temp,Retest
+M ,29/10/2023,PDCR,602-31-00140-02,Tester Issue,Tester,Retest
+M ,29/10/2023,PDCR,602-31-00140-02,Tester Issue,Tester,Retest
+M ,29/10/2023,PDCR,602-31-00140-02,Tester Issue,Tester,Retest
+M ,29/10/2023,PDCR,602-31-00140-02,Tester Issue,Tester,Retest
+P ,29/10/2023,NDM TOP ASSY,MB240U-01,Documentation Issue,Document,Rework
+C ,30/10/2023,AMC,MB0807D-22,Tester Issue,Tester,Changed Test Equipment
+C ,30/10/2023,AMC,MB0807D-22,SRU Issue,Hardware,Retest
+C ,30/10/2023,COMPUTER UNIT- GEN-1,GB1277N-00,Infrastructure,low temp,Retest
+M ,30/10/2023,CON. BOARD ASSY,79-83-00200-03,SRU Issue,electrical,Replaced/add Component
+C ,30/10/2023,AMC,MB0807D-22,Damage Issue,electrical,Cleaning
+M ,30/10/2023,TADU BOARD ASSY,602-36-00110-02,Electrical Issue,electrical,Replaced/add Component
+P ,30/10/2023,WCDDM TOP ASSY,MB1403A-00,OPERATOR MISTAKE KABAM,Workmanship,Retest
+C ,30/10/2023,AMC,MB0807D-22,SRU Issue,Hardware,Replaced SRU
+C ,31/10/2023,AMC,MB0807D-22,SRU Issue,Hardware,Replaced SRU
+C ,31/10/2023,AMC,MB0807D-22,Tester Issue,Tester,Changed Test Equipment
+C ,31/10/2023,COMPUTER UNIT- GEN-1,GB1277N-00,SRU Issue,electrical,Replaced SRU
+M ,31/10/2023,PDCR,602-31-00140-02,SRU Issue,electrical,Replaced/add Component
+C ,31/10/2023,COMPUTER UNIT-TOP ASSY,MB1277J-01,SRU Issue,electrical,Replaced SRU
+M ,31/10/2023,FLIGHT CONTROL UNIT (FCU) ASSY,MA812D-01,Tester Issue,low temp,Retest
+P ,31/10/2023,WCDDM TOP ASSY,MB1403A-00,Tester Issue,Tester,Retest
+P ,01/11/2023,PWA PS-ANA-DIG,87613A-02,SRU Issue,electrical,Replaced SRU
+P ,01/11/2023,"FLAT DAY HUD(FDH),TOP ASSY",MB386A-08,Tester Issue,Tester,Fixed Test Equipment
+P ,01/11/2023,WCNDM TOP ASSY,MB1402A-00,Tester Issue,Tester,Retest
+C ,01/11/2023,AMC,MB0807D-22,Tester Issue,Tester,Retest
+C ,01/11/2023,AMC,MB0807D-22,Tester Issue,Tester,Retest
+P ,01/11/2023,WCDDM TOP ASSY,MB1403A-00,Visual Inspection,Mechanical,No repair action was taken
+P ,02/11/2023,"PWA, INTERFACE, MHU (LF)",067443A-02,SRU Issue,electrical,Replaced SRU
+M ,02/11/2023,FLIGHT CONTROL UNIT (FCU) ASSY,MA812D-01,For testing,No Problem,Retest
+C ,02/11/2023,AMC,MB0807D-22,Assembly Issue,Assembly,Reassembly
+P ,02/11/2023,WCDDM TOP ASSY,MB1403A-00,Assembly Issue,Mechanical,Reassembly
+C ,02/11/2023,DTD UNIT,MB0946C-07,SRU Issue,electrical,Replaced SRU
+C ,02/11/2023,AMC,MB0807D-22,SRU Issue,Hardware,Replaced SRU
+P ,02/11/2023,WCNDM TOP ASSY,MB1402A-00,Tester Issue,Tester,Changed Test Equipment
+M ,05/11/2023,GRIP LEFT HAND,915-05-00150-00,Documentation Issue,Workmanship,Documentation correction
+M ,05/11/2023,GRIP LEFT HAND,915-05-00150-00,Documentation Issue,Workmanship,Documentation correction
+M ,05/11/2023,GRIP LEFT HAND,915-05-00150-00,Documentation Issue,Workmanship,Documentation correction
+M ,05/11/2023,GRIP LEFT HAND,915-05-00150-00,Documentation Issue,Workmanship,Documentation correction
+M ,05/11/2023,GRIP LEFT HAND,915-05-00150-00,Documentation Issue,Workmanship,Documentation correction
+M ,05/11/2023,GRIP LEFT HAND,915-05-00150-00,Documentation Issue,Workmanship,Documentation correction
+P ,05/11/2023,PROJECTION ASSY,112835A-00,SRU Issue,Optical,Replaced SRU
+P ,05/11/2023,WCNDM TOP ASSY,MB1402A-00,OPERATOR MISTAKE KABAM,Workmanship,Retest
+P ,05/11/2023,WCNDM TOP ASSY,MB1402A-00,OPERATOR MISTAKE KABAM,Workmanship,Retest
+C ,05/11/2023,AMC,MB0807D-22,Assembly Issue,Hardware,Reassembly
+P ,06/11/2023,DAY DISPLAY MODULE,MB386G-00,SRU Issue,Optical,Re Calibration
+C ,07/11/2023,AMC,MB0807D-22,Assembly Issue,Hardware,Reassembly
+P ,07/11/2023,BWCNDM TOP ASSY,MB2402A-00,OPERATOR MISTAKE KABAM,Workmanship,Retest
+P ,07/11/2023,BWCNDM TOP ASSY,MB2402A-00,OPERATOR MISTAKE KABAM,Workmanship,Retest
+M ,07/11/2023,MICRO I/O BOARD ASSY,97-30-31004-05,SRU Issue,electrical,Replaced SRU
+P ,07/11/2023,OPTICAL UNIT ASSY,42612A-03,SRU Issue,Optical,Replaced SRU
+C ,08/11/2023,AMC,MB0807D-22,Tester Issue,Tester,Changed Test Equipment
+C ,08/11/2023,AMC,MB0807D-22,Tester Issue,Tester,Fixed Test Equipment
+C ,08/11/2023,AMC,MB0807D-22,SRU Issue,Hardware,Replaced SRU
+C ,08/11/2023,AMC,MB0807D-22,SRU Issue,Hardware,Replaced SRU
+C ,08/11/2023,AMC,MB0807D-22,Tester Issue,Tester,Retest
+C ,08/11/2023,AMC,MB0807D-22,Tester Issue,Tester,Changed Test Equipment
+C ,08/11/2023,AMC,MB0807D-22,Tester Issue,Tester,Fixed Test Equipment
+C ,08/11/2023,AMC,MB0807D-22,SRU Issue,Hardware,Replaced SRU
+C ,08/11/2023,AMC,MB0807D-22,SRU Issue,Hardware,Replaced SRU
+C ,08/11/2023,COMPUTER UNIT-TOP ASSY,MB1277J-01,SRU Issue,electrical,Replaced SRU
+C ,08/11/2023,AMC,MB0807D-22,SRU Issue,Hardware,Replaced SRU
+C ,09/11/2023,COMPUTER UNIT-TOP ASSY,MB1277J-02,Defect LRU,RT,Rework
+C ,09/11/2023,AMC,MB0807D-22,Tester Issue,Hardware,Retest
+C ,09/11/2023,AMC,MB0807D-22,Tester Issue,Tester,Changed Test Equipment
+C ,09/11/2023,AMC,MB0807D-22,Tester Issue,Tester,Changed Test Equipment
+M ,09/11/2023,VMSC,915-30-00100-01,SRU Issue,electrical,Replaced SRU
+M ,09/11/2023,VMSC,915-30-00100-01,Cleaning Issue,electrical,Cleaning
+C ,09/11/2023,AMC,MB0807D-22,Tester Issue,Tester,Retest
+C ,09/11/2023,AMC,MB0807D-22,Tester Issue,Tester,Changed Test Equipment
+C ,09/11/2023,AMC,MB0807D-22,SRU Issue,Hardware,Replaced SRU
+C ,09/11/2023,AMC,MB0807D-22,SRU Issue,Hardware,Replaced SRU
+C ,10/11/2023,AMC,MB0807D-22,SRU Issue,Hardware,Replaced SRU
+P ,12/11/2023,BWCNDM TOP ASSY,MB2402A-00,OPERATOR MISTAKE KABAM,Workmanship,Retest
+C ,12/11/2023,AMC,MB0807D-22,SRU Issue,Hardware,Replaced SRU
+C ,13/11/2023,"PWA, DISPLY GENERATOR-CECILE",4.83E+03,SRU Issue,Assembly,No repair action was taken
+M ,13/11/2023,TADU BOARD ASSY,602-36-00110-02,Electrical Issue,electrical,Replaced/add Component
+M ,13/11/2023,TADU BOARD ASSY,602-36-00110-02,Electrical Issue,electrical,Replaced/add Component
+C ,13/11/2023,COMPUTER UNIT-TOP ASSY,MB1277J-02,SRU Issue,RT,Replaced SRU
+P ,14/11/2023,LCD ASSY,112836A-00,Tester Issue,Tester,Re Calibration
+P ,14/11/2023,WCDDM TOP ASSY,MB1403A-00,SRU Issue,electrical,Re Calibration
+P ,14/11/2023,"NIGHT HUD, TOP ASSY",MB240A-03,OPERATOR MISTAKE KABAM,Workmanship,Retest
+P ,14/11/2023,WCDDM TOP ASSY,MB1403A-00,SRU Issue,electrical,Replaced SRU
+C ,14/11/2023,AMC,MB0807D-22,Tester Issue,Tester,Retest
+C ,14/11/2023,AMC,MB0807D-22,Tester Issue,Tester,Retest
+P ,14/11/2023,"LCD ASSY, FLEX REPL WM",077668A-00,SRU Issue,electrical,Replaced SRU
+M ,14/11/2023,GRIP LEFT HAND,915-05-00150-00,Documentation Issue,Workmanship,Documentation correction
+M ,14/11/2023,GRIP LEFT HAND,915-05-00150-00,Documentation Issue,Workmanship,Documentation correction
+M ,14/11/2023,GRIP LEFT HAND,915-05-00150-00,Documentation Issue,Workmanship,Documentation correction
+C ,15/11/2023,AMC,MB0807D-22,Connector Issue,Damage,Replaced SRU
+M ,15/11/2023,TADU BOARD ASSY,602-36-00110-02,Calibration Issue,electrical,Replaced/add Component
+M ,15/11/2023,TADU BOARD ASSY,602-36-00110-02,Calibration Issue,electrical,Replaced/add Component
+P ,16/11/2023,WCDDM TOP ASSY,MB1403A-00,ECO,electrical,Preform ECO
+M ,16/11/2023,CONTROLLER BOX ASSY,79-83-00300-02,Component Issue,RT,Replaced/add Component
+M ,19/11/2023,PWA CPU,14920B-03,Electrical Issue,electrical,Replaced/add Component
+M ,19/11/2023,VMSC,915-30-00100-01,SRU Issue,electrical,Replaced/add Component
+M ,19/11/2023,FLIGHT CONTROL UNIT (FCU) ASSY,MA812D-01,Electrical Issue,electrical,Rework
+C ,19/11/2023,COMPUTER UNIT-TOP ASSY,MB1277J-01,SRU Issue,electrical,Replaced SRU
+C ,19/11/2023,COMPUTER UNIT- GEN-1,GB1277N-00,Tester Issue,Tester,Retest
+P ,19/11/2023,OLED OPTICS ASSY,082712J-00,OPERATOR MISTAKE ELBIT,Workmanship,No repair action was taken
+C ,20/11/2023,AMC,MB0807D-22,SRU Issue,electrical,Replaced SRU
+M ,20/11/2023,SMART SIM ASSY,950-31-00350-02,Assembly Issue,Mechanical,Replaced SRU
+M ,20/11/2023,SMART SIM ASSY,950-31-00350-02,Assembly Issue,Mechanical,Rework
+M ,20/11/2023,SMART SIM ASSY,950-31-00350-02,Assembly Issue,Mechanical,Rework
+M ,20/11/2023,SMART SIM ASSY,950-31-00350-02,Assembly Issue,Mechanical,Rework
+M ,20/11/2023,SMART SIM ASSY,950-31-00350-02,Assembly Issue,Mechanical,Rework
+M ,20/11/2023,SMART SIM ASSY,950-31-00350-02,Assembly Issue,Mechanical,Rework
+M ,20/11/2023,SMART SIM ASSY,950-31-00350-02,Assembly Issue,Mechanical,Rework
+M ,20/11/2023,SMART SIM ASSY,950-31-00350-02,Assembly Issue,Mechanical,Rework
+M ,20/11/2023,SMART SIM ASSY,950-31-00350-02,Assembly Issue,Mechanical,Rework
+M ,20/11/2023,SMART SIM ASSY,950-31-00350-02,Assembly Issue,Mechanical,Rework
+M ,20/11/2023,SMART SIM ASSY,950-31-00350-02,Assembly Issue,Mechanical,Rework
+M ,20/11/2023,SMART SIM ASSY,950-31-00350-02,Assembly Issue,Mechanical,Rework
+M ,20/11/2023,SMART SIM ASSY,950-31-00350-02,Assembly Issue,Mechanical,Rework
+M ,20/11/2023,SMART SIM ASSY,950-31-00350-02,Assembly Issue,Mechanical,Rework
+C ,21/11/2023,AMC,MB0807D-22,SRU Issue,Hardware,Replaced SRU
+C ,21/11/2023,DTD UNIT,MB0946C-41,SRU Issue,Software,Replaced SRU
+C ,22/11/2023,AMC,MB0807D-22,Tester Issue,Tester,Changed Test Equipment
+C ,22/11/2023,COMPUTER UNIT-TOP ASSY,MB1277J-01,SRU Issue,electrical,Replaced SRU
+P ,22/11/2023,WCNDM TOP ASSY,MB1402A-00,SRU Issue,TE CALL NO,Re Calibration
+C ,22/11/2023,COMPUTER UNIT- GEN-1,GB1277N-00,SRU Issue,electrical,Replaced SRU
+P ,22/11/2023,PWA PS-ANA-DIG,115961A-01,SRU Issue,electrical,Replaced SRU
+P ,22/11/2023,PWA PS-ANA-DIG,115961A-01,SRU Issue,electrical,Replaced SRU
+C ,22/11/2023,COMPUTER UNIT-TOP ASSY,MB1277J-01,Tester Issue,HT,Retest
+C ,23/11/2023,AMC,MB0807D-22,Tester Issue,Tester,Rework
+M ,26/11/2023,SPDU,950-31-00100-01,SRU Issue,electrical,Replaced/add Component
+C ,26/11/2023,AMC,MB0807D-22,Component Issue,Hardware,Replaced/add Component
+C ,26/11/2023,AMC,MB0807D-22,SRU Issue,Hardware,Replaced SRU
+C ,26/11/2023,AMC,MB0807D-22,SRU Issue,Hardware,Rework
+C ,26/11/2023,AMC,MB0807D-22,Tester Issue,Tester,Changed Test Equipment
+C ,26/11/2023,AMC,MB0807D-22,SRU Issue,Hardware,Replaced SRU
+M ,26/11/2023,RMSC,93-30-00200-05,SRU Issue,electrical,Replaced SRU
+C ,26/11/2023,COMPUTER UNIT- GEN-1,GB1277N-00,Tester Issue,HT,Retest
+C ,26/11/2023,COMPUTER UNIT- GEN-1,GB1277N-00,Infrastructure,RT,No repair action was taken
+C ,26/11/2023,AMC,MB0807D-22,Tester Issue,Tester,Changed Test Equipment
+C ,26/11/2023,,,Tester Issue,Tester,Changed Test Equipment
+C ,27/11/2023,AMC,MB0807D-22,Tester Issue,Tester,Retest
+C ,27/11/2023,AMC,MB0807D-22,Tester Issue,Tester,Changed Test Equipment
+C ,27/11/2023,AMC,MB0807D-22,Tester Issue,Tester,Fixed Test Equipment
+M ,27/11/2023,FLIGHT CONTROL UNIT (FCU) ASSY,MA812D-01,For testing,low temp,Retest
+C ,27/11/2023,AMC,MB0807D-22,Tester Issue,Tester,Cable Issue
+C ,27/11/2023,AMC,MB0807D-22,Tester Issue,Tester,Retest
+C ,27/11/2023,AMC,MB0807D-22,SRU Issue,Hardware,Replaced SRU
+C ,27/11/2023,AMC,MB0807D-22,Tester Issue,Tester,Retest
+C ,28/11/2023,DTD UNIT,MB0946C-41,SRU Issue,electrical,Replaced SRU
+M ,28/11/2023,VMSC,915-30-00100-01,SRU Issue,electrical,Replaced/add Component
+M ,28/11/2023,TADU BOARD ASSY,602-36-00110-02,Electrical Issue,electrical,Replaced/add Component
+C ,28/11/2023,AMC,MB0807D-22,SRU Issue,Hardware,Replaced SRU
+C ,28/11/2023,AMC,MB0807D-22,SRU Issue,Hardware,Replaced SRU
+M ,29/11/2023,VMSC,915-30-00100-01,SRU Issue,low temp,No repair action was taken
+M ,29/11/2023,VMSC,915-30-00100-01,SRU Issue,electrical,No repair action was taken
+M ,29/11/2023,PDCR,602-31-00140-02,Tester Issue,Tester,Retest
+C ,29/11/2023,AMC,MB0807D-22,Assembly Issue,Hardware,Reassembly
+M ,29/11/2023,VMSC,915-30-00100-01,SRU Issue,low temp,No repair action was taken
+C ,30/11/2023,AMC,MB0807D-22,Tester Issue,Tester,Retest
+C ,30/11/2023,AMC,MB0807D-22,Tester Issue,Tester,Retest
+C ,30/11/2023,AMC,MB0807D-22,Assembly Issue,Hardware,Reassembly
+C ,30/11/2023,DTD UNIT,MB0946C-41,SRU Issue,electrical,Replaced SRU
+C ,30/11/2023,"PWA, IOC BASE",006465J-00,Component Issue,electrical,Replaced/add Component
+P ,30/11/2023,WCDDM TOP ASSY,MB1403A-00,SRU Issue,electrical,Re Calibration
+C ,30/11/2023,AMC,MB0807D-22,SRU Issue,Hardware,Replaced SRU
+C ,01/12/2023,AMC,MB0807D-22,Component Issue,Hardware,Replaced/add Component
+C ,01/12/2023,AMC,MB0807D-22,SRU Issue,Hardware,Replaced SRU
+M ,03/12/2023,TADU BOARD ASSY,602-36-00110-02,Component Issue,electrical,Replaced/add Component
+M ,03/12/2023,TADU BOARD ASSY,602-36-00110-02,Component Issue,electrical,Replaced/add Component
+M ,03/12/2023,TADU BOARD ASSY,602-36-00110-02,Component Issue,electrical,Replaced/add Component
+M ,03/12/2023,TADU BOARD ASSY,602-36-00110-02,Component Issue,electrical,Replaced/add Component
+M ,03/12/2023,TADU BOARD ASSY,602-36-00110-02,Component Issue,electrical,Replaced/add Component
+M ,03/12/2023,TADU BOARD ASSY,602-36-00110-02,Component Issue,electrical,Replaced/add Component
+M ,03/12/2023,TADU BOARD ASSY,602-36-00110-02,Component Issue,electrical,Replaced/add Component
+M ,03/12/2023,TADU BOARD ASSY,602-36-00110-02,Component Issue,electrical,Replaced/add Component
+M ,03/12/2023,TADU BOARD ASSY,602-36-00110-02,Component Issue,electrical,Replaced/add Component
+M ,03/12/2023,TADU BOARD ASSY,602-36-00110-02,Component Issue,electrical,Replaced/add Component
+M ,03/12/2023,TADU BOARD ASSY,602-36-00110-02,Component Issue,electrical,Replaced/add Component
+M ,03/12/2023,TADU BOARD ASSY,602-36-00110-02,Component Issue,electrical,Replaced/add Component
+M ,03/12/2023,TADU BOARD ASSY,602-36-00110-02,Component Issue,electrical,Replaced/add Component
+M ,03/12/2023,TADU BOARD ASSY,602-36-00110-02,Component Issue,electrical,Replaced/add Component
+C ,03/12/2023,AMC,MB0807D-22,SRU Issue,electrical,Replaced SRU
+P ,03/12/2023,OPTICAL UNIT ASSY,42612A-03,SRU Issue,Optical,Replaced SRU
+M ,04/12/2023,SMART SIM BOARD ASSY,950-31-00355-04,Electrical Issue,electrical,Replaced/add Component
+M ,04/12/2023,VMSC,915-30-00100-01,SRU Issue,electrical,Replaced/add Component
+M ,04/12/2023,GRIP LEFT HAND,915-05-00150-00,Documentation Issue,Workmanship,Documentation correction
+M ,04/12/2023,GRIP LEFT HAND,915-05-00150-00,Documentation Issue,Workmanship,Documentation correction
+M ,04/12/2023,GRIP LEFT HAND,915-05-00150-00,Documentation Issue,Workmanship,Documentation correction
+M ,04/12/2023,GRIP LEFT HAND,915-05-00150-00,Documentation Issue,Workmanship,Documentation correction
+M ,04/12/2023,GRIP LEFT HAND,915-05-00150-00,Documentation Issue,Workmanship,Documentation correction
+M ,04/12/2023,GRIP LEFT HAND,915-05-00150-00,Documentation Issue,Workmanship,Documentation correction
+M ,04/12/2023,GRIP LEFT HAND,915-05-00150-00,Documentation Issue,Workmanship,Documentation correction
+M ,04/12/2023,GRIP LEFT HAND,915-05-00150-00,Documentation Issue,Workmanship,Documentation correction
+M ,04/12/2023,GRIP LEFT HAND,915-05-00150-00,Documentation Issue,Workmanship,Documentation correction
+M ,04/12/2023,GRIP LEFT HAND,915-05-00150-00,Documentation Issue,Workmanship,Documentation correction
+C ,04/12/2023,AMC,MB0807D-22,SRU Issue,electrical,Replaced SRU
+P ,05/12/2023,OLED OPTICS ASSY,082712J-00,SRU Issue,Optical,Replaced SRU
+C ,05/12/2023,AMC,MB0807D-22,Tester Issue,Tester,Retest
+C ,05/12/2023,AMC,MB0807D-22,Tester Issue,Tester,Fixed Test Equipment
+C ,05/12/2023,AMC,MB0807D-22,Tester Issue,Tester,Changed Test Equipment
+C ,05/12/2023,AMC,MB0807D-22,Tester Issue,Tester,Changed Test Equipment
+C ,05/12/2023,AMC,MB0807D-22,Tester Issue,Tester,Changed Test Equipment
+C ,05/12/2023,CHASSIS ASSY,006477J-02,Tester Issue,Tester,Retest
+P ,05/12/2023,WCDDM TOP ASSY,MB1403A-00,SRU Issue,electrical,Reprograming
+M ,05/12/2023,GRIP LEFT HAND,915-05-00150-00,Documentation Issue,Workmanship,Documentation correction
+M ,05/12/2023,EPDU,96-31-00200-07,SRU Issue,electrical,Replaced SRU
+C ,05/12/2023,"PWA, SNOWRUNNER GRAPHICS III",018752U-00,Component Issue,electrical,Replaced/add Component
+M ,06/12/2023,TCU,85-31-00050-01,For testing,low temp,Retest
+M ,06/12/2023,VMSC,915-30-00100-01,SRU Issue,electrical,Replaced/add Component
+M ,06/12/2023,AVIU-G BOARD ASSY,024948A-01,Component Issue,electrical,Replaced/add Component
+C ,06/12/2023,COMPUTER UNIT-TOP ASSY,MB1277J-01,SRU Issue,electrical,Replaced SRU
+P ,06/12/2023,FLAT DAY HUD TOP ASSY,MB386A-31,OPERATOR MISTAKE ELBIT,Workmanship,Retest
+C ,06/12/2023,AMC,MB0807D-22,SRU Issue,Hardware,Replaced SRU
+C ,06/12/2023,AMC,MB0807D-22,SRU Issue,Hardware,Replaced SRU
+C ,06/12/2023,COMPUTER UNIT- GEN-1,GB1277N-00,Tester Issue,low temp,Retest
+C ,07/12/2023,AMC,MB0807D-22,SRU Issue,Hardware,Replaced SRU
+C ,10/12/2023,AMC,MB0807D-22,Tester Issue,Tester,Changed Test Equipment
+C ,10/12/2023,AMC,MB0807D-22,Tester Issue,Tester,Changed Test Equipment
+C ,10/12/2023,AMC,MB0807D-22,Tester Issue,Tester,Changed Test Equipment
+C ,10/12/2023,COMPUTER UNIT-TOP ASSY,MB1277J-01,SRU Issue,electrical,Replaced SRU
+C ,10/12/2023,AMC,MB0807D-22,Tester Issue,Tester,Changed Test Equipment
+C ,10/12/2023,AMC,MB0807D-22,SRU Issue,Hardware,Replaced SRU
+C ,10/12/2023,AMC,MB0807D-22,Tester Issue,Tester,Retest
+M ,10/12/2023,GVIU MODULE TOP ASSY,MB669B-03,SRU Issue,electrical,Reprograming
+M ,10/12/2023,GVIU MODULE TOP ASSY,MB669B-03,SRU Issue,electrical,Reprograming
+M ,10/12/2023,GVIU MODULE TOP ASSY,MB669B-03,SRU Issue,electrical,Reprograming
+C ,11/12/2023,COMPUTER UNIT- GEN-1,GB1277N-00,SRU Issue,electrical,Replaced SRU
+C ,12/12/2023,COMPUTER UNIT- GEN-1,GB1277N-00,Defect LRU,electrical,Repair
+C ,12/12/2023,AMC,MB0807D-22,Tester Issue,Tester,Fixed Test Equipment
+P ,12/12/2023,"PWA, COMMON DRIVER",074637A-00,SRU Issue,electrical,Replaced SRU
+M ,12/12/2023,EGT BOARD ASSY,85-51-00060-00,Component Issue,Workmanship,Replace wrong component
+M ,12/12/2023,EGT BOARD ASSY,85-51-00060-00,Component Issue,Workmanship,Replace wrong component
+M ,12/12/2023,EGT BOARD ASSY,85-51-00060-00,Component Issue,Workmanship,Replace wrong component
+M ,12/12/2023,EGT BOARD ASSY,85-51-00060-00,Component Issue,Workmanship,Replace wrong component
+M ,12/12/2023,EGT BOARD ASSY,85-51-00060-00,Component Issue,Workmanship,Replace wrong component
+M ,12/12/2023,EGT BOARD ASSY,85-51-00060-00,Component Issue,Workmanship,Replace wrong component
+M ,12/12/2023,EGT BOARD ASSY,85-51-00060-00,Component Issue,Workmanship,Replace wrong component
+M ,13/12/2023,GVIU MODULE TOP ASSY,MB669B-03,SRU Issue,electrical,Reprograming
+M ,13/12/2023,GVIU MODULE TOP ASSY,MB669B-03,SRU Issue,electrical,Reprograming
+P ,13/12/2023,WCNDM TOP ASSY,MB1402A-00,SRU Issue,electrical,Replaced/add Component
+M ,13/12/2023,VMSC,915-30-00100-01,SRU Issue,electrical,Rework
+M ,13/12/2023,PWA AVE,81025B-00,Component Issue,electrical,Replaced/add Component
+M ,13/12/2023,PWA AVE,81025B-00,Component Issue,electrical,Replaced/add Component
+P ,13/12/2023,WCDDM TOP ASSY,MB1403A-00,Component Issue,Mechanical,Replaced/add Component
+C ,14/12/2023,AMC,MB0807D-22,Tester Issue,Tester,Cable Issue
+C ,14/12/2023,AMC,MB0807DA-22,Tester Issue,Tester,Fixed Test Equipment
+C ,14/12/2023,COMPUTER UNIT- GEN-1,GB1277N-00,SRU Issue,electrical,Replaced SRU
+C ,14/12/2023,AMC,MB0807D-22,Tester Issue,Tester,Changed Test Equipment
+P ,14/12/2023,FLAT DAY HUD TOP ASSY,MB386A-31,Component Issue,Optical,Re Calibration
+P ,16/12/2023,LCD ASSY,112836A-00,SRU Issue,electrical,Replaced SRU
+P ,17/12/2023,"CABLE CONNECTOR, ASSY",085515A-00,Operator Mistake,Mechanical,Retest
+M ,17/12/2023,PWA EXTENTION I/O,300600-02,Connector Issue,electrical,Rework
+C ,17/12/2023,COMPUTER UNIT- GEN-1,GB1277N-00,SRU Issue,electrical,Replaced SRU
+C ,17/12/2023,AMC,MB0807D-22,Component Issue,Hardware,Replaced/add Component
+C ,17/12/2023,AMC,MB0807DA-22,SRU Issue,Hardware,Replaced SRU
+C ,17/12/2023,AMC,MB0807D-22,Tester Issue,Tester,Changed Test Equipment
+C ,17/12/2023,AMC,MB0807D-22,Tester Issue,Tester,Changed Test Equipment
+C ,18/12/2023,AMC,MB0807D-22,SRU Issue,Hardware,Replaced SRU
+M ,18/12/2023,TADU BOARD ASSY,602-36-00110-02,Electrical Issue,electrical,Replaced/add Component
+P ,19/12/2023,"CABLE CONNECTOR, ASSY",085515A-00,SRU Issue,Document,Re Calibration
+C ,19/12/2023,AMC,MB0807D-22,SRU Issue,Hardware,Replaced SRU
+M ,19/12/2023,ENCRYPTION UNIT,90-30-00101-01,SRU Issue,low temp,Rework
+C ,19/12/2023,COMPUTER UNIT- GEN-1,GB1277N-00,Tester Issue,HT,Retest
+C ,19/12/2023,COMPUTER UNIT- GEN-1,GB1277N-00,Tester Issue,Tester,Retest
+C ,19/12/2023,AMC,MB0807D-22,SRU Issue,Hardware,Replaced SRU
+C ,20/12/2023,AMC,MB0807D-22,Component Issue,Hardware,Replaced/add Component
+P ,20/12/2023,OLED OPTICS ASSY,082712J-00,SRU Issue,Optical,Replaced SRU
+C ,20/12/2023,AMC,MB0807D-22,SRU Issue,Hardware,Replaced SRU
+C ,20/12/2023,COMPUTER UNIT-TOP ASSY,MB1277J-01,SRU Issue,electrical,Replaced SRU
+C ,21/12/2023,AMC,MB0807D-22,Design Issue,Engineering,No repair action was taken
+C ,21/12/2023,AMC,MB0807D-22,Tester Issue,Tester,No repair action was taken
+C ,21/12/2023,AMC,MB0807D-22,Tester Issue,Tester,Rework
+C ,21/12/2023,COMPUTER UNIT- GEN-1,GB1277N-00,Tester Issue,HT,Retest
+M ,21/12/2023,EGT BOARD ASSY,85-51-00060-00,Component Issue,electrical,Replaced/add Component
+C ,21/12/2023,AMC,MB0807D-22,SRU Issue,electrical,Replaced/add Component
+C ,21/12/2023,AMC,MB0807D-22,SRU Issue,Hardware,Replaced SRU
+C ,22/12/2023,AMC,MB0807D-22,SRU Issue,Hardware,Replaced SRU
+C ,22/12/2023,AMC,MB0807D-22,Assembly Issue,Assembly,Reassembly
+M ,24/12/2023,MICRO I/O IRIDIUM,98-30-00137-01,Electrical Issue,electrical,Replaced/add Component
+C ,24/12/2023,AMC,MB0807D-22,Tester Issue,Tester,Rework
+P ,24/12/2023,HOLDER COMBINER,106517A-00,Component Issue,Mechanical,Replaced/add Component
+C ,24/12/2023,COMPUTER UNIT-TOP ASSY,MB1277J-01,SRU Issue,Damage,Replaced SRU
+P ,24/12/2023,TRIPLET ASSY,109594A-00,Visual Inspection,Optical,Replaced SRU
+C ,24/12/2023,AMC,MB0807D-22,Tester Issue,Tester,Retest
+C ,24/12/2023,AMC,MB0807D-22,SRU Issue,electrical,Replaced/add Component
+M ,24/12/2023,WH INTERFACE BOARD ASSY,602-85-00170-00,Tester Issue,Tester,Cable Issue
+M ,24/12/2023,WH INTERFACE BOARD ASSY,602-85-00170-00,Tester Issue,low temp,Fixed Test Equipment
+P ,25/12/2023,"CABLE CONNECTOR, ASSY",085515A-00,SRU Issue,electrical,Replaced SRU
+C ,25/12/2023,"PWA, DISPLY GENERATOR-CECILE",4.83E+03,Component Issue,Workmanship,Replaced/add Component
+M ,25/12/2023,EGT BOARD ASSY,85-51-00060-00,Component Issue,electrical,Replaced/add Component
+M ,25/12/2023,GVIU MODULE TOP ASSY,MB669B-03,SRU Issue,electrical,Replaced SRU
+M ,25/12/2023,GVIU MODULE TOP ASSY,MB669B-03,SRU Issue,electrical,Replaced SRU
+C ,25/12/2023,COMPUTER UNIT-TOP ASSY,MB1277J-01,Tester Issue,HT,Retest
+M ,26/12/2023,CON. BOARD ASSY,79-83-00200-03,Component Issue,electrical,Reprograming
+C ,26/12/2023,AMC,MB0807D-22,Tester Issue,Tester,Retest
+C ,26/12/2023,AMC,MB0807D-22,Electrical Issue,electrical,Repair
+M ,26/12/2023,GVIU MODULE TOP ASSY,MB669B-03,Tester Issue,Tester,Fixed Test Equipment
+M ,26/12/2023,GVIU MODULE TOP ASSY,MB669B-03,Tester Issue,Tester,Fixed Test Equipment
+C ,27/12/2023,AMC,MB0807D-22,Tester Issue,Tester,Fixed Test Equipment
+M ,27/12/2023,PWA RT ICP,65431A-00,Component Issue,electrical,Replaced/add Component
+C ,27/12/2023,COMPUTER UNIT-TOP ASSY,MB1277J-01,Infrastructure,RT,Retest
+C ,28/12/2023,AMC,MB0807D-22,SRU Issue,Hardware,Replaced SRU
+C ,28/12/2023,AMC,MB0807D-22,Tester Issue,Tester,Retest
+P ,28/12/2023,PROJECTION ASSY,112835A-00,SRU Issue,electrical,Re Calibration
+C ,28/12/2023,AMC,MB0807D-22,Tester Issue,Tester,Retest
+C ,28/12/2023,AMC,MB0807DA-22,Tester Issue,Tester,Retest
+C ,29/12/2023,AMC,MB0807D-22,Tester Issue,Tester,Changed Test Equipment
+C ,29/12/2023,AMC,MB0807D-22,Tester Issue,Tester,Changed Test Equipment
+C ,29/12/2023,AMC,MB0807D-22,Assembly Issue,Hardware,Reassembly
+C ,29/12/2023,AMC,MB0807D-22,SRU Issue,Hardware,Replaced SRU
+C ,30/12/2023,AMC,MB0807D-22,Tester Issue,Tester,Fixed Test Equipment
+C ,30/12/2023,AMC,MB0807D-22,Tester Issue,Tester,Changed Test Equipment
+C ,30/12/2023,AMC,MB0807D-22,Tester Issue,Tester,Changed Test Equipment
+C ,30/12/2023,AMC,MB0807D-22,Tester Issue,Tester,Changed Test Equipment
