@@ -15,6 +15,7 @@ import { AddTasks } from "./pages/AddTasks";
 import { MyTasks } from "./pages/MyTasks";
 import { MyResearches } from "./pages/MyResearches";
 import { Conclusions } from "./pages/Conclusions";
+import { StartProduction } from "./pages/StartProduction";
 
 const theme = createTheme({
     typography: {
@@ -41,6 +42,10 @@ function App() {
                         <Route path="/" element={<MyTasks />} />
                         <Route path="/login" element={<Login />} />
                         <Route path="/signup" element={<Signup />} />
+                        <Route
+                            path="/start-production"
+                            element={<StartProduction />}
+                        />
                         <Route path="/bad-product" element={<BadProduct />} />
                         <Route
                             path="/add-tasks/:researchId"

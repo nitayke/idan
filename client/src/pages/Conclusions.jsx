@@ -29,8 +29,10 @@ export function Conclusions() {
                         .post(`${config.url}/conclusions/${research_name}`, {
                             conclusions,
                         })
-                        .then((resp) => {
+                        .then(async (resp) => {
                             toast("המסקנות נשלחו בהצלחה");
+                            await new Promise((r) => setTimeout(r, 2000));
+                            location.href = "/";
                         })
                         .catch(() => toast.error("שגיאה בשליחת המסקנות"));
                 }}
