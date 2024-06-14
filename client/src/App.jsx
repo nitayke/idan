@@ -62,6 +62,10 @@ function App() {
                             element={<OpenResearch />}
                         />
                         <Route
+                            path="/start-prod"
+                            element={<StartProduction />}
+                        />
+                        <Route
                             path="/conclusions/:research_name"
                             element={<Conclusions />}
                         />

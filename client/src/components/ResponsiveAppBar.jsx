@@ -13,6 +13,7 @@ const pages = {
     "פתיחת חקר": "/open-research",
     "פתיחת יישום חקר": "/open-app",
     "רכיב בעייתי": "/bad-product",
+    "כניסה לייצור רציף": "/start-production",
 };
 
 export function ResponsiveAppBar() {
