@@ -21,6 +21,7 @@ import { useParams } from "react-router-dom";
 import { LocalizationProvider } from "@mui/x-date-pickers/LocalizationProvider";
 import { AdapterDateFns } from "@mui/x-date-pickers/AdapterDateFnsV3";
 import { DatePicker } from "@mui/x-date-pickers/DatePicker";
+import { MyDatePicker } from "../components/MyDatePicker";
 
 const defaultNewTask = {
     dest_date: new Date(),
@@ -118,29 +119,12 @@ export function AddTasks() {
                         }
                         sx={{ mt: 2 }}
                     />
-                    <LocalizationProvider dateAdapter={AdapterDateFns}>
-                        <label
-                            style={{
-                                textAlign: "right",
-                                direction: "rtl",
-                                marginTop: 10,
-                                marginRight: 2,
-                                marginBottom: 2,
-                            }}
-                        >
-                            תאריך יעד:
-                        </label>
-                        <DatePicker
-                            format="d/M/y"
-                            value={newTask.dest_date}
-                            onChange={(e) =>
-                                setNewTask((last) => ({
-                                    ...last,
-                                    dest_date: e,
-                                }))
-                            }
-                        />
-                    </LocalizationProvider>
+                    <MyDatePicker
+                        setDate={(e) =>
+                            setNewTask((last) => ({ ...last, dest_date: e }))
+                        }
+                        date={newTask.dest_date}
+                    />
                 </DialogContent>
                 <DialogActions>
                     <Button onClick={() => setOpen(false)}>בטל</Button>

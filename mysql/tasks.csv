@@ -951,7 +951,6 @@ P ,18/09/2023,WCDDM TOP ASSY,MB1403A-00,Tester Issue,Tester,Retest
 M ,18/09/2023,VMSC,97-30-31000-05,Documentation Issue,Workmanship,No repair action was taken
 P ,18/09/2023,BWCNDM TOP ASSY,MB2402A-00,Tester Issue,Engineering,Fixed Test Equipment
 P ,19/09/2023,WCDDM TOP ASSY,MB1403A-00,SRU Issue,electrical,Replaced SRU
-C ,19/09/2023,,,SRU Issue,Hardware,Replaced SRU
 P ,19/09/2023,WCNDM TOP ASSY,MB1402A-00,Documentation Issue,Document,Rework
 M ,19/09/2023,EFI INTERFACE UNIT,80-63-00050-04,Electrical Issue,,Rework
 C ,19/09/2023,COMPUTER UNIT- GEN-1,GB1277N-00,Tester Issue,low temp,Retest
@@ -1180,7 +1179,6 @@ M ,26/11/2023,RMSC,93-30-00200-05,SRU Issue,electrical,Replaced SRU
 C ,26/11/2023,COMPUTER UNIT- GEN-1,GB1277N-00,Tester Issue,HT,Retest
 C ,26/11/2023,COMPUTER UNIT- GEN-1,GB1277N-00,Infrastructure,RT,No repair action was taken
 C ,26/11/2023,AMC,MB0807D-22,Tester Issue,Tester,Changed Test Equipment
-C ,26/11/2023,,,Tester Issue,Tester,Changed Test Equipment
 C ,27/11/2023,AMC,MB0807D-22,Tester Issue,Tester,Retest
 C ,27/11/2023,AMC,MB0807D-22,Tester Issue,Tester,Changed Test Equipment
 C ,27/11/2023,AMC,MB0807D-22,Tester Issue,Tester,Fixed Test Equipment

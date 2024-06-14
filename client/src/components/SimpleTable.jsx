@@ -25,6 +25,7 @@ function littleSnakeToRegular(string) {
 const isoRegex = /^\d{4}-\d{2}-\d{2}T\d{2}:\d{2}:\d{2}(\.\d{3})?Z$/;
 
 export function SimpleTable({ rows, updateRows }) {
+    console.log(rows);
     return (
         <TableContainer component={Paper}>
             <Table sx={{ minWidth: 650 }}>
@@ -59,7 +60,7 @@ export function SimpleTable({ rows, updateRows }) {
                                 return <TableCell key={v}>{v}</TableCell>;
                             })}
                             <TableCell>
-                                {row.status === "opened" ? (
+                                {row.status === "opened" && (
                                     <Button
                                         onClick={() => {
                                             axios
@@ -76,9 +77,8 @@ export function SimpleTable({ rows, updateRows }) {
                                     >
                                         סיימתי
                                     </Button>
-                                ) : null}
-
-                                {row.users ? (
+                                )}
+                                {row.users && !row.conclusions && (
                                     <Button
                                         onClick={() => {
                                             location.href = `/conclusions/${row.research_name}`;
@@ -86,7 +86,7 @@ export function SimpleTable({ rows, updateRows }) {
                                     >
                                         לכתיבת מסקנות
                                     </Button>
-                                ) : null}
+                                )}
                             </TableCell>
                         </TableRow>
                     ))}

@@ -229,8 +229,15 @@ app.get("/bad-product/:makat", (req, res) => {
     })
 })
 
-app.get("/", (req, res) => {
-    res.send("alright")
+app.get("/application/:username", (req, res) => {
+    const username = req.params.username;
+
+    db.query("select * from researches where conclusions is not null", (err, results) => {
+        if (err) res.status(500).end()
+        else {
+            res.json(results)
+        }
+    })
 })
 
 app.listen(PORT, '0.0.0.0', () => {

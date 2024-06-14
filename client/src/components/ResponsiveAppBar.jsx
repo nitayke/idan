@@ -11,6 +11,7 @@ const pages = {
     "המשימות שלי": "/",
     "החקרים שלי": "/my-researches",
     "פתיחת חקר": "/open-research",
+    "פתיחת יישום חקר": "/open-app",
     "רכיב בעייתי": "/bad-product",
 };
 

@@ -16,9 +16,10 @@ import { LocalizationProvider } from "@mui/x-date-pickers/LocalizationProvider";
 import { SelectMakat } from "../components/SelectMakat";
 import { hasEmptyFields } from "./Signup";
 import { toast } from "react-toastify";
+import { SelectPeople } from "../components/SelectPeople";
+import { MyDatePicker } from "../components/MyDatePicker";
 
 export function OpenResearch() {
-    const [allUsers, setAllUsers] = React.useState([]);
     const [selectedMakat, setSelectedMakat] = React.useState("");
     const [selectedUsers, setSelectedUsers] = React.useState([]);
     const [date, setDate] = React.useState(new Date());
@@ -54,19 +55,6 @@ export function OpenResearch() {
             });
     };
 
-    React.useEffect(() => {
-        if (!localStorage.getItem("userData")) {
-            location.href = "/login";
-        }
-        axios(`${config.url}/users`)
-            .then((result) => {
-                setAllUsers(result.data);
-            })
-            .catch(() => {
-                toast.error("שגיאה בקבלת הנתונים");
-            });
-    }, []);
-
     return (
         <Container component="main" maxWidth="sm">
             <CssBaseline />
@@ -91,7 +79,6 @@ export function OpenResearch() {
                 noValidate
                 sx={{
                     mt: 1,
-                    direction: "rtl",
                     flexDirection: "column",
                     display: "flex",
                 }}
@@ -101,42 +88,8 @@ export function OpenResearch() {
                     selectedMakat={selectedMakat}
                     setSelectedMakat={setSelectedMakat}
                 />
-                <Autocomplete
-                    multiple
-                    label="צוות מטפל"
-                    options={allUsers}
-                    getOptionLabel={(option) =>
-                        `${option.first_name} ${option.last_name}`
-                    }
-                    onChange={(e, newValue) => setSelectedUsers(newValue)}
-                    renderInput={(params) => (
-                        <TextField
-                            {...params}
-                            variant="standard"
-                            label="בחר אנשים"
-                            key={params.size}
-                        />
-                    )}
-                    sx={{ mb: 2 }}
-                />
-                <LocalizationProvider dateAdapter={AdapterDateFns}>
-                    <label
-                        style={{
-                            textAlign: "right",
-                            direction: "rtl",
-                            marginTop: 10,
-                            marginRight: 2,
-                            marginBottom: 2,
-                        }}
-                    >
-                        תאריך יעד:
-                    </label>
-                    <DatePicker
-                        format="d/M/y"
-                        value={date}
-                        onChange={(e) => setDate(e)}
-                    />
-                </LocalizationProvider>
+                <SelectPeople setSelectedUsers={setSelectedUsers} />
+                <MyDatePicker date={date} setDate={(e) => setDate(e)} />
                 <MyTextField label="סיבת החקר" name="reason" />
                 <Button
                     type="submit"

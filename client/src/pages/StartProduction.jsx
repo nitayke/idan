@@ -7,6 +7,8 @@ import {
 } from "@mui/material";
 import { useState } from "react";
 import { MyTextField } from "../components/MyTextField";
+import { SelectMakat } from "../components/SelectMakat";
+import { toast } from "react-toastify";
 
 function checkAllFieldsTrue(obj) {
     for (const key in obj) {
@@ -25,8 +27,9 @@ export function StartProduction() {
         future: false,
     });
     const [value, setValue] = useState(0);
+    const [makat, setMakat] = useState("");
 
-    const isError = !checkAllFieldsTrue(form);
+    const isError = !checkAllFieldsTrue(form) || !makat;
 
     return (
         <>
@@ -41,6 +44,12 @@ export function StartProduction() {
                     m: 4,
                 }}
             >
+                <div style={{ width: "50%" }}>
+                    <SelectMakat
+                        selectedMakat={makat}
+                        setSelectedMakat={setMakat}
+                    />
+                </div>
                 <FormControlLabel
                     control={
                         <Checkbox
@@ -106,7 +115,14 @@ export function StartProduction() {
                     type="number"
                 />
                 {!isError && (
-                    <Button sx={{ m: 3 }} variant="contained">
+                    <Button
+                        sx={{ m: 3 }}
+                        variant="contained"
+                        onClick={async () => {
+                            await new Promise((r) => setTimeout(r, 200));
+                            toast.info("הפרטים נשלחו לשרת");
+                        }}
+                    >
                         התחל ייצור רציף
                     </Button>
                 )}
