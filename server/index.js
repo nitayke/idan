@@ -103,6 +103,31 @@ app.get("/products", (req, res) => {
     })
 })
 
+app.put("/tasks/:id", (req, res) => {
+    const id = req.params.id;
+
+    db.query('update tasks set status = "done" where id = ?', [id], (err, result) => {
+        if (err) {
+            res.status(500).end()
+        }
+        else {
+            res.status(204).end()
+        }
+    })
+})
+
+app.get("/researches/:username", (req, res) => {
+    db.query("select * from researches where manager_username = ?",
+        [req.params.username], (err, result) => {
+            if (err) {
+                res.status(500).end()
+            }
+            else {
+                res.json(result)
+            }
+        })
+})
+
 app.post("/researches", (req, res) => {
     db.query("insert into researches set ?", {
         ...req.body,
@@ -114,7 +139,7 @@ app.post("/researches", (req, res) => {
             return
         }
 
-        res.status(201).end()
+        res.status(201).json(result.insertId)
     })
 })
 
@@ -122,10 +147,12 @@ app.post("/tasks", (req, res) => {
     const values = [];
     Object.keys(req.body).forEach(key => {
         req.body[key].forEach(task => {
-            values.push([key, task, "opened"]);
+            values.push([key, task.task_name, task.research_name,
+                task.dest_date.slice(0, 19).replace("T", " "), "opened"]);
         });
     })
-    db.query("insert into tasks (username, research_name, status) values ?", [values],
+    db.query("insert into tasks (username, task_name, research_name," +
+        " dest_date, status) values ?", [values],
         (err) => {
             if (err) {
                 console.log(err)

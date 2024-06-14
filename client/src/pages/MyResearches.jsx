@@ -1,12 +1,13 @@
-import { useEffect, useState } from "react";
+import { useCallback, useEffect, useState } from "react";
 import { SimpleTable } from "../components/SimpleTable";
 import axios from "axios";
 import { config } from "../config";
 import { toast } from "react-toastify";
 import { CircularProgress, Typography } from "@mui/material";
 
-export function OpenTasks() {
+export function MyResearches() {
     const [rows, setRows] = useState();
+
     useEffect(() => {
         const userData = localStorage.getItem("userData");
         if (!userData) {
@@ -14,22 +15,23 @@ export function OpenTasks() {
             return;
         }
         const { username } = JSON.parse(userData);
-        axios(`${config.url}/tasks/${username}`)
+        axios(`${config.url}/researches/${username}`)
             .then((resp) =>
                 setRows(
                     resp.data.map((d) => {
                         const newObj = { ...d };
-                        delete newObj.username;
+                        delete newObj.manager_username;
                         return newObj;
                     })
                 )
             )
-            .catch((err) => toast.error("שגיאה בקבלת הנתונים"));
+            .catch(() => toast.error("שגיאה בקבלת הנתונים"));
     }, []);
+
     return (
         <>
             <Typography variant="h3" sx={{ textAlign: "center", m: 3 }}>
-                המשימות שלי
+                החקרים שלי
             </Typography>
             <div
                 style={{
@@ -43,7 +45,7 @@ export function OpenTasks() {
                     rows.length ? (
                         <SimpleTable rows={rows} />
                     ) : (
-                        <Typography variant="h4">אין משימות :)</Typography>
+                        <Typography variant="h4">אין חקרים :)</Typography>
                     )
                 ) : (
                     <CircularProgress />

@@ -1,4 +1,5 @@
 import {
+    Button,
     Paper,
     Table,
     TableBody,
@@ -7,6 +8,9 @@ import {
     TableHead,
     TableRow,
 } from "@mui/material";
+import axios from "axios";
+import { config } from "../config";
+import { toast } from "react-toastify";
 
 function littleSnakeToRegular(string) {
     const words = string.split("_");
@@ -18,7 +22,9 @@ function littleSnakeToRegular(string) {
     return regularString;
 }
 
-export function SimpleTable({ rows }) {
+const isoRegex = /^\d{4}-\d{2}-\d{2}T\d{2}:\d{2}:\d{2}(\.\d{3})?Z$/;
+
+export function SimpleTable({ rows, updateRows }) {
     return (
         <TableContainer component={Paper}>
             <Table sx={{ minWidth: 650 }}>
@@ -34,16 +40,54 @@ export function SimpleTable({ rows }) {
                 <TableBody>
                     {rows.map((row) => (
                         <TableRow
-                            key={row.name}
+                            key={row.id}
                             sx={{
                                 "&:last-child td, &:last-child th": {
                                     border: 0,
                                 },
                             }}
                         >
-                            {Object.values(row).map((v) => (
-                                <TableCell key={v}>{v}</TableCell>
-                            ))}
+                            {Object.values(row).map((v) => {
+                                if (isoRegex.test(v)) {
+                                    const d = new Date(v);
+                                    return (
+                                        <TableCell key={d.getTime()}>
+                                            {d.toLocaleDateString()}
+                                        </TableCell>
+                                    );
+                                }
+                                return <TableCell key={v}>{v}</TableCell>;
+                            })}
+                            <TableCell>
+                                {row.status === "opened" ? (
+                                    <Button
+                                        onClick={() => {
+                                            axios
+                                                .put(
+                                                    `${config.url}/tasks/${row.id}`
+                                                )
+                                                .then((res) => {
+                                                    updateRows();
+                                                    toast.info(
+                                                        "הנתונים עודכנו בהצלחה"
+                                                    );
+                                                });
+                                        }}
+                                    >
+                                        סיימתי
+                                    </Button>
+                                ) : null}
+
+                                {row.users ? (
+                                    <Button
+                                        onClick={() => {
+                                            location.href = `/conclusions/${row.research_name}`;
+                                        }}
+                                    >
+                                        לכתיבת מסקנות
+                                    </Button>
+                                ) : null}
+                            </TableCell>
                         </TableRow>
                     ))}
                 </TableBody>

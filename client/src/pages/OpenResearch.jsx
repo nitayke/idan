@@ -45,7 +45,7 @@ export function OpenResearch() {
 
         axios.post(`${config.url}/researches`, research).then((res) => {
             localStorage.setItem("research", JSON.stringify(research));
-            location.href = "/add-tasks";
+            location.href = "/add-tasks/" + res.data;
         });
     };
 

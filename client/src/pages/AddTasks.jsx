@@ -17,13 +17,24 @@ import { useEffect, useState } from "react";
 import axios from "axios";
 import { config } from "../config";
 import { toast } from "react-toastify";
+import { useParams } from "react-router-dom";
+import { LocalizationProvider } from "@mui/x-date-pickers/LocalizationProvider";
+import { AdapterDateFns } from "@mui/x-date-pickers/AdapterDateFnsV3";
+import { DatePicker } from "@mui/x-date-pickers/DatePicker";
 
-export function Tasks() {
+const defaultNewTask = {
+    dest_date: new Date(),
+    task_name: "",
+};
+
+export function AddTasks() {
     const [open, setOpen] = useState(false);
-    const [newTask, setNewTask] = useState("");
+    const [newTask, setNewTask] = useState(defaultNewTask);
     const [tasks, setTasks] = useState({});
     const [currentUser, setCurrentUser] = useState("");
     const [research, setResearch] = useState({});
+
+    const { researchId } = useParams();
 
     useEffect(() => {
         if (!localStorage.getItem("research")) {
@@ -61,8 +72,15 @@ export function Tasks() {
                             </Typography>
                             <ul>
                                 {tasks[user.username]?.map((t) => (
-                                    <li style={{ fontFamily: "Heebo" }} key={t}>
-                                        {t}
+                                    <li
+                                        style={{
+                                            fontFamily: "Heebo",
+                                            margin: "10px",
+                                        }}
+                                        key={t.task_name}
+                                    >
+                                        - {t.task_name} (עד{" "}
+                                        {t.dest_date.toLocaleDateString()})
                                     </li>
                                 ))}
                             </ul>
@@ -82,13 +100,47 @@ export function Tasks() {
             </Box>
             <Dialog open={open} onClose={() => setOpen(false)}>
                 <DialogTitle>הוסף משימה</DialogTitle>
-                <DialogContent>
+                <DialogContent
+                    sx={{
+                        display: "flex",
+                        flexDirection: "column",
+                        fontFamily: "Heebo",
+                    }}
+                >
                     <TextField
                         label="משימה חדשה"
-                        value={newTask}
-                        onChange={(e) => setNewTask(e.target.value)}
+                        value={newTask.task_name}
+                        onChange={(e) =>
+                            setNewTask((last) => ({
+                                ...last,
+                                task_name: e.target.value,
+                            }))
+                        }
                         sx={{ mt: 2 }}
                     />
+                    <LocalizationProvider dateAdapter={AdapterDateFns}>
+                        <label
+                            style={{
+                                textAlign: "right",
+                                direction: "rtl",
+                                marginTop: 10,
+                                marginRight: 2,
+                                marginBottom: 2,
+                            }}
+                        >
+                            תאריך יעד:
+                        </label>
+                        <DatePicker
+                            format="d/M/y"
+                            value={newTask.dest_date}
+                            onChange={(e) =>
+                                setNewTask((last) => ({
+                                    ...last,
+                                    dest_date: e,
+                                }))
+                            }
+                        />
+                    </LocalizationProvider>
                 </DialogContent>
                 <DialogActions>
                     <Button onClick={() => setOpen(false)}>בטל</Button>
@@ -98,11 +150,15 @@ export function Tasks() {
                                 ...last,
                                 [currentUser]: [
                                     ...(last[currentUser] ?? []),
-                                    newTask,
+                                    {
+                                        ...newTask,
+                                        research_name: research.research_name,
+                                        dest_date: newTask.dest_date,
+                                    },
                                 ],
                             }));
                             setOpen(false);
-                            setNewTask("");
+                            setNewTask(defaultNewTask);
                         }}
                         color="primary"
                     >

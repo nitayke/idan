@@ -8,6 +8,8 @@ import Button from "@mui/material/Button";
 import { Factory } from "@mui/icons-material";
 
 const pages = {
+    "המשימות שלי": "/",
+    "החקרים שלי": "/my-researches",
     "פתיחת חקר": "/open-research",
     "רכיב בעייתי": "/bad-product",
 };

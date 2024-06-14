@@ -11,8 +11,10 @@ import "react-toastify/ReactToastify.min.css";
 import { ToastContainer, toast } from "react-toastify";
 import { BadProduct } from "./pages/BadProduct";
 import { ResponsiveAppBar } from "./components/ResponsiveAppBar";
-import { Tasks } from "./pages/Tasks";
-import { OpenTasks } from "./pages/OpenTasks";
+import { AddTasks } from "./pages/AddTasks";
+import { MyTasks } from "./pages/MyTasks";
+import { MyResearches } from "./pages/MyResearches";
+import { Conclusions } from "./pages/Conclusions";
 
 const theme = createTheme({
     typography: {
@@ -36,14 +38,25 @@ function App() {
                 <ResponsiveAppBar />
                 <BrowserRouter>
                     <Routes>
-                        <Route path="/" element={<OpenTasks />} />
+                        <Route path="/" element={<MyTasks />} />
                         <Route path="/login" element={<Login />} />
                         <Route path="/signup" element={<Signup />} />
                         <Route path="/bad-product" element={<BadProduct />} />
-                        <Route path="/add-tasks" element={<Tasks />} />
+                        <Route
+                            path="/add-tasks/:researchId"
+                            element={<AddTasks />}
+                        />
+                        <Route
+                            path="/my-researches"
+                            element={<MyResearches />}
+                        />
                         <Route
                             path="/open-research"
                             element={<OpenResearch />}
+                        />
+                        <Route
+                            path="/conclusions/:research_name"
+                            element={<Conclusions />}
                         />
                     </Routes>
                 </BrowserRouter>
