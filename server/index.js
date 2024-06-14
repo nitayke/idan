@@ -128,6 +128,21 @@ app.get("/researches/:username", (req, res) => {
         })
 })
 
+app.post("/conclusions/:research_name", (req, res) => {
+    const research_name = req.params.research_name;
+    const { conclusions } = req.body
+
+    db.query("update researches set conclusions = ? where research_name = ?",
+        [conclusions, research_name], (err, result) => {
+            if (err) {
+                res.status(500).end()
+            }
+            else {
+                res.status(201).end()
+            }
+        })
+})
+
 app.post("/researches", (req, res) => {
     db.query("insert into researches set ?", {
         ...req.body,

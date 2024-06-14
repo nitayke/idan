@@ -43,19 +43,28 @@ export function OpenResearch() {
             return;
         }
 
-        axios.post(`${config.url}/researches`, research).then((res) => {
-            localStorage.setItem("research", JSON.stringify(research));
-            location.href = "/add-tasks/" + res.data;
-        });
+        axios
+            .post(`${config.url}/researches`, research)
+            .then((res) => {
+                localStorage.setItem("research", JSON.stringify(research));
+                location.href = "/add-tasks/" + res.data;
+            })
+            .catch(() => {
+                toast.error("שגיאה בשליחת הנתונים");
+            });
     };
 
     React.useEffect(() => {
         if (!localStorage.getItem("userData")) {
             location.href = "/login";
         }
-        axios(`${config.url}/users`).then((result) => {
-            setAllUsers(result.data);
-        });
+        axios(`${config.url}/users`)
+            .then((result) => {
+                setAllUsers(result.data);
+            })
+            .catch(() => {
+                toast.error("שגיאה בקבלת הנתונים");
+            });
     }, []);
 
     return (

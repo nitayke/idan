@@ -21,6 +21,7 @@ export function MyResearches() {
                     resp.data.map((d) => {
                         const newObj = { ...d };
                         delete newObj.manager_username;
+                        delete newObj.conclusions;
                         return newObj;
                     })
                 )
