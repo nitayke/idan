@@ -4,4 +4,4 @@ COPY package*.json ./
 RUN npm install
 COPY . .
 EXPOSE 3040
-CMD ["node", "--experimental-modules", "index.js"]
+CMD ["node", "index.js"]

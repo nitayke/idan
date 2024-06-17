@@ -38,7 +38,7 @@ CREATE TABLE IF NOT EXISTS idanDB.tasks (
     status varchar(255) not null -- in process / done / need_...
 );
 
-LOAD DATA INFILE '/var/lib/mysql-files/tasks.csv'
+LOAD DATA INFILE '/var/lib/mysql-files/products.csv'
 INTO TABLE idanDB.products
 FIELDS TERMINATED BY ','
 ENCLOSED BY '"'

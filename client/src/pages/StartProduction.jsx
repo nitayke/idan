@@ -114,18 +114,18 @@ export function StartProduction() {
                     fullWidth={false}
                     type="number"
                 />
-                {!isError && (
-                    <Button
-                        sx={{ m: 3 }}
-                        variant="contained"
-                        onClick={async () => {
-                            await new Promise((r) => setTimeout(r, 200));
-                            toast.info("הפרטים נשלחו לשרת");
-                        }}
-                    >
-                        התחל ייצור רציף
-                    </Button>
-                )}
+
+                <Button
+                    sx={{ m: 3 }}
+                    variant="contained"
+                    onClick={async () => {
+                        await new Promise((r) => setTimeout(r, 200));
+                        toast.info("הפרטים נשלחו לשרת");
+                    }}
+                    disabled={isError}
+                >
+                    התחל ייצור רציף
+                </Button>
             </FormControl>
         </>
     );

@@ -12,28 +12,28 @@ const app = express()
 app.use(cors());
 app.use(express.json());
 
-const db = createConnection({
-    host: "localhost",
-    user: "root",
-    password: "pass",
-    database: "idanDB"
-});
+let db;
 
-db.connect((err) => {
-    if (err) {
-        console.error('Error connecting to MySQL:', err.stack);
-        return;
-    }
+function connectToDb() {
+    db = createConnection({
+        host: "my-sql",
+        user: "root",
+        password: "pass",
+        database: "idanDB"
+    });
 
-    console.log('Connected to MySQL');
-    db.query("select * from users", (err, results) => {
-        console.log(err, results);
-    })
-});
+    db.connect((err) => {
+        if (err) {
+            console.error('Error connecting to MySQL, Trying again...');
+            setTimeout(connectToDb, 4000);
+        }
+        else {
+            console.log('Connected to MySQL');
+        }
+    });
+}
 
-db.on("error", (err) => {
-    console.error('MySQL error:', err);
-})
+setTimeout(connectToDb, 4000);
 
 app.get("/users", (req, res) => {
     const query = "SELECT id, username, first_name, last_name FROM users";
@@ -230,9 +230,9 @@ app.get("/bad-product/:makat", (req, res) => {
 
         const percentileIndex = Math.ceil(entries.length * 0.03);
         const valueForId = entries.find(entry => entry[0] === makat)?.[1];
-        const top1PercentValue = entries[percentileIndex - 1]?.[1];
+        const topPercentValue = entries[percentileIndex - 1]?.[1];
 
-        if (valueForId >= top1PercentValue)
+        if (valueForId >= topPercentValue)
             res.send("הרכיב בעייתי");
         else
             res.send("הרכיב אינו בעייתי");
