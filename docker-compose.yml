@@ -1,40 +1,22 @@
-version: "3.8"
-
 services:
-    app:
+    my-sql:
         build:
-            context: .
-            dockerfile: Dockerfile
+            context: ./mysql
         ports:
-            - 3000:3000
+            - "3306:3306"
+
+    server:
+        build:
+            context: ./server
+        ports:
+            - "3040:3040"
         depends_on:
-            mysql:
-                condition: service_healthy
-        environment:
-            - DB_HOST=mysqldb
-            - DB_PORT=3306
-            - DB_NAME=${MYSQL_DATABASE}
-            - DB_USERNAME=root
-            - DB_PASSWORD=${MYSQL_PASSWORD}
-        networks:
-            - nodejs-mysql-network
-    mysql:
+            - my-sql
+
+    client:
         build:
-            context: .
-            dockerfile: Dockerfile
+            context: ./client
         ports:
-            - 3306:3306
-        volumes:
-            - mysql-data:/var/lib/mysql
-        networks:
-            - nodejs-mysql-network
-        healthcheck:
-            test: ["CMD", "mysqladmin", "ping", "-h", "localhost"]
-            retries: 10
-            interval: 3s
-            timeout: 30s
-volumes:
-    mysql-data:
-networks:
-    nodejs-mysql-network:
-        name: nodejs-mysql-network
+            - "8080:8080"
+        depends_on:
+            - server

@@ -9,5 +9,4 @@ COPY tasks.csv /var/lib/mysql-files/
 COPY users.csv /var/lib/mysql-files/
 COPY init.sql /docker-entrypoint-initdb.d/
 
-# Expose port, remember to map the port in the docker run
 EXPOSE $MYSQL_PORT

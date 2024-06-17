@@ -12,21 +12,28 @@ const app = express()
 app.use(cors());
 app.use(express.json());
 
-const PORT = 3040;
 const db = createConnection({
-    host: process.env.HOSTNAME,
-    user: process.env.DB_USER,
-    password: process.env.DB_PASSWORD,
-    database: process.env.DB_NAME
+    host: "localhost",
+    user: "root",
+    password: "pass",
+    database: "idanDB"
 });
 
 db.connect((err) => {
     if (err) {
-        console.log(err);
+        console.error('Error connecting to MySQL:', err.stack);
+        return;
     }
+
     console.log('Connected to MySQL');
+    db.query("select * from users", (err, results) => {
+        console.log(err, results);
+    })
 });
 
+db.on("error", (err) => {
+    console.error('MySQL error:', err);
+})
 
 app.get("/users", (req, res) => {
     const query = "SELECT id, username, first_name, last_name FROM users";
@@ -47,6 +54,7 @@ app.post('/signup', (req, res) => {
 
     db.query('SELECT * FROM users WHERE username = ?', [username], (err, rows) => {
         if (err) {
+            console.error(err)
             res.status(500).send({ message: 'Error checking username', reason: err });
         } else if (rows.length > 0) {
             res.status(409).send({ message: 'Username already exists' });
@@ -75,6 +83,7 @@ app.post('/login', (req, res) => {
 
     db.query('SELECT * FROM users WHERE username = ?', [username], (err, results) => {
         if (err) {
+            console.log(err);
             res.status(500).send({ message: 'Error logging in' });
         } else {
             if (results.length > 0) {
@@ -95,6 +104,7 @@ app.post('/login', (req, res) => {
 app.get("/products", (req, res) => {
     db.query("select distinct(makat) from products", (err, result) => {
         if (err) {
+            console.error(err)
             res.status(500).send("Cannot find");
         }
         else {
@@ -239,6 +249,8 @@ app.get("/application/:username", (req, res) => {
         }
     })
 })
+
+const PORT = 3040
 
 app.listen(PORT, '0.0.0.0', () => {
     console.log(`Server running on port ${PORT}`);

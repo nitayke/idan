@@ -1,7 +1,7 @@
 FROM node:latest
-
-WORKDIR /idan-app
-COPY package.json .
+WORKDIR /server
+COPY package*.json ./
 RUN npm install
 COPY . .
-CMD npm start
+EXPOSE 3040
+CMD ["node", "--experimental-modules", "index.js"]
