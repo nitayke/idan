@@ -5,34 +5,21 @@ import { config } from "../config";
 import { toast } from "react-toastify";
 import { CircularProgress, Typography } from "@mui/material";
 
-export function MyResearches() {
+export function AllApplications() {
     const [rows, setRows] = useState();
 
-    useEffect(() => {
-        const userData = localStorage.getItem("userData");
-        if (!userData) {
-            location.href = "/login";
-            return;
-        }
-        const { username } = JSON.parse(userData);
-        axios(`${config.url}/researches/${username}`)
-            .then((resp) =>
-                setRows(
-                    resp.data.map((d) => {
-                        // do not show the manager username field in the table
-                        const newObj = { ...d };
-                        delete newObj.manager_username;
-                        return newObj;
-                    })
-                )
-            )
+    const updateRows = useCallback(() => {
+        axios(`${config.url}/applications`)
+            .then((resp) => setRows(resp.data))
             .catch(() => toast.error("שגיאה בקבלת הנתונים"));
     }, []);
+
+    useEffect(updateRows, []);
 
     return (
         <>
             <Typography variant="h3" sx={{ textAlign: "center", m: 3 }}>
-                החקרים שלי
+                יישומי חקר
             </Typography>
             <div
                 style={{
@@ -46,7 +33,7 @@ export function MyResearches() {
                     rows.length ? (
                         <SimpleTable rows={rows} />
                     ) : (
-                        <Typography variant="h4">אין חקרים :)</Typography>
+                        <Typography variant="h4">אין יישומי חקר :)</Typography>
                     )
                 ) : (
                     <CircularProgress />

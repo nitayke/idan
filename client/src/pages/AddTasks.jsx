@@ -35,8 +35,6 @@ export function AddTasks() {
     const [currentUser, setCurrentUser] = useState("");
     const [research, setResearch] = useState({});
 
-    const { researchId } = useParams();
-
     useEffect(() => {
         if (!localStorage.getItem("research")) {
             location.href = "/";
@@ -65,6 +63,7 @@ export function AddTasks() {
             </Box>
             <Box sx={{ display: "flex", p: 3, gap: 2 }}>
                 {(research.users ?? []).map((user) => (
+                    // geth the users of the research and show a card for each one
                     <Card sx={{ minWidth: 200 }} key={user.username}>
                         <CardContent>
                             <Typography variant="h6">{`${user.first_name} ${user.last_name}`}</Typography>
@@ -73,6 +72,7 @@ export function AddTasks() {
                             </Typography>
                             <ul>
                                 {tasks[user.username]?.map((t) => (
+                                    // for each user - show his tasks
                                     <li
                                         style={{
                                             fontFamily: "Heebo",

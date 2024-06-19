@@ -4,7 +4,8 @@ CREATE TABLE IF NOT EXISTS idanDB.users (
     email VARCHAR(255) NOT NULL,
     password VARCHAR(255) NOT NULL,
     first_name VARCHAR(255) NOT NULL,
-    last_name VARCHAR(255) NOT NULL
+    last_name VARCHAR(255) NOT NULL,
+    role varchar(255) not null
 );
 
 CREATE TABLE IF NOT EXISTS idanDB.products (
@@ -29,12 +30,21 @@ CREATE TABLE IF NOT EXISTS idanDB.researches (
     conclusions varchar(2000)
 );
 
+CREATE TABLE IF NOT EXISTS idanDB.applications (
+    id INT AUTO_INCREMENT PRIMARY KEY,
+    is_success TINYINT,
+    makat varchar(255) not null,
+    research_name varchar(255) not null,
+    open_date date not null
+);
+
 CREATE TABLE IF NOT EXISTS idanDB.tasks (
     id INT AUTO_INCREMENT PRIMARY KEY,
     username VARCHAR(255) NOT NULL,
     research_name varchar(255) not null,
     task_name varchar(255) not null,
     dest_date date not null,
+    conclusions varchar(2550),
     status varchar(255) not null -- in process / done / need_...
 );
 
@@ -42,7 +52,7 @@ LOAD DATA INFILE '/var/lib/mysql-files/products.csv'
 INTO TABLE idanDB.products
 FIELDS TERMINATED BY ','
 ENCLOSED BY '"'
-LINES TERMINATED BY '\r\n'
+LINES TERMINATED BY '\n'
 IGNORE 1 ROWS
 (product_line, @open_date, item_description,
  makat, code, cat, rep_act) SET open_date = STR_TO_DATE(@open_date, '%d/%m/%Y');
@@ -52,6 +62,6 @@ LOAD DATA INFILE '/var/lib/mysql-files/users.csv'
 INTO TABLE idanDB.users
 FIELDS TERMINATED BY ','
 ENCLOSED BY '"'
-LINES TERMINATED BY '\r\n'
+LINES TERMINATED BY '\n'
 IGNORE 1 ROWS
-(username, email, password, first_name, last_name);
+(username, email, password, first_name, last_name, role);

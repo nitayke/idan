@@ -7,6 +7,15 @@ import cors from 'cors';
 
 import { catScores, repActScores } from './scores.js';
 
+
+// for every line this is the username
+
+const line_managers = {
+    "n": "C",
+    "nitayke": "P",
+    "moshe_el": "M"
+}
+
 const app = express()
 
 app.use(cors());
@@ -17,6 +26,7 @@ let db;
 function connectToDb() {
     db = createConnection({
         host: "my-sql",
+        // host: "localhost",
         user: "root",
         password: "pass",
         database: "idanDB"
@@ -25,6 +35,7 @@ function connectToDb() {
     db.connect((err) => {
         if (err) {
             console.error('Error connecting to MySQL, Trying again...');
+            // trying again after 4 seconds
             setTimeout(connectToDb, 4000);
         }
         else {
@@ -33,7 +44,7 @@ function connectToDb() {
     });
 }
 
-setTimeout(connectToDb, 4000);
+connectToDb();
 
 app.get("/users", (req, res) => {
     const query = "SELECT id, username, first_name, last_name FROM users";
@@ -50,8 +61,9 @@ app.get("/users", (req, res) => {
 })
 
 app.post('/signup', (req, res) => {
-    const { username, email, password, firstName, lastName } = req.body;
+    const { username, email, password, firstName, lastName, role } = req.body;
 
+    // checking if username exists in the db
     db.query('SELECT * FROM users WHERE username = ?', [username], (err, rows) => {
         if (err) {
             console.error(err)
@@ -59,13 +71,14 @@ app.post('/signup', (req, res) => {
         } else if (rows.length > 0) {
             res.status(409).send({ message: 'Username already exists' });
         } else {
+            // if does not exist, encrypting password and saving to db
             bcrypt.hash(password, 10, (hashErr, hash) => {
                 if (hashErr) {
                     console.log(hashErr);
                     res.status(500).send({ message: 'Error hashing password', reason: hashErr });
                 } else {
-                    db.query('INSERT INTO users (username, email, password, first_name, last_name) VALUES (?, ?, ?, ?, ?)',
-                        [username, email, hash, firstName, lastName], (insertErr, result) => {
+                    db.query('INSERT INTO users (username, email, password, first_name, last_name, role) VALUES (?, ?, ?, ?, ?, ?)',
+                        [username, email, hash, firstName, lastName, role], (insertErr, result) => {
                             if (insertErr) {
                                 res.status(500).send({ message: 'Error registering user', reason: insertErr });
                             } else {
@@ -87,6 +100,8 @@ app.post('/login', (req, res) => {
             res.status(500).send({ message: 'Error logging in' });
         } else {
             if (results.length > 0) {
+                // comparing 2 encrypted passwords - the one in the db
+                // and the one that the client sent
                 bcrypt.compare(password, results[0].password, (err, isMatch) => {
                     if (err || !isMatch) {
                         res.status(401).end();
@@ -101,6 +116,25 @@ app.post('/login', (req, res) => {
     });
 });
 
+// for line managers only - getting the list of researches
+// which the makat of them is in his line
+app.get("/line-researches/:username", (req, res) => {
+    const username = req.params.username;
+    if (!Object.keys(line_managers).includes(username)) {
+        res.status(404).end();
+        return;
+    }
+    db.query(`select * from researches r where r.makat in
+        (select p.makat from products p where p.product_line =
+         '${line_managers[username]}')`, (err, result) => {
+        if (err) {
+            res.status(500).end();
+            return;
+        }
+        res.json(result);
+    })
+})
+
 app.get("/products", (req, res) => {
     db.query("select distinct(makat) from products", (err, result) => {
         if (err) {
@@ -113,19 +147,23 @@ app.get("/products", (req, res) => {
     })
 })
 
+// update task when user finishes
 app.put("/tasks/:id", (req, res) => {
     const id = req.params.id;
 
-    db.query('update tasks set status = "done" where id = ?', [id], (err, result) => {
-        if (err) {
-            res.status(500).end()
-        }
-        else {
-            res.status(204).end()
-        }
-    })
+    db.query(`update tasks set status = "done", conclusions = ? where id = ?`,
+        [req.body.conclusions, id], (err, result) => {
+            if (err) {
+                console.log(err)
+                res.status(500).end()
+            }
+            else {
+                res.status(204).end()
+            }
+        })
 })
 
+// "my researches"
 app.get("/researches/:username", (req, res) => {
     db.query("select * from researches where manager_username = ?",
         [req.params.username], (err, result) => {
@@ -138,6 +176,7 @@ app.get("/researches/:username", (req, res) => {
         })
 })
 
+// after the user writes a conclusion for a research
 app.post("/conclusions/:research_name", (req, res) => {
     const research_name = req.params.research_name;
     const { conclusions } = req.body
@@ -153,6 +192,91 @@ app.post("/conclusions/:research_name", (req, res) => {
         })
 })
 
+// check the difference between 2 dates for 90 days
+function diffDays(d1, d2) {
+    var t2 = d2.getTime();
+    var t1 = d1.getTime();
+
+    return Math.floor((t2 - t1) / (24 * 3600 * 1000));
+}
+
+// get all applications (יישומי חקר) and logic for update
+// the "is_success" field - check if 90 days passed and calculate the score
+app.get("/applications", (req, res) => {
+    db.query("select * from applications", (err, results) => {
+        if (err) {
+            res.status(500).end()
+            return;
+        }
+        // select only the products from before 90 days
+        db.query(`select * from products where
+            open_date < DATE_SUB(NOW(), INTERVAL 90 DAY)`, (err, result) => {
+            if (err) {
+                res.status(500).end()
+                return;
+            }
+            const dic = {}
+            // calculate the scores for each makat before 90 days
+            result.forEach(val => {
+                const s = (catScores[val.cat] || 0) + (repActScores[val.rep_act] || 0);
+                if (dic[val.makat]) {
+                    dic[val.makat] += s;
+                }
+                else {
+                    dic[val.makat] = s;
+                }
+            })
+
+            // selecting all the products
+            db.query("select * from products", (err1, result1) => {
+                if (err1) {
+                    res.status(500).end()
+                    return;
+                }
+
+                const dic1 = {}
+                // calculate the current score
+                result1.forEach(val => {
+                    const s = (catScores[val.cat] || 0) + (repActScores[val.rep_act] || 0);
+                    if (dic1[val.makat]) {
+                        dic1[val.makat] += s;
+                    }
+                    else {
+                        dic1[val.makat] = s;
+                    }
+                })
+
+                res.json(results.map(r => {
+                    // if 90 days are over - add "is_success" field
+                    const diff = diffDays(new Date(r.open_date), new Date())
+                    if (diff > 90 || diff < -90) {
+                        const is_success = (dic[r.makat] / dic1[r.makat]) > 1.3
+                        return { ...r, is_success }
+                    }
+                    return r;
+                }))
+            })
+        })
+    })
+})
+
+// add research application
+app.post("/applications", (req, res) => {
+    db.query("insert into applications set ?", {
+        ...req.body,
+        open_date: new Date().toJSON().slice(0, 19).replace("T", " ")
+    }, (err, result, fields) => {
+        if (err) {
+            console.error(err);
+            res.status(500).end()
+            return;
+        }
+
+        res.status(201).end()
+    })
+})
+
+// add research
 app.post("/researches", (req, res) => {
     db.query("insert into researches set ?", {
         ...req.body,
@@ -168,6 +292,7 @@ app.post("/researches", (req, res) => {
     })
 })
 
+// add multiple tasks - all the "values" are inserted in one command
 app.post("/tasks", (req, res) => {
     const values = [];
     Object.keys(req.body).forEach(key => {
@@ -190,6 +315,7 @@ app.post("/tasks", (req, res) => {
     )
 })
 
+// "my tasks"
 app.get("/tasks/:username", (req, res) => {
     const username = req.params.username
 
@@ -204,6 +330,7 @@ app.get("/tasks/:username", (req, res) => {
     })
 })
 
+// check if a makat is problematic
 app.get("/bad-product/:makat", (req, res) => {
     const makat = req.params.makat;
 
@@ -215,6 +342,7 @@ app.get("/bad-product/:makat", (req, res) => {
 
         const dic = {}
 
+        // calculating the score for each makat
         result.forEach(val => {
             const s = (catScores[val.cat] || 0) + (repActScores[val.rep_act] || 0);
             if (dic[val.makat]) {
@@ -226,23 +354,34 @@ app.get("/bad-product/:makat", (req, res) => {
         })
 
         const entries = Object.entries(dic);
+        // sorting the scores
         entries.sort((a, b) => b[1] - a[1]);
 
+        // if the makat is in top 3% scores - it is problematic
         const percentileIndex = Math.ceil(entries.length * 0.03);
-        const valueForId = entries.find(entry => entry[0] === makat)?.[1];
-        const topPercentValue = entries[percentileIndex - 1]?.[1];
+        // get the score of the makat
+        const makatScore = entries.find(entry => entry[0] === makat)?.[1];
+        // get the score of the minimal problematic score
+        const minimalProblemScore = entries[percentileIndex - 1]?.[1];
 
-        if (valueForId >= topPercentValue)
+        if (makatScore >= minimalProblemScore)
             res.send("הרכיב בעייתי");
         else
             res.send("הרכיב אינו בעייתי");
     })
 })
 
+// "my applications"
 app.get("/application/:username", (req, res) => {
     const username = req.params.username;
 
-    db.query("select * from researches where conclusions is not null", (err, results) => {
+    if (!Object.keys(line_managers).includes(username)) {
+        res.json([])
+    }
+
+    db.query(`select * from researches r where r.makat in
+        (select p.makat from products p where p.product_line =
+         '${line_managers[username]}') and r.conclusions is not null`, (err, results) => {
         if (err) res.status(500).end()
         else {
             res.json(results)

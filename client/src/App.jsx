@@ -17,6 +17,7 @@ import { MyResearches } from "./pages/MyResearches";
 import { Conclusions } from "./pages/Conclusions";
 import { StartProduction } from "./pages/StartProduction";
 import { OpenApplication } from "./pages/OpenApplication";
+import { AllApplications } from "./pages/AllApplications";
 
 const theme = createTheme({
     typography: {
@@ -44,6 +45,10 @@ function App() {
                         <Route path="/login" element={<Login />} />
                         <Route path="/signup" element={<Signup />} />
                         <Route path="/open-app" element={<OpenApplication />} />
+                        <Route
+                            path="/applications"
+                            element={<AllApplications />}
+                        />
                         <Route
                             path="/start-production"
                             element={<StartProduction />}

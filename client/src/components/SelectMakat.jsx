@@ -7,6 +7,7 @@ export function SelectMakat({ selectedMakat, setSelectedMakat }) {
     const [allMakats, setAllMakats] = useState([]);
 
     useEffect(() => {
+        // get all the makats from the server
         axios(`${config.url}/products`).then((result) =>
             setAllMakats(result.data)
         );

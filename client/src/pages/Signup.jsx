@@ -35,6 +35,7 @@ export default function Signup() {
             password: data.get("password"),
             firstName: data.get("firstName"),
             lastName: data.get("lastName"),
+            role: data.get("role"),
         };
 
         if (hasEmptyFields(obj)) {
@@ -86,6 +87,7 @@ export default function Signup() {
                     <MyTextField label="שם משפחה" name="lastName" />
                     <MyTextField label="שם משתמש" name="username" />
                     <MyTextField label="כתובת אימייל" name="email" />
+                    <MyTextField label="תפקיד" name="role" />
                     <MyTextField
                         label="סיסמה"
                         name="password"

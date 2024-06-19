@@ -47,14 +47,25 @@ export function OpenApplication() {
                                     sx={{ m: 4 }}
                                     variant="outlined"
                                     onClick={() => {
-                                        localStorage.setItem(
-                                            "research",
-                                            JSON.stringify({
-                                                ...choseResearch,
-                                                users: selectedUsers,
-                                            })
-                                        );
-                                        location.href = `/add-tasks/${choseResearch.id}`;
+                                        axios
+                                            .post(
+                                                `${config.url}/applications`,
+                                                {
+                                                    makat: choseResearch.makat,
+                                                    research_name:
+                                                        choseResearch.research_name,
+                                                }
+                                            )
+                                            .then((resp) => {
+                                                localStorage.setItem(
+                                                    "research",
+                                                    JSON.stringify({
+                                                        ...choseResearch,
+                                                        users: selectedUsers,
+                                                    })
+                                                );
+                                                location.href = `/add-tasks/${choseResearch.id}`;
+                                            });
                                     }}
                                 >
                                     המשך לחלוקת משימות
