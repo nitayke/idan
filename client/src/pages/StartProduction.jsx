@@ -1,14 +1,18 @@
 import {
+    Autocomplete,
     Button,
     Checkbox,
     FormControl,
     FormControlLabel,
+    TextField,
     Typography,
 } from "@mui/material";
-import { useState } from "react";
+import { useEffect, useState } from "react";
 import { MyTextField } from "../components/MyTextField";
 import { SelectMakat } from "../components/SelectMakat";
 import { toast } from "react-toastify";
+import axios from "axios";
+import { config } from "../config";
 
 function checkAllFieldsTrue(obj) {
     for (const key in obj) {
@@ -27,9 +31,14 @@ export function StartProduction() {
         future: false,
     });
     const [value, setValue] = useState(0);
-    const [makat, setMakat] = useState("");
+    const [researchIds, setIds] = useState([]);
+    const [selectedId, setSelectedId] = useState("");
 
-    const isError = !checkAllFieldsTrue(form) || !makat;
+    useEffect(() => {
+        axios.get(`${config.url}/researches-ids`).then((result) => {
+            setIds(result.data.map((d) => d.id.toString()));
+        });
+    }, []);
 
     return (
         <>
@@ -45,9 +54,19 @@ export function StartProduction() {
                 }}
             >
                 <div style={{ width: "50%" }}>
-                    <SelectMakat
-                        selectedMakat={makat}
-                        setSelectedMakat={setMakat}
+                    <Autocomplete
+                        options={researchIds}
+                        value={selectedId}
+                        onChange={(e, newValue) => setSelectedId(newValue)}
+                        renderInput={(params) => (
+                            <TextField
+                                {...params}
+                                variant="standard"
+                                label="הכנס מזהה חקר"
+                                key={params.size}
+                            />
+                        )}
+                        sx={{ mb: 2 }}
                     />
                 </div>
                 <FormControlLabel
@@ -118,11 +137,23 @@ export function StartProduction() {
                 <Button
                     sx={{ m: 3 }}
                     variant="contained"
-                    onClick={async () => {
-                        await new Promise((r) => setTimeout(r, 200));
-                        toast.info("הפרטים נשלחו לשרת");
+                    onClick={() => {
+                        axios
+                            .post(`${config.url}/price/${selectedId}`, {
+                                price: value,
+                            })
+                            .then(async (resp) => {
+                                toast.info("הנתונים נשמרו במערכת");
+                                await new Promise((r) => setTimeout(r, 2000));
+                                location.href = "/";
+                            })
+                            .catch(() =>
+                                toast.error("חלה שגיאה בשמירת הנתונים")
+                            );
                     }}
-                    disabled={isError}
+                    disabled={
+                        !checkAllFieldsTrue(form) || !selectedId || +value <= 0
+                    }
                 >
                     התחל ייצור רציף
                 </Button>

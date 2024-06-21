@@ -32,9 +32,10 @@ CREATE TABLE IF NOT EXISTS idanDB.researches (
 
 CREATE TABLE IF NOT EXISTS idanDB.applications (
     id INT AUTO_INCREMENT PRIMARY KEY,
-    is_success TINYINT,
     makat varchar(255) not null,
     research_name varchar(255) not null,
+    is_success TINYINT,
+    price int,
     open_date date not null
 );
 

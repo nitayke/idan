@@ -8,15 +8,17 @@ import Button from "@mui/material/Button";
 import { Factory } from "@mui/icons-material";
 import axios from "axios";
 import { config } from "../config";
+import { Divider } from "@mui/material";
 
 export function ResponsiveAppBar() {
     const [pages, setPages] = React.useState({
         "המשימות שלי": "/",
-        "החקרים שלי": "/my-researches",
-        "פתיחת חקר": "/open-research",
         "רכיב בעייתי": "/bad-product",
-        "כניסה לייצור רציף": "/start-production",
+        "פתיחת חקר": "/open-research",
+        "החקרים שלי": "/my-researches",
         "יישומי חקר": "applications",
+        "כניסה לייצור רציף": "/start-production",
+        סטטיסטיקות: "/statistics",
     });
 
     React.useEffect(() => {
@@ -41,22 +43,12 @@ export function ResponsiveAppBar() {
         <AppBar position="static">
             <Container maxWidth="xl">
                 <Toolbar disableGutters>
-                    <Factory sx={{ display: "flex", mr: 1 }} href="/" />
-                    <Typography
-                        variant="h6"
-                        noWrap
-                        sx={{
-                            mr: 2,
-                            display: "flex",
-                            fontWeight: 700,
-                            letterSpacing: ".2rem",
-                            color: "inherit",
-                            fontSize: 30,
-                            textDecoration: "none",
-                        }}
-                    >
-                        אלביט
-                    </Typography>
+                    <a href="/">
+                        <img
+                            src="Elbit_Systems.png"
+                            style={{ width: 170, marginLeft: 10 }}
+                        />
+                    </a>
                     {localStorage.getItem("userData") ? (
                         <>
                             <Box
@@ -66,28 +58,45 @@ export function ResponsiveAppBar() {
                                 }}
                             >
                                 {Object.keys(pages).map((page) => (
-                                    <Button
-                                        key={page}
-                                        href={`${pages[page]}`}
-                                        sx={{
-                                            my: 2,
-                                            color: "white",
-                                            display: "block",
+                                    <div
+                                        style={{
+                                            backgroundColor: "#5777FF",
+                                            borderRadius: 13,
+                                            margin: 6,
                                         }}
+                                        key={page}
                                     >
-                                        {page}
-                                    </Button>
+                                        <Button
+                                            href={`${pages[page]}`}
+                                            sx={{
+                                                color: "white",
+                                                display: "block",
+                                            }}
+                                        >
+                                            {page}
+                                        </Button>
+                                    </div>
                                 ))}
                             </Box>
-                            <Typography
-                                sx={{ ":hover": { cursor: "pointer" } }}
-                                onClick={() => {
-                                    localStorage.removeItem("userData");
-                                    location.href = "/login";
+
+                            <div
+                                style={{
+                                    backgroundColor: "#5777FF",
+                                    borderRadius: 13,
+                                    margin: 6,
+                                    padding: 10,
                                 }}
                             >
-                                התנתק
-                            </Typography>
+                                <Typography
+                                    sx={{ ":hover": { cursor: "pointer" } }}
+                                    onClick={() => {
+                                        localStorage.removeItem("userData");
+                                        location.href = "/login";
+                                    }}
+                                >
+                                    התנתק
+                                </Typography>
+                            </div>
                         </>
                     ) : null}
                 </Toolbar>

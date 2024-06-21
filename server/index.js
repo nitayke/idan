@@ -4,6 +4,7 @@ import express from 'express';
 import { createConnection } from 'mysql2';
 import bcrypt from 'bcryptjs';
 import cors from 'cors';
+import util from 'util';
 
 import { catScores, repActScores } from './scores.js';
 
@@ -132,6 +133,51 @@ app.get("/line-researches/:username", (req, res) => {
             return;
         }
         res.json(result);
+    })
+})
+
+app.post("/price/:app", (req, res) => {
+    const appId = req.params.app;
+    const { price } = req.body;
+
+    db.query("update applications set price = ? where id = ?", [price, appId],
+        (err, result) => {
+            if (err) {
+                console.error(err);
+                res.status(500).end()
+                return;
+            }
+
+            res.status(204).end()
+        })
+})
+
+app.get("/statistics", (req, res) => {
+    db.query(`select (select count(*) from researches) as r_count,
+        (select count(*) from researches where conclusions is not null) as r_closed_count,
+        (select count(*) from applications) as a_count,
+        (select count(*) from applications where is_success is not null) as a_closed_count,
+        (select sum(price) from applications where price is not null) as a_price_sum,
+        (select avg(price) from applications where price is not null) as a_price_avg,
+        (select count(*) from users) as u_count
+        from dual`, (err, result) => {
+        if (err) {
+            console.error(err)
+            res.status(500).end()
+            return;
+        }
+        res.json(result);
+    })
+})
+
+app.get("/researches-ids", (req, res) => {
+    db.query("select id from researches", (err, result) => {
+        if (err) {
+            console.error(err)
+            res.status(500).end()
+            return
+        }
+        res.json(result)
     })
 })
 
