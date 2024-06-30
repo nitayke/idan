@@ -4,10 +4,8 @@ import express from 'express';
 import { createConnection } from 'mysql2';
 import bcrypt from 'bcryptjs';
 import cors from 'cors';
-import util from 'util';
 
 import { catScores, repActScores } from './scores.js';
-
 
 // for every line this is the username
 
@@ -26,8 +24,8 @@ let db;
 
 function connectToDb() {
     db = createConnection({
-        host: "my-sql",
-        // host: "localhost",
+        // host: "my-sql",
+        host: "localhost",
         user: "root",
         password: "pass",
         database: "idanDB"
@@ -152,15 +150,10 @@ app.post("/price/:app", (req, res) => {
         })
 })
 
-app.get("/statistics", (req, res) => {
-    db.query(`select (select count(*) from researches) as r_count,
-        (select count(*) from researches where conclusions is not null) as r_closed_count,
-        (select count(*) from applications) as a_count,
-        (select count(*) from applications where is_success is not null) as a_closed_count,
-        (select sum(price) from applications where price is not null) as a_price_sum,
-        (select avg(price) from applications where price is not null) as a_price_avg,
-        (select count(*) from users) as u_count
-        from dual`, (err, result) => {
+app.get("/researches-agg", (req, res) => {
+    db.query(`select count(*) as r_count, count(conclusions) as closed_r_count,
+         month(open_date), year(open_date) from researches
+            group by month(open_date), year(open_date)`, (err, result) => {
         if (err) {
             console.error(err)
             res.status(500).end()
@@ -169,6 +162,22 @@ app.get("/statistics", (req, res) => {
         res.json(result);
     })
 })
+
+
+app.get("/applications-agg", (req, res) => {
+    db.query(`select count(*) as a_count, count(is_success) as closed_a_count,
+        sum(is_success) as success_count, sum(price) as price_sum, avg(price) as avg_price,
+         month(open_date), year(open_date) from applications
+            group by month(open_date), year(open_date)`, (err, result) => {
+        if (err) {
+            console.error(err)
+            res.status(500).end()
+            return;
+        }
+        res.json(result);
+    })
+})
+
 
 app.get("/researches-ids", (req, res) => {
     db.query("select id from researches", (err, result) => {

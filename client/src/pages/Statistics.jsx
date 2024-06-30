@@ -1,39 +1,28 @@
-import { Box, CircularProgress, Typography } from "@mui/material";
-import axios from "axios";
+import { Box, CircularProgress, Tab, Typography } from "@mui/material";
+import TabContext from "@mui/lab/TabContext";
+import TabList from "@mui/lab/TabList";
+import TabPanel from "@mui/lab/TabPanel";
 import { useEffect, useState } from "react";
-import { toast } from "react-toastify";
+import { StatisticsComponent } from "../components/StatisticsComponent";
+import axios from "axios";
 import { config } from "../config";
 
-const s = {
-    r_count: "כמות החקרים",
-    r_closed_count: "כמה חקרים נסגרו",
-    r_open_count: "כמה חקרים עדיין פתוחים",
-    r_open_percent: "אחוז החקרים הפתוחים מכלל החקרים",
-    a_count: "כמה יישומי חקר נפתחו",
-    a_closed_count: "כמה יישומי חקר נסגרו",
-    a_price_sum: "סך כל העלויות של יישומי החקר",
-    a_price_avg: "עלות של יישום חקר ממוצעת",
-    u_count: "כמות המשתמשים במערכת",
-};
-
 export function Statistics() {
-    const [stats, setStats] = useState();
+    const [value, setValue] = useState("1");
+    const [data, setData] = useState();
+
     useEffect(() => {
-        axios
-            .get(`${config.url}/statistics`)
-            .then((result) => {
-                const data = result.data[0];
-                setStats({
-                    ...data,
-                    r_open_count: data.r_count - data.r_closed_count,
-                    r_open_percent: (
-                        ((data.r_count - data.r_closed_count) / data.r_count) *
-                        100
-                    ).toFixed(2),
-                });
-            })
-            .catch(() => toast.error("שגיאה בקבלת הסטטיסטיקות"));
+        async function my() {
+            const reAg = await axios(`${config.url}/researches-agg`);
+            console.log(reAg.data);
+            const apAg = await axios(`${config.url}/applications-agg`);
+            console.log(apAg.data);
+
+            setData([reAg.data, apAg.data]);
+        }
+        my();
     }, []);
+
     return (
         <>
             <Typography
@@ -43,25 +32,66 @@ export function Statistics() {
             >
                 סטטיסטיקות
             </Typography>
-            <Box
-                sx={{
-                    display: "flex",
-                    flexDirection: "column",
-                    alignItems: "end",
-                    mx: 19,
-                    direction: "rtl",
-                }}
-            >
-                {stats ? (
-                    Object.keys(stats).map((k) => (
-                        <Typography key={k} sx={{ m: 1 }}>
-                            {s[k]}: {stats[k]}
-                        </Typography>
-                    ))
+
+            <TabContext value={value}>
+                <TabList onChange={(event, newValue) => setValue(newValue)}>
+                    <Tab label="כמות החקרים" value="1" />
+                    <Tab label="חקרים שנסגרו" value="2" />
+                    <Tab label="כמות יישומי החקר" value="3" />
+                    <Tab label="יישומי חקר שנסגרו" value="4" />
+                    <Tab label="יישומי החקר שהצליחו" value="5" />
+                    <Tab label="סכום העלויות של יישומי החקר" value="6" />
+                    <Tab label="ממוצע העלות של יישומי החקר" value="7" />
+                </TabList>
+                {data ? (
+                    <>
+                        <TabPanel value="1">
+                            <StatisticsComponent
+                                title="r_count"
+                                data={data[0]}
+                            />
+                        </TabPanel>
+                        <TabPanel value="2">
+                            <StatisticsComponent
+                                title="closed_r_count"
+                                data={data[1]}
+                            />
+                        </TabPanel>
+                        <TabPanel value="3">
+                            <StatisticsComponent
+                                title="a_count"
+                                data={data[1]}
+                            />
+                        </TabPanel>
+                        <TabPanel value="4">
+                            <StatisticsComponent
+                                title="closed_a_count"
+                                data={data[1]}
+                            />
+                        </TabPanel>
+                        <TabPanel value="5">
+                            <StatisticsComponent
+                                title="success_count"
+                                data={data[1]}
+                            />
+                        </TabPanel>
+                        <TabPanel value="6">
+                            <StatisticsComponent
+                                title="price_sum"
+                                data={data[1]}
+                            />
+                        </TabPanel>
+                        <TabPanel value="7">
+                            <StatisticsComponent
+                                title="avg_price"
+                                data={data[1]}
+                            />
+                        </TabPanel>
+                    </>
                 ) : (
                     <CircularProgress />
                 )}
-            </Box>
+            </TabContext>
         </>
     );
 }

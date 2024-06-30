@@ -15,6 +15,7 @@
     "@emotion/react": "^11.11.4",
     "@emotion/styled": "^11.11.5",
     "@mui/icons-material": "^5.15.19",
+    "@mui/lab": "^5.0.0-alpha.170",
     "@mui/material": "^5.15.19",
     "@mui/x-date-pickers": "^7.6.2",
     "axios": "^1.7.2",
@@ -24,6 +25,7 @@
     "react-dom": "^18.2.0",
     "react-router-dom": "^6.23.1",
     "react-toastify": "^10.0.5",
+    "recharts": "^2.12.7",
     "stylis": "^4.3.2",
     "stylis-plugin-rtl": "^2.1.1"
   },
