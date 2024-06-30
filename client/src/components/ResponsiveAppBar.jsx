@@ -45,7 +45,7 @@ export function ResponsiveAppBar() {
                 <Toolbar disableGutters>
                     <a href="/">
                         <img
-                            src="Elbit_Systems.png"
+                            src="https://upload.wikimedia.org/wikipedia/he/a/ab/Elbit_Systems.png"
                             style={{ width: 170, marginLeft: 10 }}
                         />
                     </a>

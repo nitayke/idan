@@ -10,9 +10,9 @@ import { catScores, repActScores } from './scores.js';
 // for every line this is the username
 
 const line_managers = {
-    "n": "C",
+    "erangon": "C",
     "nitayke": "P",
-    "moshe_el": "M"
+    "moshe": "M"
 }
 
 const app = express()
@@ -24,8 +24,8 @@ let db;
 
 function connectToDb() {
     db = createConnection({
-        // host: "my-sql",
-        host: "localhost",
+        host: "my-sql",
+        // host: "localhost",
         user: "root",
         password: "pass",
         database: "idanDB"
